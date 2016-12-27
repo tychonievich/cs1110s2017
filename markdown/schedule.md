@@ -3,6 +3,13 @@ title: Schedule
 ...
 
 
+<a href="#cal001" onclick="rehide()">1110-001 Calender</a>
+<a href="#age001" onclick="rehide()">1110-001 Agenda</a>
+<a href="#cal002" onclick="rehide()">1110-002 Calender</a>
+<a href="#age002" onclick="rehide()">1110-002 Agenda</a>
+<a href="#cal1111" onclick="rehide()">1111 Calender</a>
+<a href="#age1111" onclick="rehide()">1111 Agenda</a>
+
 [1110-001 Calender](#cal001)
 [1110-001 Agenda](#age001)
 [1110-002 Calender](#cal002)
