@@ -3,12 +3,12 @@ title: Schedule
 ...
 
 
-<a href="#cal001" onclick="rehide()">1110-001 Calender</a>
-<a href="#age001" onclick="rehide()">1110-001 Agenda</a>
-<a href="#cal002" onclick="rehide()">1110-002 Calender</a>
-<a href="#age002" onclick="rehide()">1110-002 Agenda</a>
-<a href="#cal1111" onclick="rehide()">1111 Calender</a>
-<a href="#age1111" onclick="rehide()">1111 Agenda</a>
+<a href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
+<a href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
+<a href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
+<a href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
+<a href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
+<a href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
 
 [1110-001 Calender](#cal001)
 [1110-001 Agenda](#age001)
@@ -39,8 +39,8 @@ tr.lab { background-color: #fff7f0; }
 </style>
 <script>
 function rehide(e) {
-	if (e) console.log(e);
 	var hash=window.location.hash;
+	if (e) hash = e;
 	if (typeof(hash) != "string") return;
 	console.log("hash = " + hash);
 	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
