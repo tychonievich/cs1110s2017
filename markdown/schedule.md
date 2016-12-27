@@ -10,14 +10,6 @@ title: Schedule
 <a href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
 <a href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
 
-[1110-001 Calender](#cal001)
-[1110-001 Agenda](#age001)
-[1110-002 Calender](#cal002)
-[1110-002 Agenda](#age002)
-[1111 Calender](#cal1111)
-[1111 Agenda](#age1111)
-
-
 <style>
 .calender { border-collapse: collapse; }
 .calender td { padding:0.5ex; }
