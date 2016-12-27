@@ -29,7 +29,7 @@ function rehide() {
 	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
 	for(var i in elems) {
 		var id = elems[i];
-		if (id == hash)
+		if (hash == id || hash == '#'+id)
 			document.getElementById(id).setAttribute('style', '');
 		else
 			document.getElementById(id).setAttribute('style', 'display:none;');
