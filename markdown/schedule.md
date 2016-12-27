@@ -38,7 +38,8 @@ td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
 tr.lab { background-color: #fff7f0; }
 </style>
 <script>
-function rehide() {
+function rehide(e) {
+	if (e) console.log(e);
 	var hash=window.location.hash;
 	if (typeof(hash) != "string") return;
 	console.log("hash = " + hash);
