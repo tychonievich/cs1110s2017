@@ -1,0 +1,102 @@
+---
+title: Frequently Asked Questions
+...
+
+
+Q: How do I get off the waitlist?
+:   In order to come off the wait list, there has to be an open seat in BOTH the lecture and lab you are signed up for. If one or the other is not true, then SIS moves on to the next student who has the right combination.
+
+    Our main cap is the lab. The lab sessions CANNOT go over 46 due to fire code limits. A few seats in each lab are held back for a week or so to accommodate very special cases.
+
+    Some examples of special cases include:
+
+    -   Current SEAS 2nd year or higher that has not taken a CS 1 class yet
+    -   Incoming SEAS transfer 2nd year or higher
+    -   Early graduation
+
+    If you feel you warrant special consideration and are currently on the waitlist, please fill out the form here: [https://goo.gl/forms/rL5Mx4c6cjYVP1t53](https://goo.gl/forms/rL5Mx4c6cjYVP1t53)
+
+    All SEAS Students will be given a seat, once each, provided they fill out the above form.  If you lose it by dropping and re-adding the course, we cannot re-accommodate you.
+
+
+    *CLAS (and other schools) Students:*
+    
+    - If you are a first year, we're sorry, but you probably won't get the course this semester. You are welcome to stay on the wait list to see what happens.
+    - If you are thinking about the BA major in CS, you need to take 1110 by your third semester. You still have plenty of time. If this is your third semester or later, fill out the form above.
+    - If you are in a major that requires CS 1110 (Math, Cog Sci -- note *NOT* Commerce!) and are either a third or fourth year, use the form above.
+
+    *Consider the other CS1 courses:*
+
+    We are offering three other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience), CS 1113 with Prof. Ibrahim (for SEAS students that probably won’t major in CS). These are both good options to consider and all count the same for prerequisites and major requirements!
+
+    We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply not feasible with the room sizes and resources we have. Please do try again next semester if you can’t get in this time.
+
+    Let us know if you have any questions.
+    
+Q: My computer died. What do I do?
+:   As this is a programming class, we do expect you to have access to a computer for the duration of the semester.
+    If you are temporarily without a working machine, Python and PyCharm should be installed on publicly available machines in Alderman Library and other locations.
+    
+    We expect you to make regular backups of your code so in the event of a failure you still have access to your assignments.
+    We will not accept a computer failure as a reason to waive a late penalty for an assignment.
+    
+    We highly suggest you look into using a cloud-based solution to make constant backups of particular directories on your computer, such as UVaBox found at [http://its.virginia.edu/box/](http://its.virginia.edu/box/) or Dropbox found at [http://dropbox.com](http://dropbox.com).
+    You can also do some basic assignments in an in-browser Python environment such as 
+    [https://repl.it/](https://repl.it/), [http://c9.io](http://c9.io), [http://pythontutor.com](http://pythontutor.com), etc.
+
+Q: I have (insert awesome club/group here) during my lab time. Can I permanently swap labs?
+:   You can, assuming you find someone to swap with.
+    You can post on Piazza if you are interested in doing this.
+    If BOTH people agree to the swap, email Prof. Sherriff and he'll take care of it.
+    DOUBLE CHECK that you both can actually take the other lab before agreeing! Check Piazza for more information.
+
+Q: I have (insert awesome club/group or some special test/class session here) just during one lab session. Can I go to another lab this week?
+:   Due to fire code limits, you cannot attend another lab session, even for just one week.
+    We're also doing group work, so you need to be there for your team.
+    
+    If this is a class/test session, your other professor should provide you with an alternate time since you have a university class at the same time.
+    
+    Missing one week in general will not affect your grade. Every student can miss one lab with no penalty (and you do not need to make up the work).
+
+Q: I'm in the *X* lecture, can I go to the *Y* lecture instead?
+:   1111 students can attend an 1110 section on occasion if they like, though doing so will not excuse any missed attendance or participation activities.
+    1110 students should not attend 1111 lectures due to the size of the classroom.
+    1110 students can attend the other 1110 section on occasion as well, though again each section may have its own attendance and participation activities.
+
+Q: Can I take my test in a different lecture section?
+:   Absolutely not.
+
+Q: I have another final exam at the same time as our final exam. What do I do?
+:   When we get closer to the end of the semester, we'll have a form you'll fill out to get a separate time. We will accommodate most all cases here with no issue. Please do not email us about this before the end of the semester as we will have no other information to tell you.
+
+Q: I have travel and will miss the final exam. What do I do?
+:   University policy does not require us to provide any accommodations for travel.
+    We might make exceptions for special cases, but "I already paid for tickets" is *not* a special case.
+
+Q: My program handled all the example inputs correctly but still got a 0.  Why?
+:   This could be a grading error, but could also be because you hard-coded those specific cases instead of solving the general problem (see [the syllabus](syllabus.html#generality-of-solutions)).
+
+Q: What is "hard-coding"?
+:   Wikipedia defines it as "embedding [...] an input or configuration data directly into the source code of a program."
+    In this course, it most commonly appears when students solve the examples but not the general problem.
+    
+    For example, suppose we ask for "a function called `sum` that computes the sum of two numbers.  For example, `sum(2, 3)`{.python} should give `5` and `sum(-1.1, 1.0)`{.python} should give `-0.1`."
+    A correct solution would solve the general problem, like this:
+    
+    ````python
+    def sum(x, y):
+        '''returns the mathematical sum of its arguments'''
+        return x + y
+    ````
+    
+    Conversely, a solution with the example inputs hard-coded might look like this:
+    
+    ````python
+    def sum(x, y):
+        '''a hard-coded solution that returns the mathematical sum 
+            of (2, 3) and (-1.1, 1.0), but not most other values'''
+        if x < 0: 
+            return -0.1
+        else:
+            return 5
+    ````

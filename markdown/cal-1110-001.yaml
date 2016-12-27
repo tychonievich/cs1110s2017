@@ -1,0 +1,58 @@
+1110-001:
+    - welcome
+    
+    - from requirements to software
+    - ambiguity
+    - pseudocode
+    
+    - PyCharm
+    - course overview with `turtle`{.python}, part 1
+    - course overview with `turtle`{.python}, part 2
+    
+    - hello, world!
+    - variables, values, and operators
+    - functions -- basics, `def`{.python}
+    
+    - functions -- flow of control
+    - functions -- scope, `global`{.python}
+    - decisions -- `if`{.python} and `else`{.python}
+    
+    - decisions -- `elif`{.python} and logical operators (not on exam 1)
+    - review
+    - exam 1
+    
+    - code readability, elegance
+    - testing
+    - repeating with `while`{.python}
+    
+    - composite datatypes -- strings, ranges, lists, tuples
+    - iteration -- the `for`{.python} loop
+    - methods and mutability -- why `list`{.python} is special
+    
+    - applications of lists and strings
+    - testing list and string code
+    - flexible indices -- `dict`{.python}
+    
+    - reading data -- `open`{.python} and `urllib`{.python}
+    - understanding data
+    - more on the data theme
+    
+    - polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
+    - review
+    - exam 2
+    
+    - regular expressions
+    - regular expressions
+    - regular expressions
+
+    - game design with `gamebox`{.python}
+    - game design with `gamebox`{.python}
+    - game design with `gamebox`{.python}
+
+    - image manipulation with `pillow`{.python}
+    - image manipulation with `pillow`{.python}
+    - image manipulation with `pillow`{.python}
+
+    - flex day
+    - review
+
