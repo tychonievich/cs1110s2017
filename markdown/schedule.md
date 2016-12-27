@@ -6,7 +6,6 @@ title: Schedule
 <style>
 .calender { border-collapse: collapse; }
 .calender td { padding:0.5ex; }
-/* .calender tbody tr { height:6em; } */
 .day { width:25%; border:thin solid black; vertical-align:top; }
 .date { color:#777; font-size:80%; float:right; padding-left:1ex; margin-top:-0.8ex; }
 .Monday { }
@@ -21,6 +20,7 @@ td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
 .agenda th+td { padding-left:1em; }
 tr.lab { background-color: #fff7f0; }
 .button { padding:1ex; margin:1ex; border-radius:0.5ex; background-color:#fda; display:inline-block;}
+.button.visited { background-color:#eee; color:#777; }
 </style>
 <script>
 function rehide(e) {
