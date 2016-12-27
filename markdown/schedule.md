@@ -21,6 +21,20 @@ td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
 .agenda th+td { padding-left:1em; }
 tr.lab { background-color: #fff7f0; }
 </style>
+<script>
+function rehide() {
+	var hash=window.location.hash;
+	if (typeof(hash) != "string") return;
+	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
+	for(var i in elems) {
+		vat id = elems[i];
+		if (id == hash)
+			document.getElementById(id).setAttribute('style', '');
+		else
+			document.getElementById(id).setAttribute('style', 'display:none;');
+	}
+}
+</script>
 
 <table id="cal001" class="calender">
 <thead><tr><th>Monday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr></thead>
@@ -388,3 +402,4 @@ tr.lab { background-color: #fff7f0; }
 <tr id="2017-04-26" class=""><th>26 Apr <br/></th><td>image manipulation with `pillow`{.python}</td></tr>
 <tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</td></tr>
 
+<script>rehash()</script>
