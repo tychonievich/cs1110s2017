@@ -20,7 +20,7 @@ span.special { white-space:pre; }
 td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
 .agenda th+td { padding-left:1em; }
 tr.lab { background-color: #fff7f0; }
-.button { padding:1ex; border-radius:0.5ex; background-color:#fda; display:block-inline;}
+.button { padding:1ex; border-radius:0.5ex; background-color:#fda; display:inline-block;}
 </style>
 <script>
 function rehide(e) {
