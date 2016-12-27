@@ -256,7 +256,7 @@ function rehide() {
 <td class="day Friday " id="2017-04-28"><span class="date">28 Apr</span>flex day<br/></td>
 </tr><tr>
 <td class="day Monday " id="2017-05-01"><span class="date">1 May</span>review<br/></td>
-
+</tr></tbody></table>
 <table id="age002" class="agenda">
 <thead><tr><th>Date</th><th>1110-002 Topic</th></tr></thead>
 <tbody><tr id="2017-01-18" class=""><th>18 Jan <br/></th><td>welcome</td></tr>
@@ -319,7 +319,7 @@ function rehide() {
 <tr id="2017-04-27" class=" lab"><th>27 Apr <br/></th><td></td></tr>
 <tr id="2017-04-28" class=""><th>28 Apr <br/></th><td>flex day</td></tr>
 <tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</td></tr>
-
+</tbody></table>
 <table id="cal1111" class="calender">
 <thead><tr><th>Monday</th><th>Wednesday</th></tr></thead>
 <tbody><tr><td/>
@@ -368,7 +368,7 @@ function rehide() {
 <td class="day Wednesday " id="2017-04-26"><span class="date">26 Apr</span>image manipulation with `pillow`{.python}<br/></td>
 </tr><tr>
 <td class="day Monday " id="2017-05-01"><span class="date">1 May</span>review<br/></td>
-
+</tr></tbody></table>
 <table id="age1111" class="agenda">
 <thead><tr><th>Date</th><th>1111 Topic</th></tr></thead>
 <tbody><tr id="2017-01-18" class=""><th>18 Jan <br/></th><td>welcome</td></tr>
@@ -401,5 +401,5 @@ function rehide() {
 <tr id="2017-04-24" class=""><th>24 Apr <br/></th><td>image manipulation with `pillow`{.python}</td></tr>
 <tr id="2017-04-26" class=""><th>26 Apr <br/></th><td>image manipulation with `pillow`{.python}</td></tr>
 <tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</td></tr>
-
+</tbody></table>
 <script>rehash()</script>
