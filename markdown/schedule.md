@@ -3,13 +3,6 @@ title: Schedule
 ...
 
 
-<a href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
-<a href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
-<a href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
-<a href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
-<a href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
-<a href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
-
 <style>
 .calender { border-collapse: collapse; }
 .calender td { padding:0.5ex; }
@@ -25,9 +18,9 @@ title: Schedule
 .exam, .special { background-color: #fda; }
 span.special { white-space:pre; }
 td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
-
 .agenda th+td { padding-left:1em; }
 tr.lab { background-color: #fff7f0; }
+.button { padding:1ex; border-radius:0.5ex; background-color:#fda; }
 </style>
 <script>
 function rehide(e) {
@@ -46,6 +39,14 @@ function rehide(e) {
 	return true;
 }
 </script>
+
+<a class="button" href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
+<a class="button" href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
+<a class="button" href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
+<a class="button" href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
+<a class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
+<a class="button" href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
+
 
 <table id="cal001" class="calender">
 <thead><tr><th>Monday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr></thead>
