@@ -27,7 +27,7 @@ function rehide() {
 	if (typeof(hash) != "string") return;
 	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
 	for(var i in elems) {
-		vat id = elems[i];
+		var id = elems[i];
 		if (id == hash)
 			document.getElementById(id).setAttribute('style', '');
 		else
@@ -402,4 +402,4 @@ function rehide() {
 <tr id="2017-04-26" class=""><th>26 Apr <br/></th><td>image manipulation with `pillow`{.python}</td></tr>
 <tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</td></tr>
 </tbody></table>
-<script>rehash()</script>
+<script>rehide()</script>
