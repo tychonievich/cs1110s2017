@@ -25,6 +25,7 @@ tr.lab { background-color: #fff7f0; }
 function rehide() {
 	var hash=window.location.hash;
 	if (typeof(hash) != "string") return;
+	console.log("hash = " + hash);
 	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
 	for(var i in elems) {
 		var id = elems[i];
