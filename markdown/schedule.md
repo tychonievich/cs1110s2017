@@ -35,17 +35,22 @@ function rehide(e) {
 			document.getElementById(id).setAttribute('style', '');
 		else
 			document.getElementById(id).setAttribute('style', 'display:none;');
+		if (hash == id || hash == '#'+id)
+			document.getElementById('a'+id).setAttribute('class', 'button visited');
+		else
+			document.getElementById('a'+id).setAttribute('class', 'button');
+		
 	}
 	return true;
 }
 </script>
 
-<a class="button" href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
-<a class="button" href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
-<a class="button" href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
-<a class="button" href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
-<a class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
-<a class="button" href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
+<a id="acal001" class="button" href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
+<a id="aage001" class="button" href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
+<a id="acal002" class="button" href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
+<a id="aage002" class="button" href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
+<a id="acal1111" class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
+<a id="aage1111" class="button" href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
 
 
 <table id="cal001" class="calender">
