@@ -50,6 +50,7 @@ function rehide() {
 		else
 			document.getElementById(id).setAttribute('style', 'display:none;');
 	}
+	return true;
 }
 </script>
 
