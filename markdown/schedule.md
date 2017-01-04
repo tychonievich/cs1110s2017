@@ -52,6 +52,8 @@ function rehide(e) {
 <a id="acal1111" class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
 <a id="aage1111" class="button" href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
 
+<hr/>
+
 
 <table id="cal001" class="calender">
 <thead><tr><th>Monday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr></thead>
