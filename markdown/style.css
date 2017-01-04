@@ -3037,4 +3037,5 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
 
 .floater { float:right; max-width:50%; text-align:right; }
 
-tr.odd { background-color: #eee; }
+tr.odd { background-color: #f5f5f5; }
+table { border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; padding: 9.5px; }
