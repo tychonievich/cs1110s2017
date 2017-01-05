@@ -1,7 +1,14 @@
+key:
+  - topic
+  - reading
+  - lecture
+
 1110-001:
     - welcome
     
-    - from requirements to software
+    - 
+      topic: from requirements to software
+      reading: §1.5
     - ambiguity
     - pseudocode
     
