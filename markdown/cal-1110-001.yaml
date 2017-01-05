@@ -16,7 +16,7 @@ key:
       reading: Exercises 1.1 and 1.2 from textbook
     -
       topic: pseudocode
-      reading: !!str [wikihow](http://www.wikihow.com/Write-Pseudocode)
+      reading: !str [wikihow](http://www.wikihow.com/Write-Pseudocode)
     
     - 
       topic: PyCharm
