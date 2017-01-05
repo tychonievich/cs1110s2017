@@ -2,6 +2,8 @@
 title: PyCharm vs IDLE
 ...
 
+# Of Languages and Editors
+
 Human speak various languages (English, Swahili, Mandarin, etc) and can compose documents in these languages using various programs (TextEdit, Word, Google Docs, etc).
 Some programs are able to help people write in some languages, having spell check, grammar check, thesauri, etc., but even the nicest program does not remove the need to know the language you are writing.
 
