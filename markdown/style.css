@@ -857,7 +857,7 @@ table {
 }
 .table th,
 .table td {
-  padding: 16px 8px;
+  padding: 8px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
@@ -3039,3 +3039,4 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
 
 tr.odd { background-color: #f5f5f5; }
 table { border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; padding: 9.5px; }
+td,th { padding: 1ex 0ex; }
