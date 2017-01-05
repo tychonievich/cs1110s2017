@@ -23,6 +23,8 @@ PyCharm works best if you
 
 - Run the Pycharm application.
 - Create a "Project", which is a collection of Python files.  We suggest having just one project during this entire course, probably named something like "CS 1110" or "Introduction to Programming" (though you can name it "yesterday's anticipation" or anything else you like).
+    
+    PyCharm will usually remember the last project you had open and open it again when you next re-run PyCharm, so you shouldn't need to re-create it or re-open it.
 - From inside PyCharm with that project opened, open the files you want to edit. 
 
 This may seem counter-intuitive at first, but it will help streamline your work later on.
