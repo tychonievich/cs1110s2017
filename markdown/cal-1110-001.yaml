@@ -4,19 +4,29 @@ key:
   - notes
 
 1110-001:
-    - welcome
+    - 
+      topic: welcome
+      reading: §1.6, §1.9
     
     - 
       topic: from requirements to software
       reading: §1.5
-    - ambiguity
-    - pseudocode
+    - 
+      topic: ambiguity
+      reading: Exercises 1.1 and 1.2 from textbook
+    -
+      topic: pseudocode
+      reading: [wikihow](http://www.wikihow.com/Write-Pseudocode)
     
-    - PyCharm
+    - 
+      topic: PyCharm
+      reading: §1.4, §1.7
     - course overview with `turtle`{.python}, part 1
     - course overview with `turtle`{.python}, part 2
     
-    - hello, world!
+    -
+      topic: hello, world!
+      reading: 
     - variables, values, and operators
     - functions -- basics, `def`{.python}
     
