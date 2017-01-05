@@ -27,11 +27,19 @@ key:
     -
       topic: hello, world!
       reading: "[revised chapter 2](hello.html)"
-    - variables, values, and operators
-    - functions -- basics, `def`{.python}
+    - 
+      topic: variables, values, and operators
+      reading: §3 and §4
+    - 
+      topic: functions -- basics, `def`{.python}
+      reading: §5--5.2 and §8--8.2.1,
     
-    - functions -- flow of control
-    - functions -- scope, `global`{.python}
+    - 
+      topic: functions -- flow of control
+      reading: §8.2.2--8.2.6
+    - 
+      topic: functions -- scope, `global`{.python}
+      reading: §8.3
     - decisions -- `if`{.python} and `else`{.python}
     
     - decisions -- `elif`{.python} and logical operators (not on exam 1)
