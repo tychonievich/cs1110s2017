@@ -53,7 +53,7 @@ There's a little work you need to do up front to make PyCharm work optimally all
         
         then press enter.  Several lines should be displayed, ending with a message like `Successfully installed pillow`
 
- makes that idea one of the only ones that seems to have thus far made good predictions.
+
 # Understanding the Book
 
 When the book talks about
