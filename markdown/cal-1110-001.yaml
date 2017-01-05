@@ -16,7 +16,7 @@ key:
       reading: Exercises 1.1 and 1.2 from textbook
     -
       topic: pseudocode
-      reading: "[wikihow](http://www.wikihow.com/Write-Pseudocode)"
+      reading: [wikihow](http://www.wikihow.com/Write-Pseudocode)
     
     - 
       topic: PyCharm
@@ -26,7 +26,7 @@ key:
     
     -
       topic: hello, world!
-      reading: 
+      reading: [revised chapter 2](hello.html)
     - variables, values, and operators
     - functions -- basics, `def`{.python}
     
