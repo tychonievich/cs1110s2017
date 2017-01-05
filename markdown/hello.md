@@ -38,12 +38,12 @@ There's a little work you need to do up front to make PyCharm work optimally all
 
 ## Install some extra bits of Python we'll need later
 
-0. In the very bottom-right corner of the PyCharm window is  a little grey box-shaped icon.  Clicking it will toggle the visibility of some extra options.  Right above it should be several small icons with text adjacent to them.  Make sure both "Python Console" and "Terminal" are visible.
+1. In the very bottom-right corner of the PyCharm window is  a little grey box-shaped icon.  Clicking it will toggle the visibility of some extra options.  Right above it should be several small icons with text adjacent to them.  Make sure both "Python Console" and "Terminal" are visible.
 1. Press the "Python Console" icon; a window containing a few lines of text and a line with `>>>` in it will show up.
     1.  Verify that the second line says "Python 3.*something*"; if not, ask a TA for help.
     1.  The first line should begin with a directory path, something like `/usr/bin/python3.6` or `/Volumes/HD5/Python/bin/python3.5` or `C:\Users\student\AppData\Local\Python36\lib\bin\python3.exe`; this will be followed by a space and another path.
         Copy the first path up to and including the last slash; for example, if it is `/usr/bin/python3.4` copy `/usr/bin/`.
-2.  Press the "Terminal" icon; a window containing a single line of text and a blinking cursor should show up.
+1.  Press the "Terminal" icon; a window containing a single line of text and a blinking cursor should show up.
     1. paste what you copied in the last step; then, without a space in between, add `pip3` (and, if you are on Windows, `.exe`) to get something like, e.g., `/usr/bin/pip3` or `C:\Python36\bin\pip3.exe`
     2. after `pip3` (or `pip3.exe`) enter a space, the word `install`, another space, and the word `pillow`, like
     
@@ -51,6 +51,7 @@ There's a little work you need to do up front to make PyCharm work optimally all
         /usr/bin/pip3 install pillow`
         ````
         
-        then press enter
+        then press enter.  Several lines should be displayed, ending with a message like `Successfully installed pillow`
+
 
 # Understanding the Book
