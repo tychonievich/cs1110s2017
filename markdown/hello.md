@@ -36,7 +36,7 @@ There's a little work you need to do up front to make PyCharm work optimally all
 3. At the top of the right-hand pane, in the drop-down menu pick the largest "3.*something*" number available (likely 3.6.0, but anything beginning 3 will work).
 4. Click "OK" to close the default settings window
 
-## Install some extra bits of Python we'll need later
+## Install Pillow
 
 1. In the very bottom-right corner of the PyCharm window is  a little grey box-shaped icon.  Clicking it will toggle the visibility of some extra options.  Right above it should be several small icons with text adjacent to them.  Make sure both "Python Console" and "Terminal" are visible.
 1. Press the "Python Console" icon; a window containing a few lines of text and a line with `>>>` in it will show up.
@@ -53,5 +53,16 @@ There's a little work you need to do up front to make PyCharm work optimally all
         
         then press enter.  Several lines should be displayed, ending with a message like `Successfully installed pillow`
 
-
+ makes that idea one of the only ones that seems to have thus far made good predictions.
 # Understanding the Book
+
+When the book talks about
+
+IDLE
+:   We'll use PyCharm instead
+
+"Python Shell"
+:   We'll use PyCharm's "Python Console" instead; see [the pevious section](#install-pillow) for how to access the Python Console.
+
+
+
