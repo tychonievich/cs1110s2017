@@ -56,7 +56,9 @@ key:
       topic: code readability, elegance
       reading: §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - testing
-    - repeating with `while`{.python}
+    - 
+      topic: repeating with `while`{.python}
+      reading: §7.1
     
     - composite datatypes -- strings, ranges, lists, tuples
     - iteration -- the `for`{.python} loop
