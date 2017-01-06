@@ -52,7 +52,9 @@ key:
       reading: §2--5.2, §6.1--6.2.3, §8.2.2--8.2.6, §8.3
     - exam 1
     
-    - code readability, elegance
+    - 
+      topic: code readability, elegance
+      reading: §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - testing
     - repeating with `while`{.python}
     
