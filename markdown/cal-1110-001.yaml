@@ -47,7 +47,7 @@ key:
     - 
       topic: decisions -- `elif`{.python} and logical operators (not on exam 1)
       reading: rest of §6.1--6.2
-      notes: "**never** use the material in §6.3"
+      notes: "**never** use `exit()`{.python} from §6.3"
     - 
       topic: review
       reading: §2--5.2, §6.1--6.2.3, §8.2.2--8.2.6, §8.3
