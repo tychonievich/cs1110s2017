@@ -26,7 +26,7 @@ key:
     
     -
       topic: hello, world!
-      reading: "[revised chapter 2](hello.html)"
+      reading: "[revised chapter 2](revised2.2.html)"
     - 
       topic: variables, values, and operators
       reading: §3 and §4
