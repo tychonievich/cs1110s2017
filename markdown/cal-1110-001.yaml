@@ -55,7 +55,8 @@ key:
     - 
       topic: code readability, elegance
       reading: §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
-    - testing
+    - 
+      topic: testing
     - 
       topic: repeating with `while`{.python}
       reading: §7.1
