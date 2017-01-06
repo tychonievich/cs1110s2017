@@ -40,9 +40,13 @@ key:
     - 
       topic: functions -- scope, `global`{.python}
       reading: §8.3
-    - decisions -- `if`{.python} and `else`{.python}
+    - 
+      topic: decisions -- `if`{.python} and `else`{.python}
+      reading: §6.1.2 and §6.2--6.2.3
     
-    - decisions -- `elif`{.python} and logical operators (not on exam 1)
+    - 
+      topic: decisions -- `elif`{.python} and logical operators (not on exam 1)
+      reading: rest of §6.1--6.2
     - review
     - exam 1
     
