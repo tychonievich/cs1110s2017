@@ -8,11 +8,11 @@ Welcome! In this course, we have two main goals - to teach you the skill of prog
 
 ## Lecture Sections
 
-Section |Time             |Place             |Instructor             |Notes
---------|-----------------|------------------|-----------------------|-----
-1110-001|MoWeFr 2–2:50PM  |Chemistry Bldg 402|Luther Tychonievich    |
-1110-002|MoWeFr 11–11:50AM|Wilson Hall 301   |Upsorn Praphamontripong|
-1111    |MoWe 2–3:15PM    |Olsson Hall 009   |Craig Dill             |
+Section |Time             |Place             |Instructor             
+--------|-----------------|------------------|-----------------------
+1110-001|MoWeFr 2–2:50PM  |Chemistry Bldg 402|Luther Tychonievich    
+1110-002|MoWeFr 11–11:50AM|Wilson Hall 301   |Upsorn Praphamontripong
+1111    |MoWe 2–3:15PM    |Olsson Hall 009   |Craig Dill             
 
 ## Lab Sections
 
