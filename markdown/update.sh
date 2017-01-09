@@ -6,7 +6,8 @@ git push
 
 here="$(dirname "$(readlink -m "$0")")/"
 target="$HOME/public_html/1110/S2017/"
-remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/ [ ! -d "$target" ]
+remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/
+if [ ! -d "$target" ]
 then
 	echo "Live destination unreachable"
 	target="$here""../demo_site/"
