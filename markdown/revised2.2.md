@@ -9,7 +9,7 @@ By convention, the name of the file that contains a Python program has the exten
 
 ![Figure 2.1: The PyCharm environment.](files/PyCharm.png)
 
-We will write our Python programs using an environment to create programs in, which is called PyCharm.
+We will write our [Python](https://www.python.org/downloads/) programs using an environment to create programs in, which is called [PyCharm](https://www.jetbrains.com/pycharm/download/).
 Unlike the IDLE environment discussed in our text, PyCharm has many features that make it easier to write good programs, tools like spell-check but for programmers instead of authors.
 
 ## Projects
