@@ -37,7 +37,7 @@ Your operating system might or might not also allow you to double-click on a pyt
 
 ## A Guide to Pycharm
 
-![Figure 2.1: The PyCharm environment.](files/PyCharm2.png)
+![Figure 2.2: Parts of the PyCharm environment.](files/PyCharm2.png)
 
 There are several parts of PyCharm with which to become familiar, numbered in the screen-shot above.
 
