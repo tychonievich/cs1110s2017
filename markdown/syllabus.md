@@ -181,7 +181,7 @@ We reserve the right to modify your grade after the fact if we discover you have
 ## Generality of Solutions
 
 Both assignments and exams will frequently describe general problems to be solved, and also give a few concrete examples.
-Presenting a solution that works for those specific examples but does not attempt to solve the general problem is a form of the [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) called **[hard coding](https://en.wikipedia.org/wiki/Hard_coding)** and will usually be graded the same as if you had not even attempted the problem.
+Presenting a solution that works for those specific examples but does not attempt to solve the general problem is a form of the [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) called **[hard coding](faq.html#what-is-hard-coding)** and will usually be graded the same as if you had not even attempted the problem.
 
 ## Partners
 
