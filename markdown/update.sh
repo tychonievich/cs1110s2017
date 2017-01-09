@@ -7,7 +7,7 @@ git push
 here="$(dirname "$(readlink -m "$0")")/"
 target="$(readlink -f "$here""../demo_site/")/"
 remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/
-mkdir -p "$target"
+mkdir -p "$target"files
 
 function pd() {
 	while [ $# -gt 0 ]
