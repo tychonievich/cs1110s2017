@@ -3041,3 +3041,5 @@ td,th { padding: 0ex 1ex; }
 
 .header-section-number:after { content: "." }
 .header-section-number { opacity: 0.5 }
+.toc-section-number:after { content: "." }
+.toc-section-number { opacity: 0.5 }
