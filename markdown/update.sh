@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git pull
 git commit -a -m 'autocommit caused by update'
+git pull
 git push
 
 here="$(dirname "$(readlink -m "$0")")/"
