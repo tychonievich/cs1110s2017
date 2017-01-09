@@ -21,7 +21,6 @@ If you feel you warrant special consideration and are currently on the waitlist,
 
 All SEAS Students will be given a seat, once each, provided they fill out the above form.  If you lose it by dropping and re-adding the course, we cannot re-accommodate you.
 
-
 *CLAS (and other schools) Students:*
 
 - If you are a first year, we're sorry, but you probably won't get the course this semester. You are welcome to stay on the wait list to see what happens.
@@ -33,6 +32,8 @@ All SEAS Students will be given a seat, once each, provided they fill out the ab
 We are offering two other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience) and CS 1113 with Prof. Ibrahim (for future engineers). These are both good options to consider and all count the same for prerequisites and major requirements!
 
 We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply not feasible with the room sizes and resources we have. Please do try again next semester if you can’t get in this time.
+
+We cannot control how many students leave the course, opening up room on the waiting lists, but historically we have had waiting lists shrink by as many as 5--10 students per lab section prior to the add deadline.
 
 Let us know if you have any questions.
     
