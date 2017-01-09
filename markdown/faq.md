@@ -36,7 +36,7 @@ We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply
 
 Let us know if you have any questions.
     
-Q: My computer died. What do I do?
+# My computer died. What do I do?
 :   As this is a programming class, we do expect you to have access to a computer for the duration of the semester.
     If you are temporarily without a working machine, Python and PyCharm should be installed on publicly available machines in Alderman Library and other locations.
     
