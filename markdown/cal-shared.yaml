@@ -3,12 +3,13 @@ Special Dates:
   Courses end: 2017-05-02
   Add deadline: 2017-02-01
   Drop deadline: 2017-03-01
+  Withdraw deadline: 2017-03-15
   Spring recess:
     start: 2017-03-04
     end: 2017-03-12
   Exam 1: 2017-02-22
-  Exam 2: 2017-02-22
-  Exam 3: 2017-04-05
+  Exam 2: 2017-04-05
+  Exam 3: 2017-05-11
 
 1110-lab:
     - installing Python and PyCharm
