@@ -2,36 +2,39 @@
 title: Frequently Asked Questions
 ...
 
-
-Q: How do I get off the waitlist?
-:   In order to come off the wait list, there has to be an open seat in BOTH the lecture and lab you are signed up for. If one or the other is not true, then SIS moves on to the next student who has the right combination.
-
-    Our main cap is the lab. The lab sessions CANNOT go over 46 due to fire code limits. A few seats in each lab are held back for a week or so to accommodate very special cases.
-
-    Some examples of special cases include:
-
-    -   Current SEAS 2nd year or higher that has not taken a CS 1 class yet
-    -   Incoming SEAS transfer 2nd year or higher
-    -   Early graduation
-
-    If you feel you warrant special consideration and are currently on the waitlist, please fill out the form here: [https://goo.gl/forms/rL5Mx4c6cjYVP1t53](https://goo.gl/forms/rL5Mx4c6cjYVP1t53)
-
-    All SEAS Students will be given a seat, once each, provided they fill out the above form.  If you lose it by dropping and re-adding the course, we cannot re-accommodate you.
+<style>h1 { font-size:1em; border: none; }</style>
 
 
-    *CLAS (and other schools) Students:*
-    
-    - If you are a first year, we're sorry, but you probably won't get the course this semester. You are welcome to stay on the wait list to see what happens.
-    - If you are thinking about the BA major in CS, you need to take 1110 by your third semester. You still have plenty of time. If this is your third semester or later, fill out the form above.
-    - If you are in a major that requires CS 1110 (Math, Cog Sci -- note *NOT* Commerce!) and are either a third or fourth year, use the form above.
+# How do I get off the waitlist?
 
-    *Consider the other CS1 courses:*
+In order to come off the wait list, there has to be an open seat in BOTH the lecture and lab you are signed up for. If one or the other is not true, then SIS moves on to the next student who has the right combination.
 
-    We are offering two other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience) and CS 1113 with Prof. Ibrahim (for future engineers). These are both good options to consider and all count the same for prerequisites and major requirements!
+Our main cap is the lab. The lab sessions CANNOT go over 46 due to fire code limits. A few seats in each lab are held back for a week or so to accommodate very special cases.
 
-    We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply not feasible with the room sizes and resources we have. Please do try again next semester if you can’t get in this time.
+Some examples of special cases include:
 
-    Let us know if you have any questions.
+-   Current SEAS 2nd year or higher that has not taken a CS 1 class yet
+-   Incoming SEAS transfer 2nd year or higher
+-   Early graduation
+
+If you feel you warrant special consideration and are currently on the waitlist, please fill out the form here: [https://goo.gl/forms/rL5Mx4c6cjYVP1t53](https://goo.gl/forms/rL5Mx4c6cjYVP1t53)
+
+All SEAS Students will be given a seat, once each, provided they fill out the above form.  If you lose it by dropping and re-adding the course, we cannot re-accommodate you.
+
+
+*CLAS (and other schools) Students:*
+
+- If you are a first year, we're sorry, but you probably won't get the course this semester. You are welcome to stay on the wait list to see what happens.
+- If you are thinking about the BA major in CS, you need to take 1110 by your third semester. You still have plenty of time. If this is your third semester or later, fill out the form above.
+- If you are in a major that requires CS 1110 (Math, Cog Sci -- note *NOT* Commerce!) and are either a third or fourth year, use the form above.
+
+*Consider the other CS1 courses:*
+
+We are offering two other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience) and CS 1113 with Prof. Ibrahim (for future engineers). These are both good options to consider and all count the same for prerequisites and major requirements!
+
+We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply not feasible with the room sizes and resources we have. Please do try again next semester if you can’t get in this time.
+
+Let us know if you have any questions.
     
 Q: My computer died. What do I do?
 :   As this is a programming class, we do expect you to have access to a computer for the duration of the semester.
@@ -77,7 +80,7 @@ Q: My program handled all the example inputs correctly but still got a 0.  Why?
 :   This could be a grading error, but could also be because you hard-coded those specific cases instead of solving the general problem (see [the syllabus](syllabus.html#generality-of-solutions)).
 
 Q: What is "hard-coding"?
-:   Wikipedia defines it as "embedding [...] an input or configuration data directly into the source code of a program."
+:   [Wikipedia](https://en.wikipedia.org/wiki/Hard_coding) defines it as "embedding [...] an input or configuration data directly into the source code of a program."
     In this course, it most commonly appears when students solve the examples but not the general problem.
     
     For example, suppose we ask for "a function called `sum` that computes the sum of two numbers.  For example, `sum(2, 3)`{.python} should give `5` and `sum(-1.1, 1.0)`{.python} should give `-0.1`."
