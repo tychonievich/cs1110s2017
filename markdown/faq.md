@@ -103,3 +103,5 @@ Q: What is "hard-coding"?
 Q: I want to make an announcement in CS 1110 or CS 1111
 :   We get so many of these requests that we cannot grant them all, and to avoid being unfair we generally do not grant any of them.
     If the announcement is purely academic in nature and there is a compelling reason why Introduction to Programming lecture is the right place to make it, email the professors; but we still make no guarantee we'll accommodate you.
+    
+    Raising your hand in class to make an announcement (rather than to ask or answer a question) is [unprofessional behavior](syllabus.html#professionalism) and will be treated as such.

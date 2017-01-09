@@ -102,8 +102,8 @@ Task | Weight | Comments
 -----|--------|----------
 Programming assignments | 40% | Solo programming assignments will be due almost every week, and will be weighted equally
 Project | 5% | A larger partner project will be worth more points than the average assignment
-Exam 1 | 15% | 
-Exam 2 | 15% | 
+Exam 1 | 15% |  
+Exam 2 | 15% |  
 Final Exam | 15% | Per College policy, "Unexcused absence from a final examination results in an automatic grade of F in the course."
 Participation and Quizzes | 10% | For 1110, most participation points are awarded by lab attendance and completion of lab assignments.  Each lecture section may also independently assign some of these points to in-class activities or the like.
 Professionalism Penalty | 0--100% | Excessive missed classes, rude behavior toward instructor or classmates, unauthorized homework assistance, pestering TAs when they are not on the clock, etc., can be held against a student when final grades are calculated.
