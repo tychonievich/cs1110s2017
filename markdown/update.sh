@@ -73,4 +73,4 @@ do
 done
 
 
-rsync "$target" "$remote" --recursive --times
+rsync "$target" "rsync://$remote" --recursive --times
