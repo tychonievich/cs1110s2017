@@ -46,8 +46,8 @@ There are also other Introduction to Programming offerings at UVa:
 CS 1112
 :   Covers the same material as CS 1110/1111,
     but is organized based on the assumption that *none* of the students have any prior programming experience.
-    By contrast, CS 1110 assumes *most* students have no prior programming experience
-    and CS 1111 assumes *all* students do have prior programming experience.
+    By contrast, CS 1110 assumes *most* students have no prior programming experience;
+    CS 1111 assumes *all* students do have prior programming experience.
 
 CS 1113
 :   Covers the same core material as CS 1110/1111, but is designed for engineers,
