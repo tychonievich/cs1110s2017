@@ -6,8 +6,7 @@ git push
 
 here="$(dirname "$(readlink -m "$0")")/"
 target="$HOME/public_html/1110/S2017/"
-remote=cs1110@stardock.cs.virginia.edu/home/cs1110/www/
-if [ ! -d "$target" ]
+remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/ [ ! -d "$target" ]
 then
 	echo "Live destination unreachable"
 	target="$here""../demo_site/"
@@ -73,4 +72,5 @@ do
 done
 
 
-rsync "$target" "rsync://$remote" --recursive --times
+rsync --update --compress --recursive --times --verbose \
+	-e ssh "$target" "$remote"
