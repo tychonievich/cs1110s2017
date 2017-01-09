@@ -58,7 +58,7 @@ Teaching Assistants
 Message boards
 :   Piazza @ [https://piazza.com/class/iwxt2sk0gjf72b](https://piazza.com/class/iwxt2sk0gjf72b)
     
-    Login to Piazza and use the threads for quick questions, assignments, and for discussion with other students and staff.
+    Log in to Piazza and use the threads for quick questions, assignments, and for discussion with other students and staff.
     
     You can also post private messages here that will only be seen by staff members.
     This includes regrade requests for homework assignments.
@@ -124,7 +124,7 @@ C−|≥ 70%|1.7
 D+|≥ 66%|1.3
 D |≥ 63%|1.0
 D−|≥ 60%|0.7
-F |otherwise|
+F |otherwise|0.0
 
 **Rounding:** By default, grades will not be rounded in this course.
 
