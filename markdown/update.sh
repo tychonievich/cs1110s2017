@@ -5,7 +5,7 @@ git commit -a -m 'autocommit caused by update'
 git push
 
 here="$(dirname "$(readlink -m "$0")")/"
-target="$(readlink -f "$HOME/public_html/1110/S2017/")"
+target="$HOME/public_html/1110/S2017/"
 remote=cs1110@stardock.cs.virginia.edu/home/cs1110/www/
 if [ ! -d "$target" ]
 then
@@ -13,7 +13,7 @@ then
 	target="$here""../demo_site/"
 	mkdir -p "$target"
 fi
-
+target="$(readlink "$target")"
 
 function pd() {
 	while [ $# -gt 0 ]
