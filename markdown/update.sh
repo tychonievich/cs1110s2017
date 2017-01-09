@@ -5,15 +5,9 @@ git commit -a -m 'autocommit caused by update'
 git push
 
 here="$(dirname "$(readlink -m "$0")")/"
-target="$HOME/public_html/1110/S2017/"
+target="$(readlink -f "$here""../demo_site/")"
 remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/
-if [ ! -d "$target" ]
-then
-	echo "Live destination unreachable"
-	target="$here""../demo_site/"
-	mkdir -p "$target"
-fi
-target="$(readlink -f "$target")/"
+mkdir -p "$target"
 
 function pd() {
 	while [ $# -gt 0 ]
