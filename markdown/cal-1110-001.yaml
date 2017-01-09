@@ -55,7 +55,7 @@ key:
     
     - 
       topic: code readability, elegance
-      reading: §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+      reading: §3.4, §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - 
       topic: testing
     - 
