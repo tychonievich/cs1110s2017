@@ -13,7 +13,7 @@ then
 	target="$here""../demo_site/"
 	mkdir -p "$target"
 fi
-target="$(readlink -f "$target")"
+target="$(readlink -f "$target")/"
 
 function pd() {
 	while [ $# -gt 0 ]
