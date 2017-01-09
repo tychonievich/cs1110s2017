@@ -5,7 +5,7 @@ git commit -a -m 'autocommit caused by update'
 git push
 
 here="$(dirname "$(readlink -m "$0")")/"
-target="$(readlink -f "$here""../demo_site/")"
+target="$(readlink -f "$here""../demo_site/")/"
 remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/
 mkdir -p "$target"
 
