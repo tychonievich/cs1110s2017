@@ -27,7 +27,7 @@ Q: How do I get off the waitlist?
 
     *Consider the other CS1 courses:*
 
-    We are offering three other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience), CS 1113 with Prof. Ibrahim (for SEAS students that probably won’t major in CS). These are both good options to consider and all count the same for prerequisites and major requirements!
+    We are offering two other CS1 courses this semester: CS 1112 with Prof. Cohoon (for students with no programming experience) and CS 1113 with Prof. Ibrahim (for future engineers). These are both good options to consider and all count the same for prerequisites and major requirements!
 
     We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply not feasible with the room sizes and resources we have. Please do try again next semester if you can’t get in this time.
 
@@ -100,3 +100,6 @@ Q: What is "hard-coding"?
         else:
             return 5
     ````
+Q: I want to make an announcement in CS 1110 or CS 1111
+:   We get so many of these requests that we cannot grant them all, and to avoid being unfair we generally do not grant any of them.
+    If the announcement is purely academic in nature and there is a compelling reason why Introduction to Programming lecture is the right place to make it, email the professors; but we still make no guarantee we'll accommodate you.
