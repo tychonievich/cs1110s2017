@@ -1,38 +1,38 @@
 "1111":
     - welcome
     
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - review
-    - exam 1
-    
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - 
-    - 
-    
-    - review
-    - exam 2
-    
-    - 
-    - 
+    - Algorithms & pseudocode
+    - Algorithms & pseudocode
+
+    - Turtle & number conversion
+    - Computer system architecture
+
+    - Basic functions
+    - Functions
+
+    - Variable scope
+    - Decisions if elif
+
+    - Review
+    - Exam 1
+
+    - Testing
+    - Repetition
+
+    - String operations
+    - String methods/Lists
+
+    - Lists
+    - Dicts
+
+    - Files
+    - Urllib
+
+    - Exceptions/review
+    - Exam 2
+
+    - Regular expressions
+    - Regular expressions
 
     - game design with `gamebox`{.python}
     - game design with `gamebox`{.python}
