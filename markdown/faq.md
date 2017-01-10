@@ -36,7 +36,16 @@ We wish we could take everyone that wanted CS 1110 or CS 1111, but it’s simply
 We cannot control how many students leave the course, opening up room on the waiting lists, but historically we have had waiting lists shrink by as many as 5--10 students per lab section prior to the add deadline.
 
 Let us know if you have any questions.
-    
+
+
+# What can I do while on the waiting list?
+
+You are welcome to come to 1110 lectures, but not to physically come to labs (the first week's lab being an exception: you may come to that), though attempting the lab activities on your own is encouraged.
+1111 lectures sometimes fill the room, so you might be asked to leave the room to make space for those enrolled if you are on the 1111 waiting list.
+
+We hope to also give you the ability to submit assignments while on the waiting list so that when/if you get off you are in no way behind on your work.
+No promises, though.
+
 
 # My computer died. What do I do?
 
@@ -54,7 +63,7 @@ You can also do some basic assignments in an in-browser Python environment such 
 # Can I permanently swap labs?
 
 You can, assuming you find someone to swap with.
-You can post on Piazza if you are interested in doing this.
+You can [post on Piazza](https://piazza.com/class/iwxt2sk0gjf72b?cid=6) if you are interested in doing this.
 If BOTH people agree to the swap, email Prof. Tychonievich and he'll take care of it.
 DOUBLE CHECK that you both can actually take the other lab before agreeing! Check Piazza for more information.
 
