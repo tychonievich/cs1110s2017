@@ -224,41 +224,41 @@ function rehide(e) {
 <tbody><tr><td/>
 <td class="day Wednesday " id="2017-01-18"><span class="date">18 Jan</span>welcome<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-01-23"><span class="date">23 Jan</span><br/></td>
-<td class="day Wednesday " id="2017-01-25"><span class="date">25 Jan</span><br/></td>
+<td class="day Monday " id="2017-01-23"><span class="date">23 Jan</span>Algorithms & pseudocode<br/></td>
+<td class="day Wednesday " id="2017-01-25"><span class="date">25 Jan</span>Algorithms & pseudocode<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-01-30"><span class="date">30 Jan</span><br/></td>
-<td class="day Wednesday " id="2017-02-01"><span class="date">1 Feb</span><br/><span class="special">Add deadline</span></td>
+<td class="day Monday " id="2017-01-30"><span class="date">30 Jan</span>Turtle & number conversion<br/></td>
+<td class="day Wednesday " id="2017-02-01"><span class="date">1 Feb</span>Computer system architecture<br/><span class="special">Add deadline</span></td>
 </tr><tr>
-<td class="day Monday " id="2017-02-06"><span class="date">6 Feb</span><br/></td>
-<td class="day Wednesday " id="2017-02-08"><span class="date">8 Feb</span><br/></td>
+<td class="day Monday " id="2017-02-06"><span class="date">6 Feb</span>Basic functions<br/></td>
+<td class="day Wednesday " id="2017-02-08"><span class="date">8 Feb</span>Functions<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-02-13"><span class="date">13 Feb</span><br/></td>
-<td class="day Wednesday " id="2017-02-15"><span class="date">15 Feb</span><br/></td>
+<td class="day Monday " id="2017-02-13"><span class="date">13 Feb</span>Variable scope<br/></td>
+<td class="day Wednesday " id="2017-02-15"><span class="date">15 Feb</span>Decisions if elif<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-02-20"><span class="date">20 Feb</span>review<br/></td>
-<td class="day Wednesday exam" id="2017-02-22"><span class="date">22 Feb</span>exam 1</td>
+<td class="day Monday " id="2017-02-20"><span class="date">20 Feb</span>Review<br/></td>
+<td class="day Wednesday exam" id="2017-02-22"><span class="date">22 Feb</span>Exam 1</td>
 </tr><tr>
-<td class="day Monday " id="2017-02-27"><span class="date">27 Feb</span><br/></td>
-<td class="day Wednesday " id="2017-03-01"><span class="date">1 Mar</span><br/><span class="special">Drop deadline</span></td>
+<td class="day Monday " id="2017-02-27"><span class="date">27 Feb</span>Testing<br/></td>
+<td class="day Wednesday " id="2017-03-01"><span class="date">1 Mar</span>Repetition<br/><span class="special">Drop deadline</span></td>
 </tr><tr>
 <td class="day Monday noclass" id="2017-03-06"><span class="date">6 Mar</span><span class="reason">Spring recess</span></td>
 <td class="day Wednesday noclass" id="2017-03-08"><span class="date">8 Mar</span><span class="reason">Spring recess</span></td>
 </tr><tr>
-<td class="day Monday " id="2017-03-13"><span class="date">13 Mar</span><br/></td>
-<td class="day Wednesday " id="2017-03-15"><span class="date">15 Mar</span><br/><span class="special">Withdraw deadline</span></td>
+<td class="day Monday " id="2017-03-13"><span class="date">13 Mar</span>String operations<br/></td>
+<td class="day Wednesday " id="2017-03-15"><span class="date">15 Mar</span>String methods/Lists<br/><span class="special">Withdraw deadline</span></td>
 </tr><tr>
-<td class="day Monday " id="2017-03-20"><span class="date">20 Mar</span><br/></td>
-<td class="day Wednesday " id="2017-03-22"><span class="date">22 Mar</span><br/></td>
+<td class="day Monday " id="2017-03-20"><span class="date">20 Mar</span>Lists<br/></td>
+<td class="day Wednesday " id="2017-03-22"><span class="date">22 Mar</span>Dicts<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-03-27"><span class="date">27 Mar</span><br/></td>
-<td class="day Wednesday " id="2017-03-29"><span class="date">29 Mar</span><br/></td>
+<td class="day Monday " id="2017-03-27"><span class="date">27 Mar</span>Files<br/></td>
+<td class="day Wednesday " id="2017-03-29"><span class="date">29 Mar</span>Urllib<br/></td>
 </tr><tr>
-<td class="day Monday " id="2017-04-03"><span class="date">3 Apr</span>review<br/></td>
-<td class="day Wednesday exam" id="2017-04-05"><span class="date">5 Apr</span>exam 2</td>
+<td class="day Monday " id="2017-04-03"><span class="date">3 Apr</span>Exceptions/review<br/></td>
+<td class="day Wednesday exam" id="2017-04-05"><span class="date">5 Apr</span>Exam 2</td>
 </tr><tr>
-<td class="day Monday " id="2017-04-10"><span class="date">10 Apr</span><br/></td>
-<td class="day Wednesday " id="2017-04-12"><span class="date">12 Apr</span><br/></td>
+<td class="day Monday " id="2017-04-10"><span class="date">10 Apr</span>Regular expressions<br/></td>
+<td class="day Wednesday " id="2017-04-12"><span class="date">12 Apr</span>Regular expressions<br/></td>
 </tr><tr>
 <td class="day Monday " id="2017-04-17"><span class="date">17 Apr</span>game design with `gamebox`{.python}<br/></td>
 <td class="day Wednesday " id="2017-04-19"><span class="date">19 Apr</span>game design with `gamebox`{.python}<br/></td>
@@ -270,7 +270,7 @@ function rehide(e) {
 </tr></tbody></table>
 <table id="age1111" class="agenda">
 <thead><tr><th>Date</th><th>Topic</th></tr></thead>
-<tbody><tr id="2017-01-18" class=""><th>18 Jan <br/></th><td>welcome<tr id="2017-01-23" class=""><th>23 Jan <br/></th><td><tr id="2017-01-25" class=""><th>25 Jan <br/></th><td><tr id="2017-01-30" class=""><th>30 Jan <br/></th><td><tr id="2017-02-01" class=""><th>1 Feb <br/><span class="special">Add deadline</span></th><td><tr id="2017-02-06" class=""><th>6 Feb <br/></th><td><tr id="2017-02-08" class=""><th>8 Feb <br/></th><td><tr id="2017-02-13" class=""><th>13 Feb <br/></th><td><tr id="2017-02-15" class=""><th>15 Feb <br/></th><td><tr id="2017-02-20" class=""><th>20 Feb <br/></th><td>review<tr id="2017-02-22" class="exam"><th>22 Feb </th><td>exam 1<tr id="2017-02-27" class=""><th>27 Feb <br/></th><td><tr id="2017-03-01" class=""><th>1 Mar <br/><span class="special">Drop deadline</span></th><td><tr id="2017-03-06" class="noclass"><th>6 Mar </th><td><span class="reason">Spring recess</span><tr id="2017-03-08" class="noclass"><th>8 Mar </th><td><span class="reason">Spring recess</span><tr id="2017-03-13" class=""><th>13 Mar <br/></th><td><tr id="2017-03-15" class=""><th>15 Mar <br/><span class="special">Withdraw deadline</span></th><td><tr id="2017-03-20" class=""><th>20 Mar <br/></th><td><tr id="2017-03-22" class=""><th>22 Mar <br/></th><td><tr id="2017-03-27" class=""><th>27 Mar <br/></th><td><tr id="2017-03-29" class=""><th>29 Mar <br/></th><td><tr id="2017-04-03" class=""><th>3 Apr <br/></th><td>review<tr id="2017-04-05" class="exam"><th>5 Apr </th><td>exam 2<tr id="2017-04-10" class=""><th>10 Apr <br/></th><td><tr id="2017-04-12" class=""><th>12 Apr <br/></th><td><tr id="2017-04-17" class=""><th>17 Apr <br/></th><td>game design with `gamebox`{.python}<tr id="2017-04-19" class=""><th>19 Apr <br/></th><td>game design with `gamebox`{.python}<tr id="2017-04-24" class=""><th>24 Apr <br/></th><td>image manipulation with `pillow`{.python}<tr id="2017-04-26" class=""><th>26 Apr <br/></th><td>image manipulation with `pillow`{.python}<tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</tbody></table>
+<tbody><tr id="2017-01-18" class=""><th>18 Jan <br/></th><td>welcome<tr id="2017-01-23" class=""><th>23 Jan <br/></th><td>Algorithms & pseudocode<tr id="2017-01-25" class=""><th>25 Jan <br/></th><td>Algorithms & pseudocode<tr id="2017-01-30" class=""><th>30 Jan <br/></th><td>Turtle & number conversion<tr id="2017-02-01" class=""><th>1 Feb <br/><span class="special">Add deadline</span></th><td>Computer system architecture<tr id="2017-02-06" class=""><th>6 Feb <br/></th><td>Basic functions<tr id="2017-02-08" class=""><th>8 Feb <br/></th><td>Functions<tr id="2017-02-13" class=""><th>13 Feb <br/></th><td>Variable scope<tr id="2017-02-15" class=""><th>15 Feb <br/></th><td>Decisions if elif<tr id="2017-02-20" class=""><th>20 Feb <br/></th><td>Review<tr id="2017-02-22" class="exam"><th>22 Feb </th><td>Exam 1<tr id="2017-02-27" class=""><th>27 Feb <br/></th><td>Testing<tr id="2017-03-01" class=""><th>1 Mar <br/><span class="special">Drop deadline</span></th><td>Repetition<tr id="2017-03-06" class="noclass"><th>6 Mar </th><td><span class="reason">Spring recess</span><tr id="2017-03-08" class="noclass"><th>8 Mar </th><td><span class="reason">Spring recess</span><tr id="2017-03-13" class=""><th>13 Mar <br/></th><td>String operations<tr id="2017-03-15" class=""><th>15 Mar <br/><span class="special">Withdraw deadline</span></th><td>String methods/Lists<tr id="2017-03-20" class=""><th>20 Mar <br/></th><td>Lists<tr id="2017-03-22" class=""><th>22 Mar <br/></th><td>Dicts<tr id="2017-03-27" class=""><th>27 Mar <br/></th><td>Files<tr id="2017-03-29" class=""><th>29 Mar <br/></th><td>Urllib<tr id="2017-04-03" class=""><th>3 Apr <br/></th><td>Exceptions/review<tr id="2017-04-05" class="exam"><th>5 Apr </th><td>Exam 2<tr id="2017-04-10" class=""><th>10 Apr <br/></th><td>Regular expressions<tr id="2017-04-12" class=""><th>12 Apr <br/></th><td>Regular expressions<tr id="2017-04-17" class=""><th>17 Apr <br/></th><td>game design with `gamebox`{.python}<tr id="2017-04-19" class=""><th>19 Apr <br/></th><td>game design with `gamebox`{.python}<tr id="2017-04-24" class=""><th>24 Apr <br/></th><td>image manipulation with `pillow`{.python}<tr id="2017-04-26" class=""><th>26 Apr <br/></th><td>image manipulation with `pillow`{.python}<tr id="2017-05-01" class=""><th>1 May <br/></th><td>review</tbody></table>
 <script>rehide()</script>
 
 <hr/>

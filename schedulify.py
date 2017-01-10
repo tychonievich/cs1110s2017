@@ -49,6 +49,8 @@ td span.special { display:block; margin:0ex -0.5ex; padding: 0ex 0.5ex;}
 tr.lab { background-color: #fff7f0; }
 .button { padding:1ex; margin:1ex; border-radius:0.5ex; background-color:#fda; display:inline-block;}
 .button.visited { background-color:#eee; color:#777; }
+thead { background-color: #fda; }
+#age1111 tr:nth-child(2n+1) { background-color: #fff7f0; }
 </style>
 <script>
 function rehide(e) {
