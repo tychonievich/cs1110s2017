@@ -55,7 +55,7 @@ You can also do some basic assignments in an in-browser Python environment such 
 
 You can, assuming you find someone to swap with.
 You can post on Piazza if you are interested in doing this.
-If BOTH people agree to the swap, email Prof. Sherriff and he'll take care of it.
+If BOTH people agree to the swap, email Prof. Tychonievich and he'll take care of it.
 DOUBLE CHECK that you both can actually take the other lab before agreeing! Check Piazza for more information.
 
 
