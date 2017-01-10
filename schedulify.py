@@ -51,7 +51,7 @@ tr.lab { background-color: #fff7f0; }
 .button.visited { background-color:#eee; color:#777; }
 thead { background-color: #fda; }
 #age1111 tbody tr:nth-child(2n+1) { background-color: #fff7f0; }
-#age1111 tbody tr.noclass { background-color: #fff7f0; }
+#age1111 tbody tr.noclass { background-color: #eee; }
 </style>
 <script>
 function rehide(e) {
