@@ -20,13 +20,19 @@ title: Assignments
 
 # 1110/1111 Programming Assignments
 
+To streamline the twice-a-week 1111 and thrice-a-week 1110 schedules,
+programming assignments are due in batches once a week.
+When several are due the same day, we strongly encourage working on and submitting one each day or two,
+in the order listed here.
+
 ''')
 
 for asgn in data['assignments']:
     due = asgn['due']
     links = asgn['links']
     if len(links) == 0:
-        print(due,'\n:    TBA')
+        # print(due,'\n:    TBA')
+	continue
     else:
         for link in links:
             with open(link+'.md') as f:
