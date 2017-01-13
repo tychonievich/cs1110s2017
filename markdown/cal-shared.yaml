@@ -12,7 +12,7 @@ Special Dates:
   Exam 3: 2017-05-11
 
 1110-lab:
-    - installing Python and PyCharm
-    - pseudocode counting squares
+    - "[installing Python and PyCharm](lab01-installing.html)"
+    - "[pseudocode counting squares](lab02-counting.html)"
     - turtle art contest
     
