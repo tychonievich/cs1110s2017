@@ -32,8 +32,8 @@ title: Schedule
 
 
 <style>
-.calender { border-collapse: collapse; }
-.calender td { padding:0.5ex; }
+.calendar { border-collapse: collapse; }
+.calendar td { padding:0.5ex; }
 .day { width:25%; border:thin solid black; vertical-align:top; }
 .date { color:#777; font-size:80%; float:right; padding-left:1ex; margin-top:-0.8ex; }
 .Monday { }
@@ -76,18 +76,18 @@ function rehide(e) {
 }
 </script>
 
-<a id="acal001" class="button" href="#cal001" onclick="rehide('cal001')">1110-001 Calender</a>
+<a id="acal001" class="button" href="#cal001" onclick="rehide('cal001')">1110-001 Calendar</a>
 <a id="aage001" class="button" href="#age001" onclick="rehide('age001')">1110-001 Agenda</a>
-<a id="acal002" class="button" href="#cal002" onclick="rehide('cal002')">1110-002 Calender</a>
+<a id="acal002" class="button" href="#cal002" onclick="rehide('cal002')">1110-002 Calendar</a>
 <a id="aage002" class="button" href="#age002" onclick="rehide('age002')">1110-002 Agenda</a>
-<a id="acal1111" class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calender</a>
+<a id="acal1111" class="button" href="#cal1111" onclick="rehide('cal1111')">1111 Calendar</a>
 <a id="aage1111" class="button" href="#age1111" onclick="rehide('age1111')">1111 Agenda</a>
 
 <hr/>
 
 ''')
 
-cal001 = '''<table id="cal001" class="calender">
+cal001 = '''<table id="cal001" class="calendar">
 <thead><tr><th>Monday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr></thead>
 <tbody><tr><td/>
 '''
@@ -96,7 +96,7 @@ age001 = '''<table id="age001" class="agenda">
 <tbody>'''
 
 
-cal002 = '''<table id="cal002" class="calender">
+cal002 = '''<table id="cal002" class="calendar">
 <thead><tr><th>Monday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr></thead>
 <tbody><tr><td/>
 '''
@@ -104,7 +104,7 @@ age002 = '''<table id="age002" class="agenda">
 <thead><tr><th>Date</th><th>'''+'</th><th>'.join(s.title() for s in ukey)+'''</th></tr></thead>
 <tbody>'''
 
-cal1111 = '''<table id="cal1111" class="calender">
+cal1111 = '''<table id="cal1111" class="calendar">
 <thead><tr><th>Monday</th><th>Wednesday</th></tr></thead>
 <tbody><tr><td/>
 '''
