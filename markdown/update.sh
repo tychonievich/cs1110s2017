@@ -23,7 +23,8 @@ function pd() {
             --table-of-contents --toc-depth=4 "$here$1" \
             --css=style.css \
             --template=template.html \
-            --variable=date:$(date +%Y-%m-%d) \
+            --variable=year:$(date +%Y) \
+            --variable="datetime:$(date +%Y-%m-%d %H:%M)" \
             -o "$target${1%.md}.html"
 		shift
 	done
