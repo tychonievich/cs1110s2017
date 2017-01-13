@@ -3043,3 +3043,10 @@ td,th { padding: 0ex 1ex; }
 .header-section-number { opacity: 0.5 }
 .toc-section-number:after { content: "." }
 .toc-section-number { opacity: 0.5 }
+
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin-bottom: 0;
+}
