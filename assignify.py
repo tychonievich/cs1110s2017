@@ -18,7 +18,7 @@ print('''---
 title: Assignments
 ...
 
-# 1110/1111 Programming Assignments
+# Programming Assignments
 
 To streamline the twice-a-week 1111 and thrice-a-week 1110 schedules,
 programming assignments are due in batches once a week.
