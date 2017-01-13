@@ -7,7 +7,7 @@ title: dating.py
 There is a folk rule that says you can date people as young as half your
 age plus seven years old. This suggests they can date you if they are as
 old as twice your age minus thirteen.
-[[https://en.wikipedia.org/wiki/Age\_disparity\_in\_sexual\_relationships\#The\_.22half-your-age-plus-seven.22\_rule](https://en.wikipedia.org/wiki/Age_disparity_in_sexual_relationships#The_.22half-your-age-plus-seven.22_rule)]
+See [wikipedia](https://en.wikipedia.org/wiki/Age_disparity_in_sexual_relationships#The_.22half-your-age-plus-seven.22_rule) for more.
 
 Write a program called `dating.py`.
 When run, it should 
