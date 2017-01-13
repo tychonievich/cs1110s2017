@@ -3044,9 +3044,8 @@ td,th { padding: 0ex 1ex; }
 .toc-section-number:after { content: "." }
 .toc-section-number { opacity: 0.5 }
 
-.navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
-  margin-bottom: 0;
+footer { 
+  text-align:center;
+  padding:1ex;
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
 }
