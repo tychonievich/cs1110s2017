@@ -31,8 +31,8 @@ for asgn in data['assignments']:
     due = asgn['due']
     links = asgn['links']
     if len(links) == 0:
-        # print(due,'\n:    TBA')
-        continue
+        print(due,'\n:    TBA')
+        break
     else:
         print(due,'\n:    ')
         for link in links:
