@@ -36,6 +36,12 @@ then
 	python3 ../schedulify.py > schedule.md
 fi done
 
+for f in cal-shared.yaml ../assignify.py
+do if [ "$f" -nt assignments.md ]
+then
+	python3 ../assignify.py > assignments.md
+fi done
+
 
 cd "$here"
 for f in *.md
