@@ -34,12 +34,12 @@ for asgn in data['assignments']:
         # print(due,'\n:    TBA')
         continue
     else:
+        print(due,'\n:    ')
         for link in links:
             with open(link+'.md') as f:
                 for line in f:
                     if line.startswith('title: '): break
-            print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.html)')
-
+            print('    1.  ['+line[7:].strip()+']('+link.strip()+'.html)')
 print('''
 
 # 1110 Labs
