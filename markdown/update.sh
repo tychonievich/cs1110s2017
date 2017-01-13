@@ -24,7 +24,7 @@ function pd() {
             --css=style.css \
             --template=template.html \
             --variable=year:$(date +%Y) \
-            --variable="datetime:$(date +%Y-%m-%d %H:%M)" \
+            --variable="datetime:$(date "+%Y-%m-%d %H:%M")" \
             -o "$target${1%.md}.html"
 		shift
 	done
