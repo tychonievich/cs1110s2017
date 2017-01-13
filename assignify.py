@@ -32,7 +32,7 @@ for asgn in data['assignments']:
     links = asgn['links']
     if len(links) == 0:
         # print(due,'\n:    TBA')
-	continue
+        continue
     else:
         for link in links:
             with open(link+'.md') as f:
