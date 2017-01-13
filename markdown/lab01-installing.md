@@ -60,7 +60,8 @@ To verify that your installation worked,
 
 1. Run PyCharm
 
-2. Accept the default options in the various first-run screens
+2. Accept the default options in the various screens that pop up asking you to set up various aspects of PyCharm.
+    These should only appear the first time you run PyCharm.
 
 3.  When you reach the welcome screen
 
