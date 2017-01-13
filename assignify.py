@@ -38,7 +38,7 @@ for asgn in data['assignments']:
             with open(link+'.md') as f:
                 for line in f:
                     if line.startswith('title: '): break
-            print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.md)')
+            print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.html)')
 
 print('''
 
