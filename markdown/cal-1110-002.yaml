@@ -1,6 +1,7 @@
 key:
   - topic
   - reading
+  - files
   - notes
 
 1110-002:
@@ -27,6 +28,7 @@ key:
     -
       topic: hello, world!
       reading: "[revised chapter 2](revised2.2.html)"
+      files: "[hello.py`](files/hello.py)"
     - 
       topic: variables, values, and operators
       reading: §3 and §4
