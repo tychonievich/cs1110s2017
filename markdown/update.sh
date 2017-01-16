@@ -12,7 +12,6 @@ remote=cs1110@stardock.cs.virginia.edu:/home/cs1110/www/
 mkdir -p "$target"files/002
 mkdir -p "$target"files/001
 mkdir -p "$target"files/1111
-git add "$target"files/*/
 
 function pd() {
 	while [ $# -gt 0 ]
