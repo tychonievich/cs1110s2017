@@ -1,49 +1,86 @@
+key:
+  - topic
+  - reading
+  - notes
+
 1110-002:
-    - welcome
+    - 
+      topic: welcome
+      reading: §1.6, §1.9
     
     - 
+      topic: from requirements to software
+      reading: §1.5
     - 
-    - 
+      topic: ambiguity
+      reading: Exercises 1.1 and 1.2 from textbook
+    -
+      topic: pseudocode
+      reading: "[wikihow](http://www.wikihow.com/Write-Pseudocode)"
     
     - 
+      topic: PyCharm
+      reading: §1.4, §1.7
+    - course overview with `turtle`{.python}, part 1
+    - course overview with `turtle`{.python}, part 2
+    
+    -
+      topic: hello, world!
+      reading: "[revised chapter 2](revised2.2.html)"
     - 
+      topic: variables, values, and operators
+      reading: §3 and §4
     - 
+      topic: functions -- basics, `def`{.python}
+      reading: §5--5.2 and §8--8.2.1,
     
     - 
+      topic: functions -- flow of control
+      reading: §8.2.2--8.2.6
     - 
+      topic: functions -- scope, `global`{.python}
+      reading: §8.3
     - 
+      topic: decisions -- `if`{.python} and `else`{.python}
+      reading: §6.1.2 and §6.2--6.2.3
     
     - 
+      topic: decisions -- `elif`{.python} and logical operators (not on exam 1)
+      reading: rest of §6.1--6.2
+      notes: "**never** use §6.3's `exit()`{.python} function"
     - 
-    - 
-    
-    - 
-    - review
+      topic: review
+      reading: §2--5.2, §6.1--6.2.3, §8.2.2--8.2.6, §8.3
     - exam 1
     
     - 
+      topic: code readability, elegance
+      reading: §3.4, §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - 
+      topic: testing
     - 
+      topic: repeating with `while`{.python}
+      reading: §7.1
     
-    - 
-    - 
-    - 
+    - composite datatypes -- strings, ranges, lists, tuples
+    - iteration -- the `for`{.python} loop
+    - methods and mutability -- why `list`{.python} is special
     
-    - 
-    - 
-    - 
+    - applications of lists and strings
+    - testing list and string code
+    - flexible indices -- `dict`{.python}
     
-    - 
-    - 
-    - 
+    - reading data -- `open`{.python} and `urllib`{.python}
+    - understanding data
+    - more on the data theme
     
-    - 
+    - polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
     - review
     - exam 2
     
-    - 
-    - 
-    - 
+    - regular expressions
+    - regular expressions
+    - regular expressions
 
     - game design with `gamebox`{.python}
     - game design with `gamebox`{.python}
@@ -55,5 +92,4 @@
 
     - flex day
     - review
-
 
