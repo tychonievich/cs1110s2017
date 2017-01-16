@@ -79,7 +79,7 @@ To verify that your installation worked,
     all of the files you create in this class will go inside that folder,
     and you'll need to upload some of them to the course website.
     
-    Also make sure the "Interpreter" option is set to some version of Python 3 (probably Python 3.6; sorry that may picture is a little old and shows 3.4).
+    Also make sure the "Interpreter" option is set to some version of Python 3 (probably Python 3.6; sorry that the picture is a little old and shows 3.4).
 
 With that you are up and running.
 Feel free to continue reading about PyCharm in [our revised version of chapter 2.2](revised2.2.html) if you wish.
