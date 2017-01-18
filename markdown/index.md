@@ -18,17 +18,17 @@ Section |Time             |Place             |Instructor
 
 Section |Time            |Place     |TAs
 --------|----------------|----------|-----
-1110-100|Th 9:30–10:45AM |Olsson 001|
-1110-101|Th 11:00–12:15PM|Olsson 001|
-1110-102|Th 12:30–1:45PM |Olsson 001|
-1110-103|Th 2:00–3:15PM  |Olsson 001|
-1110-104|Th 3:30–4:45PM  |Olsson 001|
-1110-105|Th 5:00–6:15PM  |Olsson 001|
-1110-106|Th 6:30–7:45PM  |Olsson 001|
-1110-107|Th 11:00–12:15PM|Mech 213  |
-1110-108|Th 3:30–4:45PM  |Mech 213  |
-1110-109|Th 5:00–6:15PM  |Mech 213  |
-1110-110|Th 6:30–7:45PM  |Mech 213  |
+1110-100|Th 9:30–10:45AM |Olsson 001|Monique Mezher, Anthony Quach, David Stolz
+1110-101|Th 11:00–12:15PM|Olsson 001|Matthew Aldridge, Kamile Foster, Samuel Frick
+1110-102|Th 12:30–1:45PM |Olsson 001|Sebastian Lerner, Alyssa Proto, Rachel Weaver
+1110-103|Th 2:00–3:15PM  |Olsson 001|Sahana Arkalgud, Caroline McNichols, Ajay Patel
+1110-104|Th 3:30–4:45PM  |Olsson 001|William Greyeski, Stephen Reed, Summer Thompson
+1110-105|Th 5:00–6:15PM  |Olsson 001|Justin Barry, David Stolz, Katherine Vinson
+1110-106|Th 6:30–7:45PM  |Olsson 001|Gabriel Groover, Maria Schweitzer, Claire Veasey
+1110-107|Th 11:00–12:15PM|Mech 213  |John Perales, Callie Phillips, Madeline Watkins
+1110-108|Th 3:30–4:45PM  |Mech 213  |Marco Gomez-Wong, Sopie Mester, Emily Zhou
+1110-109|Th 5:00–6:15PM  |Mech 213  |Marco Gomez-Wong, Laura Maimon, Kathleen Ross
+1110-110|Th 6:30–7:45PM  |Mech 213  |Melony Benis, Monique Mezher, Patrick Myers
 1111    |(none)          |(none)    |Irena Huang, Abey Koolipurackal
 
 ## Swapping Labs and Waiting Lists
