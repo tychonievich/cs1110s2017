@@ -139,7 +139,7 @@ for d in data['Special Dates']:
     else:
         record(date, d)
 
-def mwf(date, index, ilab, section, key, friday=True, media=[]):
+def mwf(date, index, ilab, section, key, friday=True, media=[], fpath=None):
     special = '<br/>'+'<br/>'.join(content.get(date, [])) if date not in classes else ''
     caldate = '<td class="day {2} {3}" id="{0}"><span class="date">{1}</span>'.format(
         date, 
@@ -163,6 +163,9 @@ def mwf(date, index, ilab, section, key, friday=True, media=[]):
             else: text = ''
             index += 1
         if type(text) is not dict: text = {key[0]:text}
+        if fpath is not None:
+            for img in glob('files/{}/{}*'.format(fpath, )):
+                pass
         for m in media:
             if '{}'.format(date) in m:
                 text['notes'] = text.get('notes', '') + ' [video]({})'.format(m)
@@ -190,7 +193,7 @@ ilab = 0
 while now < end:
         cx, ax, i1111, _ = mwf(now, i1111, ilab, craig, ckey, friday=False)
         c2, a2, _, _ = mwf(now, i1110, ilab, upsorn, ukey)
-        c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey, media=lmedia)
+        c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey, media=lmedia, fpath='001')
         cal001 += c1
         age001 += a1
         cal002 += c2
