@@ -19,6 +19,8 @@ with open('cal-1111.yaml') as stream:
     tmp = load(stream, Loader=Loader)
     craig = tmp['1111']
     ckey = tmp.get('key', ['topic'])
+with open('001-media.list') as stream:
+    lmedia = stream.read().split()
 
 day = datetime.timedelta(days=1)
 
@@ -136,7 +138,7 @@ for d in data['Special Dates']:
     else:
         record(date, d)
 
-def mwf(date, index, ilab, section, key, friday=True):
+def mwf(date, index, ilab, section, key, friday=True, media=[]):
     special = '<br/>'+'<br/>'.join(content.get(date, [])) if date not in classes else ''
     caldate = '<td class="day {2} {3}" id="{0}"><span class="date">{1}</span>'.format(
         date, 
@@ -160,7 +162,6 @@ def mwf(date, index, ilab, section, key, friday=True):
             else: text = ''
             index += 1
         if type(text) is not dict: text = {key[0]:text}
-	if 
         cal = caldate + '<br/>'.join(text[k] for k in key if k in text) + special + '</td>\n'
         age = agedate + '</td><td>'.join(text.get(k,'') for k in key)
     elif date.weekday() == 3 and friday:
@@ -185,7 +186,7 @@ ilab = 0
 while now < end:
 	cx, ax, i1111, _ = mwf(now, i1111, ilab, craig, ckey, friday=False)
 	c2, a2, _, _ = mwf(now, i1110, ilab, upsorn, ukey)
-	c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey)
+	c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey, media=lmedia)
 	cal001 += c1
 	age001 += a1
 	cal002 += c2
