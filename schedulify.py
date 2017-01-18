@@ -57,24 +57,24 @@ thead { background-color: #fda; }
 </style>
 <script>
 function rehide(e) {
-	var hash=window.location.hash;
-	if (e) hash = e;
-	if (typeof(hash) != "string") return;
-	console.log("hash = " + hash);
-	var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
-	for(var i in elems) {
-		var id = elems[i];
-		if (hash == id || hash == '#'+id)
-			document.getElementById(id).setAttribute('style', '');
-		else
-			document.getElementById(id).setAttribute('style', 'display:none;');
-		if (hash == id || hash == '#'+id)
-			document.getElementById('a'+id).setAttribute('class', 'button visited');
-		else
-			document.getElementById('a'+id).setAttribute('class', 'button');
-		
-	}
-	return true;
+        var hash=window.location.hash;
+        if (e) hash = e;
+        if (typeof(hash) != "string") return;
+        console.log("hash = " + hash);
+        var elems = ['cal001', 'cal002', 'cal1111', 'age001', 'age002', 'age1111'];
+        for(var i in elems) {
+                var id = elems[i];
+                if (hash == id || hash == '#'+id)
+                        document.getElementById(id).setAttribute('style', '');
+                else
+                        document.getElementById(id).setAttribute('style', 'display:none;');
+                if (hash == id || hash == '#'+id)
+                        document.getElementById('a'+id).setAttribute('class', 'button visited');
+                else
+                        document.getElementById('a'+id).setAttribute('class', 'button');
+                
+        }
+        return true;
 }
 </script>
 
@@ -162,9 +162,9 @@ def mwf(date, index, ilab, section, key, friday=True, media=[]):
             else: text = ''
             index += 1
         if type(text) is not dict: text = {key[0]:text}
-	for m in media:
-	    if '{}'.format(date) in m:
-		text.setdefault('notes', []).append('[video]({})'.format(m))
+        for m in media:
+            if '{}'.format(date) in m:
+                text.setdefault('notes', []).append('[video]({})'.format(m))
         cal = caldate + '<br/>'.join(text[k] for k in key if k in text) + special + '</td>\n'
         age = agedate + '</td><td>'.join(text.get(k,'') for k in key)
     elif date.weekday() == 3 and friday:
@@ -187,16 +187,16 @@ i1110 = 0
 i1111 = 0
 ilab = 0
 while now < end:
-	cx, ax, i1111, _ = mwf(now, i1111, ilab, craig, ckey, friday=False)
-	c2, a2, _, _ = mwf(now, i1110, ilab, upsorn, ukey)
-	c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey, media=lmedia)
-	cal001 += c1
-	age001 += a1
-	cal002 += c2
-	age002 += a2
-	cal1111 += cx
-	age1111 += ax
-	now += day
+        cx, ax, i1111, _ = mwf(now, i1111, ilab, craig, ckey, friday=False)
+        c2, a2, _, _ = mwf(now, i1110, ilab, upsorn, ukey)
+        c1, a1, i1110, ilab = mwf(now, i1110, ilab, luther, lkey, media=lmedia)
+        cal001 += c1
+        age001 += a1
+        cal002 += c2
+        age002 += a2
+        cal1111 += cx
+        age1111 += ax
+        now += day
 
 cal001 += '</tr></tbody></table>'
 age001 += '</tbody></table>'
