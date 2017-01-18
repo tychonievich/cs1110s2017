@@ -6,11 +6,11 @@ key:
 1110-001:
     - 
       topic: welcome
-      reading: §1.6, §1.9
+      reading: §[1.6](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.6), §[1.9](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.9)
     
     - 
       topic: from requirements to software
-      reading: §1.5
+      reading: §[1.5](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.5)
     - 
       topic: ambiguity
       reading: Exercises 1.1 and 1.2 from textbook
@@ -20,7 +20,7 @@ key:
     
     - 
       topic: PyCharm
-      reading: §1.4, §1.7
+      reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
     - course overview with `turtle`{.python}, part 1
     - course overview with `turtle`{.python}, part 2
     
@@ -29,38 +29,38 @@ key:
       reading: "[revised chapter 2](revised2.2.html)"
     - 
       topic: variables, values, and operators
-      reading: §3 and §4
+      reading: §[3](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.3) and §[4](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.4)
     - 
       topic: functions -- basics, `def`{.python}
-      reading: §5--5.2 and §8--8.2.1,
+      reading: §[5](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.5)--5.2 and §[8](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.8)--8.2.1,
     
     - 
       topic: functions -- flow of control
-      reading: §8.2.2--8.2.6
+      reading: §[8.2.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.2)--8.2.6
     - 
       topic: functions -- scope, `global`{.python}
-      reading: §8.3
+      reading: §[8.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.8.3)
     - 
       topic: decisions -- `if`{.python} and `else`{.python}
-      reading: §6.1.2 and §6.2--6.2.3
+      reading: §[6.1.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.6.1.2) and §[6.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.2)--6.2.3
     
     - 
       topic: decisions -- `elif`{.python} and logical operators (not on exam 1)
-      reading: rest of §6.1--6.2
-      notes: "**never** use §6.3's `exit()`{.python} function"
+      reading: rest of §[6.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.1)--6.2
+      notes: "**never** use §[6.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.3)'s `exit()`{.python} function"
     - 
       topic: review
-      reading: §2--5.2, §6.1--6.2.3, §8.2.2--8.2.6, §8.3
+      reading: §[2](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.2)--5.2, §[6.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.1)--6.2.3, §[8.2.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.2)--8.2.6, §[8.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.8.3)
     - exam 1
     
     - 
       topic: code readability, elegance
-      reading: §3.4, §8.2.9--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+      reading: §[3.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.3.4), §[8.2.9](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.9)--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - 
       topic: testing
     - 
       topic: repeating with `while`{.python}
-      reading: §7.1
+      reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1)
     
     - composite datatypes -- strings, ranges, lists, tuples
     - iteration -- the `for`{.python} loop
