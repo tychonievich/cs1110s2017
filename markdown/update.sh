@@ -71,7 +71,17 @@ done
 
 for f in files/*
 do
-	if [ "$f" -nt "$target$f" ]
+	if [ -d "$f" ]
+	then
+		for g in $f/*
+		do
+			if [ "$g" -nt "$target$g" ]
+			then
+				echo 'copying' "$g"
+				cp "$g" "$target$g";
+			fi
+		done
+	elif [ "$f" -nt "$target$f" ]
 	then
 		echo 'copying' "$f"
 		cp "$f" "$target/files";
