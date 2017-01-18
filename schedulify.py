@@ -164,7 +164,7 @@ def mwf(date, index, ilab, section, key, friday=True, media=[]):
         if type(text) is not dict: text = {key[0]:text}
         for m in media:
             if '{}'.format(date) in m:
-                text.setdefault('notes', []).append('[video]({})'.format(m))
+                text['notes'] = text.get('notes', '') + ' [video]({})'.format(m)
         cal = caldate + '<br/>'.join(text[k] for k in key if k in text) + special + '</td>\n'
         age = agedate + '</td><td>'.join(text.get(k,'') for k in key)
     elif date.weekday() == 3 and friday:
