@@ -29,7 +29,7 @@ Section |Time            |Place     |TAs
 1110-108|Th 3:30–4:45PM  |Mech 213  |
 1110-109|Th 5:00–6:15PM  |Mech 213  |
 1110-110|Th 6:30–7:45PM  |Mech 213  |
-1111    |(none)          |(none)    |
+1111    |(none)          |(none)    |Irena Huang, Abey Koolipurackal
 
 ## Swapping Labs and Waiting Lists
 
