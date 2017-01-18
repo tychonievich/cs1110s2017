@@ -85,6 +85,8 @@ function rehide(e) {
 
 <hr/>
 
+Note: assignments and their due dates are listed on the [assignments page](assignments.html), not on this page.
+
 ''')
 
 cal001 = '''<table id="cal001" class="calendar">
