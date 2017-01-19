@@ -19,7 +19,7 @@ Section |Time             |Place             |Instructor
 Section |Time            |Place     |TAs
 --------|----------------|----------|-----
 1110-100|Th 9:30–10:45AM |Olsson 001|Monique Mezher, Anthony Quach, David Stolz
-1110-101|Th 11:00–12:15PM|Olsson 001|Matthew Aldridge, Kamile Foster, Samuel Frick
+1110-101|Th 11:00–12:15PM|Olsson 001|Matthew Aldridge, Kamile Foster, Winston Frick
 1110-102|Th 12:30–1:45PM |Olsson 001|Sebastian Lerner, Alyssa Proto, Rachel Weaver
 1110-103|Th 2:00–3:15PM  |Olsson 001|Sahana Arkalgud, Sophie Mester, Ajay Patel
 1110-104|Th 3:30–4:45PM  |Olsson 001|William Greyeski, Stephen Reed, Summer Thompson
