@@ -1,0 +1,16 @@
+# AuthType NetBadge
+# require valid-user
+# PubcookieAppId netbadgetest
+
+Options +ExecCGI
+AddHandler cgi-script .cgi .py
+
+RewriteEngine On
+  RewriteRule ^/favicon.ico - [L]
+  RewriteRule ^/shibboleth.* - [L]
+  RewriteRule ^/Shibboleth.* - [L]
+  RewriteRule ^/(.*) /oh/$1 [QSA,L]
+    AuthType shibboleth
+    ShibRequestSetting requireSession 1
+    require valid-user
+
