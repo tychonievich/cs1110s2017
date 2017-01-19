@@ -17,9 +17,13 @@ Some examples of special cases include:
 -   Incoming SEAS transfer 2nd year or higher
 -   Early graduation
 
-If you feel you warrant special consideration and are currently on the waitlist, please fill out the form here: [https://goo.gl/forms/rL5Mx4c6cjYVP1t53](https://goo.gl/forms/rL5Mx4c6cjYVP1t53)
-
 All SEAS Students will be given a seat, once each, provided they fill out the above form.  If you lose it by dropping and re-adding the course, we cannot re-accommodate you.
+
+<!--
+If you feel you warrant special consideration and are currently on the waitlist, please fill out the form here: [https://goo.gl/forms/rL5Mx4c6cjYVP1t53](https://goo.gl/forms/rL5Mx4c6cjYVP1t53)
+-->
+
+Earlier there was a link here to a form to submit a waiting list appeal. We have already handled all those appeals and have relinquished control over our extra seats. We no longer have resources to honor additional appeals.
 
 *CLAS (and other schools) Students:*
 
