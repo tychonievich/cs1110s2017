@@ -77,6 +77,7 @@ We highly suggest you look into using a cloud-based solution to make constant ba
 You can also do some basic assignments in an in-browser Python environment such as 
 [https://repl.it/](https://repl.it/), [http://c9.io](http://c9.io), [http://pythontutor.com](http://pythontutor.com), etc.
 
+If none of the above options work for you, the department has a small number of laptops it can loan out to students enrolled in CS classes.  To gain access to one, talk to your professor (who has to make the request on your behalf).
 
 # Can I permanently swap labs?
 
