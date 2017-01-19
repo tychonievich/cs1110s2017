@@ -41,6 +41,20 @@ We cannot control how many students leave the course, opening up room on the wai
 
 Let us know if you have any questions.
 
+# If I'm at waiting list position *n*, how likely am I to get a seat?
+
+First, we have no control over this at all.  It depends entirely on other students dropping the course.
+
+Second, SIS will only tell you your *lecture* position, but your *lab* position is what matters to getting a seat.  Meaning that the waiting list position number stated by SIS is close to meaningless.
+
+In the past, we have had fairly steady drops from the first day of class up to the add deadline, generally with between 5 and 15% turnover.
+But the variance is high and we cannot predict which labs people will drop out of.
+
+# Can I switch which lab I'm waiting for?
+
+Yes, by dropping the class and re-adding the appropriate waiting list.
+Note that this will put you on the *back* of the waiting list.
+There is no way to change which lab you are waiting for without moving to the back of that lab's list.
 
 # What can I do while on the waiting list?
 
