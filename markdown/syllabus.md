@@ -17,7 +17,7 @@ TA office hours are held in the Thornton Stacks lab
 (the large room in the middle of the top floor of the A-wing of Thornton Hall).
 Professor office hours are held in their respective offices.
 
-If you are attending TA office hours, please sign in on the Office Hour queue web site at [https://stardock.cs.virginia.edu/oh](https://stardock.cs.virginia.edu/oh) upon arrival. 
+If you are attending TA office hours, please sign in on the Office Hour queue web site at [https://stardock.cs.virginia.edu/cs1110/oh](https://stardock.cs.virginia.edu/cs1110/oh) to request help. 
 Faculty member office hours do not use the Office Hour queue.
 
 # Contact
