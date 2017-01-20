@@ -147,7 +147,7 @@ def mwf(date, index, ilab, section, key, friday=True, media=[], fpath=None):
         date.strftime('%A'),
         ' '.join(classes.get(date, []))+(' lab' if date.weekday() == 3 else ''),
     )
-    agedate = '<tr id="{0}" class="{2}"><th>{1} {3}</th><td>'.format(
+    agedate = '\n<tr id="{0}" class="{2}"><th>{1} {3}</th><td>'.format(
         date, 
         date.strftime('%d ').strip('0')+ date.strftime('%B')[:3], 
         ' '.join(classes.get(date, []))+(' lab' if date.weekday() == 3 else ''),
@@ -180,7 +180,7 @@ def mwf(date, index, ilab, section, key, friday=True, media=[], fpath=None):
             ilab += 1
         if type(text) is not dict: text = {key[0]:text}
         cal = caldate + '<br/>'.join(text[k] for k in key if k in text) + special + '</td>\n'
-        age = agedate + '</td><td>'.join(text.get(k,'') for k in key)
+        age = agedate + '</td><td>'.join(text.get(k,'') for k in key)+'</td></tr>\n'
     elif date.weekday() == 6:
         cal = '</tr><tr>\n'
     return cal, age, index, ilab
