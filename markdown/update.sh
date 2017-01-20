@@ -32,7 +32,7 @@ function pd() {
 	done
 }
 
-for f in *.yaml ../schedulify.py
+for f in *.yaml *.list ../schedulify.py
 do if [ "$f" -nt schedule.md ]
 then
 	python3 ../schedulify.py > schedule.md
