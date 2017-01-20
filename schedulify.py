@@ -1,10 +1,15 @@
 import datetime
 from yaml import load
 from glob import glob
+from sys import stderr
 try:
     from yaml import CLoader as Loader
 except ImportError:
     from yaml import Loader
+
+def debug(*args, **kargs):
+    kargs['file'] = stderr
+    print(*args, **kargs)
 
 with open('cal-shared.yaml') as stream:
     data = load(stream, Loader=Loader)
@@ -167,6 +172,7 @@ def mwf(date, index, ilab, section, key, friday=True, media=[], fpath=None):
             for img in sorted(glob('files/{}/{}*'.format(fpath, date.strftime('%Y%m%d')))):
                 text['notes'] = text.get('notes', '') + ' [{}]({})'.format(img.split('-',1)[-1], img)
         for m in media:
+            # debug(m, '{}'.format(date), '{}'.format(date) in m)
             if '{}'.format(date) in m:
                 text['notes'] = text.get('notes', '') + ' [video]({})'.format(m)
         cal = caldate + '<br/>'.join(text[k] for k in key if k in text) + special + '</td>\n'
