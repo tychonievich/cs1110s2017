@@ -8,6 +8,26 @@ def dataurl(fname):
         ans += b64encode(stream.read()).decode('ascii')
     return ans
 
+def sql(record, f):
+    print("INSERT OR IGNORE INTO person (compid, name, image, role, section, help_time, last_helped) VALUES ('{}', '{}', '{}', '{}', '{}', 0, 0);".format(
+            record['User ID'].replace("'", "''"),
+            record['Name'].replace("'", "''"),
+            record['img'].replace("'", "''"),
+            'Student' if 'tud' in record['Role'] else 'Staff',
+            grp.replace("'", "''"),
+        ), file=f)
+def csv(record, f):
+    print('"'+'","'.join([
+        record['Name'].replace("'", "''"),
+        record['User ID'].replace("'", "''"),
+        record['Role'].replace("'", "''"),
+        record['Groups'].replace("'", "''"),
+    ])+'"', file=f) 
+
+
+with open('roster.csv', 'w') as csv:
+    with open('roster.sql', 'w') as sql:
+
 fname = sorted(glob('*.xls'))[-1]
 records = pyexcel.get_sheet(file_name=fname, name_columns_by_row=1, sheet_name='Groups')
 done = set(['','User ID'])
