@@ -111,10 +111,12 @@ if 'resolve' in form:
 
 # step three: show menu
 
+refresh = '<form action="" method="GET"><input type="submit" value="Refresh queue status"/></form>'
+
 if 'tud' in me['role']:
 	pos = queue_position(user)
 	if pos is None:
-		print('<p>You are not currently on the queue (current queue size: {})</p>'.format(queue_size()))
+		print('<p>You are not currently on the queue (current queue size: {}) {}</p>'.format(queue_size(), refresh))
 		print('''
 		<form action="" method="POST">
 		<p>What help do you need?</p>
@@ -124,7 +126,7 @@ if 'tud' in me['role']:
 		</form>
 		''')
 	else:
-		print('<p>You are at queue position {}</p>'.format(pos))
+		print('<p>You are at queue position {} {}</p>'.format(pos, refresh))
 		print('''
 		<form action="" method="POST">
 		<p>You may <input type="submit" name="resolve" value="Retract your request"/></p>
@@ -139,6 +141,7 @@ if 'tud' in me['role']:
 		'''.format(html.escape(me['entry']['purpose']), html.escape(me['entry']['location'])))
 else:
 	if 'display' in form:
+		print(refresh)
 		print('''<table><thead><tr><th>ID</th><th>Location</th><th>Wait time</th><th>Purpose</th><tr></thead>
 		<tbody>''')
 		for entry in queue():
@@ -150,7 +153,7 @@ else:
 			))
 		print('<tbody></table>')
 	else:
-		print('<p>Current queue size: {}</p>'.format(queue_size()))
+		print('<p>Current queue size: {} {}</p>'.format(queue_size(), refresh))
 	if me['helping'] is None:
 		print('''
 		<form action="" method="POST">
