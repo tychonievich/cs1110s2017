@@ -90,7 +90,7 @@ done
 
 
 mkdir -p "$target"oh
-cp oh/*.{cgi.py} "$target"oh
+cp oh/*.{cgi,py} "$target"oh
 
 rsync --update --compress --recursive --times --verbose \
     -e ssh "$target" "$remote"
