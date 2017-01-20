@@ -18,16 +18,16 @@ def sql(record, f, img, grp):
         ), file=f)
 def csv(record, f):
     print('"'+'","'.join([
-        record['Name'].replace("'", "''"),
-        record['User ID'].replace("'", "''"),
-        record['Role'].replace("'", "''"),
-        record['Groups'].replace("'", "''"),
+        record['Name'].replace('"', '""'),
+        record['User ID'].replace('"', '""'),
+        record['Role'].replace('"', '""'),
+        record['Groups'].replace('"', '""'),
     ])+'"', file=f) 
 
 
 with open('roster.csv', 'w') as fcsv:
     with open('roster.sql', 'w') as fsql:
-        
+        print('Name,User ID,Role,Groups', file=fcsv)
 
         fname = sorted(glob('*.xls'))[-1]
         records = pyexcel.get_sheet(file_name=fname, name_columns_by_row=1, sheet_name='Groups')
@@ -46,7 +46,7 @@ with open('roster.csv', 'w') as fcsv:
                 img = glob('/home/lat7h/Students/'+record['User ID']+'.jpg')+glob('/home/lat7h/Students/'+record['User ID']+'@*.jpg')+['/home/lat7h/Students/empty.png']
                 img=dataurl(img[0])
                 sql(record, fsql, img, grp)
-                csv(recrod, fcsv)
+                csv(record, fcsv)
             except IndexError:
                 pass
 
