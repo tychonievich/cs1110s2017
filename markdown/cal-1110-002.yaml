@@ -12,7 +12,7 @@ key:
       topic: from requirements to software
       reading: §[1.5](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.5)
     - 
-      topic: ambiguity
+      topic: "[algorithm and ambiguity](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-algorithm.pptx)"
       reading: Exercises 1.1 and 1.2 from textbook
       notes: "inclass: [ambiguity](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-algorithm.html)"
     -
