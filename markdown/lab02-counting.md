@@ -2,9 +2,12 @@
 title: "Lab 2: Counting Squares"
 ...
 
-# Test your logins!
+# Test your logins
 
-If you are in a lab in Olsson 001, try out your Olsson 001 login.
+If you are in a lab in Olsson 001, you should have been emailed an Olsson 001 account.
+If you are in a lab in MEC 213, you can log in to the desktop computers using your ESERVICES username and password (the same ones you use for netbadge).
+You are also welcome to use your own personal laptops instead.
+
 If you have trouble, talk to your lab TA.
 
 # Pairing
