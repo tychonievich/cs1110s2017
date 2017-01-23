@@ -14,6 +14,7 @@ key:
     - 
       topic: ambiguity
       reading: Exercises 1.1 and 1.2 from textbook
+      notes: "inclass: [ambiguity](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-algorithm.html)"
     -
       topic: pseudocode
       reading: "[wikihow](http://www.wikihow.com/Write-Pseudocode)"
