@@ -143,6 +143,22 @@ if 'tud' in me['role']:
 		<input type="submit" value="Update request"/>
 		</form>
 		'''.format(html.escape(me['entry']['purpose']), html.escape(me['entry']['location'])))
+	print('''
+	<hr/>
+	<p><b>Explanation of queue position</b></p>
+	<p>
+		It is our goal to provide useful instructional support to all students.
+		Experience has shown that the demand for support increases dramatically near assignment deadlines.
+		In an effort to distribute help fairly
+		and provide an incentive for students to ask brief, targeted questions in times of peak demand,
+		you will be helped in the following order:
+	</p>
+	<ul>
+		<li><p>
+			If there are 
+		</p></li>
+	</ul>
+	''')
 else:
 	if 'display' in form:
 		print('''<table><thead><tr><th>ID</th><th>Location</th><th>Wait time</th><th>Purpose</th><tr></thead>
