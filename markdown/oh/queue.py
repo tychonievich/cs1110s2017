@@ -226,7 +226,7 @@ def resolve(student, ta=None, message='request retracted'):
 				'compid':student, 
 				'last_helped':now, 
 			})
-		del _person[student]
+		if student in _person: del _person[student]
 	return True
 
 def change_purpose(student, purpose):
