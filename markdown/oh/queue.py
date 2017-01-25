@@ -186,7 +186,7 @@ def unhelp_all(ta):
 	'''returns any students being helped by this TA to the queue unhelped'''
 	rows = Queue.sellist(where({'helped_by':ta}))
 	for row in rows:
-		Queue.update({'compid':rows['compid'], 'helped_by':None, 'helped_at':None})
+		Queue.update({'compid':row['compid'], 'helped_by':None, 'helped_at':None})
 		for e in list(row.keys()):
 			if e not in Log.columns():
 				del row[e]
