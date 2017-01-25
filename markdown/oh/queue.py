@@ -8,6 +8,7 @@ class Table(object):
 	@staticmethod
 	def escape(value):
 		if value is None: return 'null'
+		if type(value) is int: return str(value)
 		return "'{}'".format(str(value).replace("'", "''"))
 	@classmethod
 	def columns(cls):
@@ -147,8 +148,12 @@ def queue_position(compid):
 	priority = priority['priority']
 	return Table.db.execute('SELECT count(*) FROM queue WHERE priority < '+str(priority) + " AND typeof(helped_by) = 'null';").fetchone()[0] + waiting
 
+_queue_size = None
 def queue_size():
-	return Table.db.execute("SELECT count(*) FROM queue WHERE typeof(helped_by) = 'null';").fetchone()[0]
+	global _queue_size
+	if _queue_size is None:
+		_queue_size = Table.db.execute("SELECT count(*) FROM queue WHERE typeof(helped_by) = 'null';").fetchone()[0]
+	return _queue_size
 
 def enqueue(compid, location, purpose):
 	'''Place this person on the queue (if not already there)'''
@@ -207,11 +212,17 @@ def resolve(student, ta=None, message='request retracted'):
 	row['finished_notes'] = message
 	Log.insert(row)
 	if row['helped_at'] is not None:
-		Person.update({
-			'compid':student, 
-			'last_helped':now, 
-			'help_time':person(student)['help_time'] + now - row['helped_at'],
-		})
+		if queue_size() > 5: # only charge for busy times
+			Person.update({
+				'compid':student, 
+				'last_helped':now, 
+				'help_time':person(student)['help_time'] + now - row['helped_at'],
+			})
+		else:
+			Person.update({
+				'compid':student, 
+				'last_helped':now, 
+			})
 		del _person[student]
 	return True
 
