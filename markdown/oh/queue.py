@@ -5,10 +5,6 @@
 class Table(object):
 	def __str__(self):
 		return str(self.__class__).split("'")[1].split('.')[-1].lower()
-	@staticmethod
-	def escape(value):
-		if value is None: return 'null'
-		return "'{}'".format(str(value).replace("'", "''")
 	@classmethod
 	def columns(cls):
 		'''returns a generator with all column names'''
@@ -41,7 +37,7 @@ class Table(object):
 			return None
 	@classmethod
 	def execute(cls, template, args):
-		return cls.db.execute(template.format(*(Table.escape(s) for s in args)))
+		return cls.db.execute(template.format(*(str(s).replace("'", "''") for s in args)))
 	@classmethod
 	def update(cls, kv, where=[]):
 		if not where:
@@ -50,9 +46,9 @@ class Table(object):
 				if c in kv and ('PRIMARY' in kind or 'UNIQUE' in kind):
 					where.append(c)
 		cls.db.execute('UPDATE ' + str(cls()) + ' SET '
-			+ ', '.join("{} = {}".format(k, Table.escape(kv[k])) for k in kv if k not in where)
+			+ ', '.join("{} = '{}'".format(k, str(kv[k]).replace("'", "''")) for k in kv if k not in where)
 			+ ' WHERE '
-			+ ' AND '.join("{} = '{}'".format(k, Table.escape(kv[k])) for k in where)
+			+ ' AND '.join("{} = '{}'".format(k, str(kv[k]).replace("'", "''")) for k in where)
 			+ ';'
 		)
 		cls.db.commit()
@@ -61,7 +57,7 @@ class Table(object):
 		stmt = ('INSERT OR IGNORE INTO ' + str(cls()) + ' ( '
 			+ ', '.join("{}".format(k) for k in kv if k)
 			+ ' ) VALUES ( '
-			+ ', '.join("'{}'".format(Table.escape(kv[k])) for k in kv if k)
+			+ ', '.join("'{}'".format(str(kv[k]).replace("'", "''")) for k in kv if k)
 			+ ' );'
 		)
 		cls.db.execute(stmt)
@@ -69,12 +65,12 @@ class Table(object):
 	@classmethod
 	def delete(cls, where):
 		cls.db.execute('DELETE FROM '+str(cls())+' WHERE '
-			+ ' AND '.join("{} = '{}'".format(k, Table.escape(where[k])) for k in where)
+			+ ' AND '.join("{} = '{}'".format(k, str(where[k]).replace("'", "''")) for k in where)
 			+ ';')
 		cls.db.commit()
 		
 def where(kv):
-	return ' WHERE ' + ' AND '.join("{} = '{}'".format(k, Table.escape(kv[k])) for k in kv);
+	return ' WHERE ' + ' AND '.join("{} = '{}'".format(k, str(kv[k]).replace("'", "''")) for k in kv);
 
 class Person(Table):
 	compid = 'PRIMARY KEY'
@@ -168,6 +164,7 @@ def help_specific(student, ta):
 		'helped_by':ta,
 		'helped_at':now,
 	})
+	Person.update({'compid':student, 'last_helped':now})
 	_queue = None
 	if student in _person: del _person[student]
 	return Queue.selone(where({'compid':student}))
@@ -180,18 +177,6 @@ def help_first(ta):
 	claimant['helped_by'] = ta
 	claimant['helped_at'] = now
 	return claimant
-
-def unhelp_all(ta):
-	'''returns any students being helped by this TA to the queue unhelped'''
-	rows = Queue.sellist(where({'helped_by':ta}))
-	for row in rows:
-		Queue.update({'compid':rows['compid'], 'helped_by':None, 'helped_at':None})
-		for e in list(row.keys()):
-			if e not in Log.columns():
-				del row[e]
-		row['finished_at'] = now
-		row['finished_notes'] = 'not helped'
-		Log.insert(row)
 
 def resolve(student, ta=None, message='request retracted'):
 	'''removes a queued request from the queue'''
