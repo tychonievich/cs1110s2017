@@ -8,7 +8,7 @@ cgitb.enable()
 def pretty_time(secs):
 	if secs < 60: return str(secs)+" seconds"
 	if secs < 3600: return '{}:{:02}'.format(secs//60, secs%60)
-	else: return '{} hours'.format(secs//3600)
+	else: return '{}:{:02}:{:02}'.format(secs//3600, (secs//60)%60, secs%60)
 
 # step one: authenticate
 print('Content-Type: text/html')
