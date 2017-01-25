@@ -162,12 +162,14 @@ if 'tud' in me['role']:
 			Note that only help obtained via this queue is counted.
 		</p></li>
 		<li><p>
-			Your position in the list is set back based on
-			the total TA time you've used during busy times.
+			Your position in the list is set back based on your total busy-time TA usage so far.
 			</p><p>
 			This is intended to help you and the TAs both want to get through people quickly when the queue is full.
 			Right now, <q>busy</q> is defined as <q>five or more people waiting for help while you were being helped;</q>
 			we might change that based on usage as the semester progresses.
+			</p><p>
+			Currently, the math is (time_last_helped + 10 &times; busy_time_TA_usage).
+			We might change that based on usage as the semester progresses.
 		</p></li>
 	</ul>
 	''')
