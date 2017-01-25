@@ -160,6 +160,9 @@ if 'tud' in me['role']:
 			This is intended to simulate a first-come first-serve order
 			but also allow you to pick the moment of help.
 			Note that only help obtained via this queue is counted.
+			</p><p>
+			We only track time of last usage for a week.
+			If you haven't had help in a week, you'll be place first-come first-serve with others in a similar position.
 		</p></li>
 		<li><p>
 			Your position in the list is set back based on your total busy-time TA usage so far.
