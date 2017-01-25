@@ -143,9 +143,9 @@ def queue_position(compid):
 	'''return the number of people in front of compid, or None if not on queue'''
 	priority = Queue.selone(where({'compid':compid}))
 	if priority is None: return None
-#	waiting = int(priority['helped_by'] is not None)
+	waiting = int(priority['helped_by'] is not None)
 	priority = priority['priority']
-	return Table.db.execute('SELECT count(*) FROM queue WHERE priority < '+str(priority) + " AND typeof(helped_by) = 'null';").fetchone()[0]# + waiting
+	return Table.db.execute('SELECT count(*) FROM queue WHERE priority < '+str(priority) + " AND typeof(helped_by) = 'null';").fetchone()[0] + waiting
 
 def queue_size():
 	return Table.db.execute("SELECT count(*) FROM queue WHERE typeof(helped_by) = 'null';").fetchone()[0]
