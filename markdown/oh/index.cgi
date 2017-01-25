@@ -163,10 +163,10 @@ if 'tud' in me['role']:
 		</p></li>
 		<li><p>
 			Your position in the list is set back based on
-			the number of  minutes of TA time you've used during busy times.
+			the total TA time you've used during busy times.
 			</p><p>
 			This is intended to help you and the TAs both want to get through people quickly when the queue is full.
-			Right now, <q>busy</q> is defined as <q>five or more people waiting for help;</q>
+			Right now, <q>busy</q> is defined as <q>five or more people waiting for help while you were being helped;</q>
 			we might change that based on usage as the semester progresses.
 		</p></li>
 	</ul>
