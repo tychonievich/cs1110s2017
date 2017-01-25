@@ -104,8 +104,12 @@ if 'resolve' in form:
 			print('<p class="warning">You can\'t resolve a student who has no pending request</p>')
 		else:
 			me['helping'] = None
-
-			
+if 'unhelp' in form:
+	if me['role'] == 'Student':
+		print('<p class="warning">Students are not allowed to mark people as unhelped</p>')
+	else:
+		unhelp_all(user)
+		me['helping'] = None
 	
 
 
