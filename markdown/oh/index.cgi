@@ -181,6 +181,11 @@ else:
 			html.escape(stud['purpose']),
 		))
 		print('''
+		<form action="" method="POST">
+		<form action="" method="POST">
+		<input type="hidden" name="unhelp" value="{0}"/>
+		<input type="submit" value="Return to queue unhelped"/>
+		</form>
 		<p>Resolve as
 		<form action="" method="POST">
 		<input type="hidden" name="resolve" value="{0}"/>
