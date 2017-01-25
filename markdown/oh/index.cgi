@@ -37,8 +37,7 @@ print('''<!DOCTYPE html>
 <html><head>
 	<meta charset="UTF-8">
 	<style>
-	body { font-size:100%; }
-	input { font-size: 100%; }
+	body, table, th, td, input { font-size:100%; }
 	input[type=submit] { min-width:3em; min-height:3em; margin:1ex; }
 	.warning { display: inline-block; background-color:#ff7; padding:1ex; }
 	table { border-collapse: collapse; border: 1px solid black; }
