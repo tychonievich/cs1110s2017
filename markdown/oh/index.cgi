@@ -168,7 +168,7 @@ if 'tud' in me['role']:
 			Right now, <q>busy</q> is defined as <q>five or more people waiting for help while you were being helped;</q>
 			we might change that based on usage as the semester progresses.
 			</p><p>
-			Currently, the math is (time_last_helped + 10 &times; busy_time_TA_usage).
+			Currently, the math is (time_last_helped + (10 &times; busy_time_TA_usage)).
 			We might change that based on usage as the semester progresses.
 		</p></li>
 	</ul>
