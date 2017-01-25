@@ -1,0 +1,149 @@
+repeat 2 times:
+	stand up
+	turn all the way around
+	sit down
+clap your hands
+
+while you are not tired:
+	stand up
+	turn all the way around
+	sit down
+end while
+
+
+if you are born on an even day of the month
+	clap
+else
+	say "hi"
+end if
+
+----
+
+add two two-digit numbers, assuming we can add single-digit number only
+
+	  1
+	  13
+	+ 98
+	----
+	   1
+
+stack the numbers, line up the last digits
+add digits in the right column
+if sum is ≥ 10:
+	write the 1s digit of the sum in the right column
+	write a 1 in the 10s digit column above the other numbers
+else:
+	put sum in right column of answer
+end if
+
+if there are two digits in the left column:
+	add digits in the left column
+	if sum is ≥ 10:
+		write the 1s digit of the sum in the next-to-right column
+		write a 1 in the 100s digit column of the answer
+	else:
+		put sum in next-to-right column of answer
+	end if
+else:
+	add bottom two digits in the left column
+	if sum is ≥ 10:
+		write the 1 + 1s digit of the sum in the next-to-right column
+		write a 1 in the 100s digit column of the answer
+	else:
+		add one to the sum
+		if sum is ≥ 10:
+			write the 1 + 1s digit of the sum in the next-to-right column
+			write a 1 in the 100s digit column of the answer
+		else:
+			put sum in next-to-right column of answer
+	end if
+
+----
+
+define ones(a, b):
+	to be the 1s place of the sum of a and b
+
+define tens(a, b):
+	to be the 10s place of the sum of a and b
+
+
+let x be ones(the two numbers first digit)
+
+----
+
+Call the 1s place the first digit, the 10s place the and digit, and so on
+
+-----
+
+write pseudocode to describe if you should bring an umbrella to school
+
+don't bring an umbrella
+
+if it is raining when you leave
+	bring and umbrella
+else
+	don't
+
+
+roll a die
+if the roll was 1, 2, or 3
+	bring and umbrella
+if it was 4, 5, or 6
+	don't
+otherwise
+	play the lottery
+
+
+
+
+
+
+-----
+
+start with x = day of month you were born
+start with y = 0
+while x ≠ 1:
+	add one to y
+	if x is odd
+		replace x with x times 3 plus 1
+			x × (3 + 1)
+			(x × 3) + 1
+	else
+		replace x with x ÷ 2
+tell your neighbor your value of y
+replace x with 3
+
+x = 3	10	5	16	8	4	2	1
+y = 0	1	2	3	4	5	6	7
+
+
+
+an algorithm is	a finite set of unambiguous steps that runs in finite time
+
+-----
+
+how to make a stripe of a given color:
+	pick up a paint brush
+	put it in paint of the specified color
+	...
+
+how to draw the stripes region:
+	make a red stripe
+	go down
+	make a white stripe
+	go down
+	....
+
+
+draw the stars region
+draw the stripes region
+
+
+
+
+
+
+
+
+
+
