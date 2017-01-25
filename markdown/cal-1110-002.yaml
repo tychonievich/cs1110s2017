@@ -16,9 +16,9 @@ key:
       reading: Exercises 1.1 and 1.2 from textbook
       notes: "inclass: [ambiguity](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-algorithm.html)"
     -
-      topic: pseudocode
+      topic: "[pseudocode](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-pseudocode.pptx)"
       reading: "[wikihow](http://www.wikihow.com/Write-Pseudocode)"
-    
+      notes: "inclass: [pseudocode](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-algorithm-2.html)"    
     - 
       topic: PyCharm
       reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
