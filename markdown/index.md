@@ -27,7 +27,7 @@ Section |Time            |Place     |TAs
 1110-106|Th 6:30–7:45PM  |Olsson 001|Gabriel Groover, Maria Schweitzer, Claire Veasey
 1110-107|Th 11:00–12:15PM|Mech 213  |John Perales, Callie Phillips, Madeline Watkins
 1110-108|Th 3:30–4:45PM  |Mech 213  |Marco Gomez-Wong, Caroline McNichols, Emily Zhou
-1110-109|Th 5:00–6:15PM  |Mech 213  |Marco Gomez-Wong, Laura Maimon, Kathleen Ross
+1110-109|Th 5:00–6:15PM  |Mech 213  |Zach Danz, Laura Maimon, Kathleen Ross
 1110-110|Th 6:30–7:45PM  |Mech 213  |Melony Benis, Monique Mezher, Patrick Myers
 1111    |(none)          |(none)    |Irena Huang, Abey Koolipurackal
 
