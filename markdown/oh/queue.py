@@ -157,13 +157,16 @@ def queue_size():
 
 def enqueue(compid, location, purpose):
 	'''Place this person on the queue (if not already there)'''
+	last_helped = person(compid)['last_helped']
+	last_week = now - (7 * 24 * 60 * 60)
+	if last_helped < last_week: last_helped = last_week
 	Queue.insert({
 		'compid':compid,
 		'location':location,
 		'purpose':purpose,
 		'entered':now,
 		# ignore the time on the queue; the question is (1) how long since last help_specific and (2) how much total TA time have you consumed so far
-		'priority':person(compid)['last_helped'] + 10*person(compid)['help_time'],
+		'priority':last_helped + 10*person(compid)['help_time'],
 	})
 	_queue = None
 
