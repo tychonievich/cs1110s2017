@@ -155,7 +155,19 @@ if 'tud' in me['role']:
 	</p>
 	<ul>
 		<li><p>
-			If there are 
+			The longer it has been since your last help, the sooner you will be helped.
+			</p><p>
+			This is intended to simulate a first-come first-serve order
+			but also allow you to pick the moment of help.
+			Note that only help obtained via this queue is counted.
+		</p></li>
+		<li><p>
+			Your position in the list is set back based on
+			the number of  minutes of TA time you've used during busy times.
+			</p><p>
+			This is intended to help you and the TAs both want to get through people quickly when the queue is full.
+			Right now, <q>busy</q> is defined as <q>five or more people waiting for help;</q>
+			we might change that based on usage as the semester progresses.
 		</p></li>
 	</ul>
 	''')
