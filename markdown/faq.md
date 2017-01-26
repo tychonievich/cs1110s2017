@@ -156,3 +156,27 @@ We get so many of these requests that we cannot grant them all, and to avoid bei
 If the announcement is purely academic in nature and there is a compelling reason why Introduction to Programming lecture is the right place to make it, email the professors; but we still make no guarantee we'll accommodate you.
 
 Raising your hand in class to make an announcement (rather than to ask or answer a question) is [unprofessional behavior](syllabus.html#professionalism) and will be treated as such.
+
+# The Internet is down…
+
+UVA makes three different wireless networks available to students.  If one is down, try a different one
+
+1. Cavalier -- this network is encrypted (meaning it's more secure) and tends to be best supported.  It should be your default.  See [ITS's guide](http://its.virginia.edu/wireless/encrypted.html) for getting it set up.
+
+2. Wahoo -- this network is unencrypted and also usually unlisted.  It also requires you register your device.
+
+    1.  See [ITS's page](http://its.virginia.edu/mobile/other-mobile.html) on this network, but especially the [device registration](https://netreg.itc.virginia.edu/cgi-bin/mac_registration.cgi) page.
+    
+    2. You may have to manually enter the name `wahoo` in your network manager for your computer to find this network.
+
+3. Welcome -- this network is intended for guest use, but you can register as your own guest
+    
+    1.  Select the `Welcome_to_UVa_Wireless` network
+    2.  Open a browser -- you'll be redirected to [this site](https://network-setup.itc.virginia.edu/welcome/welcome.cgi)
+    3.  Click the button under the "guest" option -- you're registering as your own guest.
+    4.  Click the small underlined link "Guest Wireless Passcode site."
+    5.  Submit (you don't need to fill out the form unless you want to)
+    6.  **write down** the passcode; you'll have to enter it manually repeatedly.
+    7.  Back in the page you were looking at during step 4, enter the passcode in the field labeled "Passcode:" and click "Log In"
+
+It is uncommon for all three wireless networks to be down at the same time.
