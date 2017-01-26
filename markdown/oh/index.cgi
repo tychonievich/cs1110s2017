@@ -206,7 +206,7 @@ else:
 		stud.update(me['helping'])
 		print('''<p>Currently helping student:</p>
 		<table><tbody>
-		<tr><th>Location</th><td>{}</td></tr>
+		<tr><th>Location</th><td>{}</td><td rowspan="4"><img src="//stardock.cs.virginia.edu/cs1110/StacksStickers.png"/></td></tr>
 		<tr><th>Name</th><td>{}</td></tr>
 		<tr><th>Image</th><td><img src="{}"/></td></tr>
 		<tr><th>Purpose</th><td>{}</td></tr>
