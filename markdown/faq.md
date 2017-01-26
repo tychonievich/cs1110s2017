@@ -163,13 +163,13 @@ UVA makes three different wireless networks available to students.  If one is do
 
 1. Cavalier -- this network is encrypted (meaning it's more secure) and tends to be best supported.  It should be your default.  See [ITS's guide](http://its.virginia.edu/wireless/encrypted.html) for getting it set up.
 
-2. Wahoo -- this network is unencrypted and also usually unlisted.  It also requires you register your device.
+2. Wahoo -- this network is unencrypted and also usually unlisted.  It also requires you register your device:
 
     1.  See [ITS's page](http://its.virginia.edu/mobile/other-mobile.html) on this network, but especially the [device registration](https://netreg.itc.virginia.edu/cgi-bin/mac_registration.cgi) page.
     
     2. You may have to manually enter the name `wahoo` in your network manager for your computer to find this network.
 
-3. Welcome -- this network is intended for guest use, but you can register as your own guest
+3. Welcome -- this network is unencrypted and intended for guest use, but you can register as your own guest:
     
     1.  Select the `Welcome_to_UVa_Wireless` network
     2.  Open a browser -- you'll be redirected to [this site](https://network-setup.itc.virginia.edu/welcome/welcome.cgi)
@@ -179,4 +179,4 @@ UVA makes three different wireless networks available to students.  If one is do
     6.  **write down** the passcode; you'll have to enter it manually repeatedly.
     7.  Back in the page you were looking at during step 4, enter the passcode in the field labeled "Passcode:" and click "Log In"
 
-It is uncommon for all three wireless networks to be down at the same time.
+It is uncommon for all three wireless networks to be down at the same time.  In my experience, `Welcome_to_UVa_Wireless` in particular is almost always up, in part because it is annoying to have to keep entering passcodes so few people use it.
