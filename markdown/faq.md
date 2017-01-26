@@ -157,7 +157,7 @@ If the announcement is purely academic in nature and there is a compelling reaso
 
 Raising your hand in class to make an announcement (rather than to ask or answer a question) is [unprofessional behavior](syllabus.html#professionalism) and will be treated as such.
 
-# The Internet is down…
+# My WiFi isn't working…
 
 UVA makes three different wireless networks available to students.  If one is down, try a different one
 
