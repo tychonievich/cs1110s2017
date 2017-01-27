@@ -36,6 +36,8 @@ Personal issues impacting coursework | Your dean, and/or private email to your s
 
 Luther Tychonievich
 :   Office: Rice 208
+    
+    Office hours: Monday 11-12; Tuesday 2--4; Wednesday 3:30--4:30
 
     Email: tychonievich@virginia.edu
     
@@ -43,6 +45,8 @@ Luther Tychonievich
 
 Upsorn Praphamontripong
 :   Office: Rice 206
+
+    Office hours: Wednesday 2:00--3:30; Thursday 10-11:30
 
     Email: up3f@virginia.edu 
 
