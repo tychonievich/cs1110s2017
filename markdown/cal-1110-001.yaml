@@ -21,6 +21,7 @@ key:
     - 
       topic: PyCharm
       reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
+      notes: [demo.py](files/001/demo.py)
     - course overview with `turtle`{.python}, part 1
     - course overview with `turtle`{.python}, part 2
     
