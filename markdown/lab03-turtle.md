@@ -55,6 +55,10 @@ Make sure to look at the Turtle API
 
 # Submission
 
+Submit an image *and* your code
+
+## Image 
+
 Save a picture of your image by doing *one* of the following:
 
 -   Taking a screenshot and then cropping down to just your image.
@@ -81,3 +85,10 @@ Then put in BOTH of your computing IDs, separated by dashes.
 Images will be displayed (anonymously).
 The staff will pick our favorite images, with prizes awarded next lab!
 
+## Code
+
+Go to the [CS 1110 submission page](https://archimedes.cs.virginia.edu/cs1110/) and submit your code under the `lab03-tutle` entry.
+Most submissions will require a particular file name, but this one is noted as `*.py` meaning you may submit any file ending in `py`.
+
+We are more interested in verify that the submission system works for you than in your actual code (this will change in later labs).
+Thus, both partners should submit code (it can be the same file) and report any problems to your lab TAs.
