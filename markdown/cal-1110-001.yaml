@@ -33,11 +33,13 @@ key:
       reading: §[3](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.3) and §[4](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.4)
     - 
       topic: functions -- basics, `def`{.python}
-      reading: §[5](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.5)--5.2 and §[8](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.8)--8.2.1,
+      reading: §[5](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.5)--5.2 and §[8](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.8)--8.2.1
+      notes: guest instructor; recordings will not be made or posted
     
     - 
       topic: functions -- flow of control
       reading: §[8.2.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.2)--8.2.6
+      notes: guest instructor; recordings will not be made or posted
     - 
       topic: functions -- scope, `global`{.python}
       reading: §[8.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.8.3)
