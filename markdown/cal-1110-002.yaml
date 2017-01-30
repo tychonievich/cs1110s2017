@@ -22,7 +22,7 @@ key:
     - 
       topic: PyCharm
       reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
-      notes: "[Transition to code](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-transition-to-code.pptx)", "[PyCharm Quickstart](http://www.cs.virginia.edu/~up3f/cs1110/supplement/getting-start-pycharm.html)"
+      notes: "[Transition to code](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-transition-to-code.pptx)" <br /> "[PyCharm Quickstart](http://www.cs.virginia.edu/~up3f/cs1110/supplement/getting-start-pycharm.html)"
     - course overview with `turtle`{.python}, part 1
     - course overview with `turtle`{.python}, part 2
     
