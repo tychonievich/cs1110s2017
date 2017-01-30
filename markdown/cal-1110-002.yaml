@@ -24,6 +24,7 @@ key:
       reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
       notes: "[Transition to code](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-transition-to-code.pptx), [PyCharm Quickstart](http://www.cs.virginia.edu/~up3f/cs1110/supplement/getting-start-pycharm.html)"
     - course overview with `turtle`{.python}, part 1
+      notes: "examples: [drawing1](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/turtle1_drawing.txt), [drawing2](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/turtle2_drawing.txt), [drawing3](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/turtle3_drawing.txt), [drawing4](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/turtle1_drawing.txt)"
 
     - course overview with `turtle`{.python}, part 2
 
