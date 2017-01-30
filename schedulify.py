@@ -241,7 +241,7 @@ No permission to take the exam earlier than 11 May or from off of UVa grounds wi
 import csv
 with open('assignments.csv', 'w') as f:
     w = csv.writer(f)
-    for asng in data['assignments'] + labdates:
+    for asgn in data['assignments'] + labdates:
         date = asng['due']
         for task in asgn[links]:
             w.writerow([date,task])
