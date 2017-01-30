@@ -243,5 +243,5 @@ with open('assignments.csv', 'w') as f:
     w = csv.writer(f)
     for asgn in data['assignments'] + labdates:
         date = asgn['due']
-        for task in asgn[links]:
+        for task in asgn['links']:
             w.writerow([date,task])
