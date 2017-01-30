@@ -192,7 +192,7 @@ def mwf(date, index, ilab, section, key, friday=True, media=[], fpath=None):
     return cal, age, index, ilab
 
 
-
+labdates = []
 i1110 = 0
 i1111 = 0
 ilab = 0
@@ -206,6 +206,10 @@ while now < end:
         age002 += a2
         cal1111 += cx
         age1111 += ax
+        if '(lab-' in c1:
+            i1 = c1.find('(lab-')
+            i2 = c1.find('.html)', i1)
+            labdates.append({'due':now, 'links':[c1[i1+1:i2]]})
         now += day
 
 cal001 += '</tr></tbody></table>'
@@ -230,3 +234,14 @@ Per <a href="http://www.virginia.edu/registrar/exams.html#1172">the registrar</a
 Conflicts with that time will be resolved the following day (Friday 12 May).
 No permission to take the exam earlier than 11 May or from off of UVa grounds will be granted.
 ''')
+
+
+
+
+import csv
+with open('assignments.csv', 'w') as f:
+    w = csv.writer(f)
+    for asng in data['assignments'] + labdates:
+        date = asng['due']
+        for task in asgn[links]:
+            w.writerow([date,task])
