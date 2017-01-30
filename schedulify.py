@@ -240,11 +240,19 @@ No permission to take the exam earlier than 11 May or from off of UVa grounds wi
 
 import csv, re
 filename = re.compile(r'`([^`]*\.py)`')
-with open('assignments.csv', 'w') as f:
+with open('../assignments.csv', 'w') as f:
     w = csv.writer(f)
+    w.writerow('slug,files,duedate,late,opendate,fbdelay,support,unittests'.split(','))
     for asgn in data['assignments'] + labdates:
         date = asgn['due']
         for task in asgn['links']:
             with open(task+'.md') as t:
                 fnames = set(filename.findall(t.read()))
-            w.writerow([date,'|'.join(sorted(fnames))])
+            if not fnames: continue
+            w.writerow([
+                task if task.startswith('lab') else task.split('-',1)[1],
+                '|'.join(sorted(fnames)),
+                str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
+                '1 2','','4','timeout.py|gradetools.py',
+                'test_'+('|test_'.join(sorted(fnames)))
+            ])
