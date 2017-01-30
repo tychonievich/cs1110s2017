@@ -206,8 +206,8 @@ while now < end:
         age002 += a2
         cal1111 += cx
         age1111 += ax
-        if '(lab-' in c1:
-            i1 = c1.find('(lab-')
+        if '(lab' in c1:
+            i1 = c1.find('(lab')
             i2 = c1.find('.html)', i1)
             labdates.append({'due':now, 'links':[c1[i1+1:i2]]})
         now += day
@@ -238,11 +238,13 @@ No permission to take the exam earlier than 11 May or from off of UVa grounds wi
 
 
 
-import csv
+import csv, re
+filename = re.compile(r'`([^`]*\.py)`')
 with open('assignments.csv', 'w') as f:
-    f.write(labdates)
     w = csv.writer(f)
     for asgn in data['assignments'] + labdates:
         date = asgn['due']
         for task in asgn['links']:
-            w.writerow([date,task])
+            with open(task+'.md') as t:
+                fnames = set(filename.findall(t.read()))
+            w.writerow([date,'|'.join(sorted(fnames))])
