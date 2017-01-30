@@ -44,6 +44,9 @@ then
     python3 ../assignify.py > assignments.md
 fi done
 
+scp "../assignments.csv" "archimedes.cs.virginia.edu:/var/www/html/cs1110/uploads/assignments.csv"
+
+
 
 cd "$here"
 for f in *.md
@@ -94,3 +97,4 @@ cp oh/*.{cgi,py} "$target"oh
 
 rsync --update --compress --recursive --times --verbose \
     -e ssh "$target" "$remote"
+
