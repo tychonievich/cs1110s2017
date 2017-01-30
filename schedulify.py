@@ -243,7 +243,7 @@ filename = re.compile(r'`([^`]*\.py)`')
 with open('../assignments.csv', 'w') as f:
     w = csv.writer(f)
     w.writerow('slug,files,duedate,late,opendate,fbdelay,support,unittests'.split(','))
-    for asgn in data['assignments'] + labdates:
+    for asgn in sorted(data['assignments'] + labdates, key=lambda x:x['due']):
         date = asgn['due']
         for task in asgn['links']:
             with open(task+'.md') as t:
