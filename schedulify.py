@@ -240,6 +240,7 @@ No permission to take the exam earlier than 11 May or from off of UVa grounds wi
 
 import csv
 with open('assignments.csv', 'w') as f:
+    f.write(labdates)
     w = csv.writer(f)
     for asgn in data['assignments'] + labdates:
         date = asgn['due']

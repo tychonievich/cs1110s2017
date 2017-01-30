@@ -47,7 +47,7 @@ Explain that the replacement model makes for more readable code,
 but it depends on parts of Python that we have not yet learned.
 Thus, we suggest they do the second model in this lab.
 
-Remind them about spaces, commas in `print`, and string`+`:
+Remind them about spaces, commas in `print`, and string `+`:
 - `print("I'm a", profession, "!")` produces `I'm a juggler !` (extra space)
 - `print("I'm a" +  profession + "!")` produces `I'm ajuggler!` (missing space)
 - `print("I'm a " +  profession + "!")` produces `I'm a juggler!` (correct)
@@ -90,10 +90,4 @@ One way to organize the code is
 More modular designs make sense, but if students have no modularization suggest "if you had to break the program into two pieces, what would they be?" and then "maybe you should make one of those into a function."
 
 Don't force functions; if they are confused and you don't have time to explain, let them write straight-line code, but let the instructors know how many students were in that situation so we can review in lecture if needed.
-
-## Submission
-
-**Each partner** should submit one .py file named `magic_8_ball.py` to Archimedes (the submission system):
-[https://archimedes.cs.virginia.edu/cs1110/](https://archimedes.cs.virginia.edu/cs1110/).
-Please put **both partners' ids** in comments at the top of the file.
 
