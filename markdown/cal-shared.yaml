@@ -18,38 +18,14 @@ Special Dates:
     
 assignments:
   -
+    due: 2017-02-03
+    links: [w01-greeting, w01-nonsense]
+  -
+    due: 2017-02-06
+    links: [w01-c2f]
+  -
     due: 2017-02-08
-    links: [w01-greeting, w01-nonsense, w01-c2f, w01-dating]
+    links: [w01-dating]
   -
-    due: 2017-02-15
-    links: []
-  -
-    due: 2017-02-22
-    links: []
-  -
-    due: 2017-03-01
-    links: []
-  -
-    due: 2017-03-15
-    links: []
-  -
-    due: 2017-03-22
-    links: []
-  -
-    due: 2017-03-29
-    links: []
-  -
-    due: 2017-04-05
-    links: []
-  -
-    due: 2017-04-12
-    links: []
-  -
-    due: 2017-04-19
-    links: []
-  -
-    due: 2017-04-26
-    links: []
-  -
-    due: 2017-05-02
+    due: 2017-02-10
     links: []
