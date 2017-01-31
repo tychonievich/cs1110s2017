@@ -249,10 +249,11 @@ with open('../assignments.csv', 'w') as f:
             with open(task+'.md') as t:
                 fnames = set(filename.findall(t.read()))
             if not fnames: continue
+            testnames = sorted('test_'+x for x in fnames if '*' not in x)
             w.writerow([
                 task if task.startswith('lab') else task.split('-',1)[1],
                 '|'.join(sorted(fnames)),
                 str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
                 '1 2','','4','timeout.py|gradetools.py',
-                'test_'+('|test_'.join(sorted(x for x in fnames if '*' not in x)))
+                '|'.join(testnames)
             ])
