@@ -254,5 +254,5 @@ with open('../assignments.csv', 'w') as f:
                 '|'.join(sorted(fnames)),
                 str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
                 '1 2','','4','timeout.py|gradetools.py',
-                'test_'+('|test_'.join(sorted(fnames)))
+                'test_'+('|test_'.join(sorted(x for x in fnames if '*' not in x)))
             ])
