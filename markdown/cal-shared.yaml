@@ -26,4 +26,10 @@ assignments:
     links: [w01-c2f, w01-dating]
   -
     due: 2017-02-10
-    links: []
+    links: [w02-maydate]
+  -
+    due: 2017-02-13
+    links: [w02-conversion]
+  -
+    due: 2017-02-15
+    links: [w02-quadratic]
