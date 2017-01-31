@@ -48,11 +48,12 @@ but it depends on parts of Python that we have not yet learned.
 Thus, we suggest they do the second model in this lab.
 
 Remind them about spaces, commas in `print`, and string `+`:
-- `print("I'm a", profession, "!")` produces `I'm a juggler !` (extra space)
-- `print("I'm a" +  profession + "!")` produces `I'm ajuggler!` (missing space)
-- `print("I'm a " +  profession + "!")` produces `I'm a juggler!` (correct)
-- `print("I'm a",  profession + "!")` produces `I'm a juggler!` (correct)
-- `print("I'm a ", profession + "!")` produces `I'm a  juggler!` (extra space)
+
+- `print("I'm a", profession, "!")`{.python} produces `I'm a juggler !` (extra space)
+- `print("I'm a" +  profession + "!")`{.python} produces `I'm ajuggler!` (missing space)
+- `print("I'm a " +  profession + "!")`{.python} produces `I'm a juggler!` (correct)
+- `print("I'm a",  profession + "!")`{.python} produces `I'm a juggler!` (correct)
+- `print("I'm a ", profession + "!")`{.python} produces `I'm a  juggler!` (extra space)
 
 # Guidance
 
