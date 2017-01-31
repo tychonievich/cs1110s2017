@@ -26,7 +26,7 @@ Madlibs work as follows:
 1.  Pick a phrase, and replace key words with what kind of word they are.
     For example, you might decide your phrase is
     
-    > When I was younger I wanted to be a *profession1*. I pictured myself at a *event1*.  One person says "I'm a *profession2*." Another says "I'm a *profession3*, just back from *where profession3 works*."  I say "I'm a *profession1!" With a gasp, everyone turns to me.  "You're a *profession1*?  Tell us more!"
+    > When I was younger I wanted to be a *profession1*. I pictured myself at a *event1*.  One person says "I'm a *profession2*." Another says "I'm a *profession3*, just back from *where profession3 works*."  I say "I'm a *profession1*!" With a gasp, everyone turns to me.  "You're a *profession1*?  Tell us more!"
     >
     > Then I met you. Now I know that all *profession1*s do is *task1* and no one cares.  Thank you for showing me the true way.
     
