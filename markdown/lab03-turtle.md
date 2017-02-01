@@ -1,5 +1,5 @@
 ---
-title: "Lab 3: Counting Squares"
+title: "Lab 3: Art Contest"
 ...
 
 # Attendance
