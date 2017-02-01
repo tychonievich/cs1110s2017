@@ -5,7 +5,7 @@ title: Office Hours
 Instructor office hours are held in their respective offices; see [the syllabus](#syllabus) for times and places.
 
 TA office hours are held in "Stacks", the large room on the second floor of Thorton A-wing,
-Sunday through Thursday from 3 to 8pm.
+Sunday through Thursday from 3 to 9pm.
 Office hours sometimes get busy; to request a TA, use [the office hour queue](https://stardock.cs.virginia.edu/cs1110/oh/).
 
 The office hour queue contains a description of its design, but the short version is:
