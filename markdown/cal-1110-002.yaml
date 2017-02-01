@@ -27,8 +27,9 @@ key:
       topic: course overview with `turtle`{.python}, part 1
       notes: "[reference](https://docs.python.org/3.6/library/turtle.html), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/)"
       
-    - course overview with `turtle`{.python}, part 2
-
+    - 
+      topic: course overview with `turtle`{.python}, part 2
+      notes: "[examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/)"
     -
       topic: hello, world!
       reading: "[revised chapter 2](revised2.2.html); §[5.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.5.2.4)--5.2.5;
