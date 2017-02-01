@@ -254,6 +254,6 @@ with open('../assignments.csv', 'w') as f:
                 task if task.startswith('lab') else task.split('-',1)[1],
                 '|'.join(sorted(fnames)),
                 str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
-                '1 2','','2','timeout.py|gradetools.py',
+                '1 2','','2','timeout.py|timeout2.py|gradetools.py',
                 '|'.join(testnames)
             ])
