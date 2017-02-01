@@ -4,10 +4,9 @@ title: Assignments
 
 # Programming Assignments
 
-To streamline the twice-a-week 1111 and thrice-a-week 1110 schedules,
-programming assignments are due in batches once a week.
-When several are due the same day, we strongly encourage working on and submitting one each day or two,
-in the order listed here.
+Early in the semester, assignments are due Monday, Wednesday, and Friday at 11am.
+Later in the semester larger assignments will be due on Wednesday.
+When several tasks are due the same day, we strongly encourage working on and submitting one each day or two, in the order listed here.
 
 Submit assignments [on the Archimedes grading server](https://archimedes.cs.virginia.edu/cs1110/)
 
