@@ -25,6 +25,7 @@ key:
       notes: "[Transition to code](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-transition-to-code.pptx), [PyCharm Quickstart](http://www.cs.virginia.edu/~up3f/cs1110/supplement/getting-start-pycharm.html)"
     - 
       topic: course overview with `turtle`{.python}, part 1
+      notes: "[reference](https://docs.python.org/3.6/library/turtle.html), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/turtle_examples/)"
       
     - course overview with `turtle`{.python}, part 2
 
