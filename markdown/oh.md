@@ -8,7 +8,7 @@ TA office hours are held in "Stacks", the large room on the second floor of Thor
 Sunday through Thursday from 3 to 9pm.
 Office hours sometimes get busy; to request a TA, use [the office hour queue](https://stardock.cs.virginia.edu/cs1110/oh/).
 
-<div style="display:table; font-size:200%; margin:auto;">[The Queue](https://stardock.cs.virginia.edu/cs1110/oh/)</div>
+<div style="display:table; font-size:200%; margin:auto 1em;">[The Queue](https://stardock.cs.virginia.edu/cs1110/oh/)</div>
 
 The office hour queue contains a description of its design, but the short version is:
 
