@@ -23,7 +23,9 @@ key:
       reading: §[1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.4), §[1.7](http://www.spronck.net/pythonbook/pythonbook.pdf#section.1.7)
       notes: "[demo.py](files/001/demo.py)"
     - course overview with `turtle`{.python}, part 1
-    - course overview with `turtle`{.python}, part 2
+    - 
+      topic: course overview with `turtle`{.python}, part 2
+      notes: "video didn't work right -- [audio](podcasts/2017-02-01-audio.mp3)"
     
     -
       topic: hello, world!
