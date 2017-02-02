@@ -56,6 +56,13 @@ How hard would it be to make a *different* function that is more permissive, alw
 
 # Troubleshooting
 
+You should probably write *two* python files for this assignment; the one you turn in (`maydate.py`) that *defines* `creepy` and a separate file you use to test it.
+In your testing file,
+
+-   Don't forget to `import maydate`{.python}
+-   Try both the examples we give above and other examples of your own
+-   When adding examples, make sure you know what the right answer is supposed to be!
+
 Confused on how to not use `if`{.python}? 
 Consider the following example:
 
