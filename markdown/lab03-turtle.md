@@ -67,7 +67,7 @@ Save a picture of your image by doing *one* of the following:
 -   Use the following code immediately before the `turtle.mainloop()` line to save a Postrcript file (`.ps`):
     
     ````python
-    turtle._GetScreen()._canvas.postscript(filename="930-OLS-mst3k-mst3k.ps", colormode="color")
+    turtle.getscreen().getcanvas().postscript(file="930-OLS-mst3k-mst3k.ps", colormode="color")
     ````
     
     Note: Poststript was a precursor to PDF, and many machines can't display it properly.
