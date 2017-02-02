@@ -5,8 +5,8 @@ title: conversion.py
 # Task
 
 Write a file with two functions: `c2f` and `f2c`.
-`c2f` should accept as a parameter a temperature in Fahrenheit and return the corresponding temperature in Celsius.
-`f2c` should accept as a parameter a temperature in Celsius and return the corresponding temperature in Fahrenheit.
+`f2c` should accept as a parameter a temperature in Fahrenheit and return the corresponding temperature in Celsius.
+`c2f` should accept as a parameter a temperature in Celsius and return the corresponding temperature in Fahrenheit.
 
 Neither function should `print`{.python} anything nor ask for any `input`{.python}.
 You should not have any code outside of these two functions.
