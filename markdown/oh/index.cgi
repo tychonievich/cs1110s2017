@@ -56,6 +56,7 @@ print('''<!DOCTYPE html>
     </style>
     <title>CS 1110 Office Hour Queue</title>
 </head><body>
+<p>TA Queue hours are 3&ndash;9pm Sunday through Thursday on days when class is in session.  Requests here will not be handled outside of those times.</p>
 ''')
 
 
@@ -84,6 +85,9 @@ if 'enter' in form:
             })
     else:
         print('<p class="warning">TAs are not allowed to enter the queue</p>')
+elif 'where' in form:
+    print('<p class="warning">Failed to state what you need help with</p>')
+
 if 'help' in form:
     # e.g. help=mst3k
     if me['role'] == 'Student':
@@ -100,6 +104,7 @@ if 'help' in form:
             me['helping'] = help_specific(whom, user)
             if me['helping'] is None:
                 print('<p class="warning">That student is not on the queue</p>')
+
 if 'resolve' in form:
     # e.g. resolve=mst3k&msg=not in stacks
     if me['role'] == 'Student':
@@ -113,6 +118,7 @@ if 'resolve' in form:
             print('<p class="warning">You can\'t resolve a student who has no pending request</p>')
         else:
             me['helping'] = None
+
 if 'unhelp' in form:
     if me['role'] == 'Student':
         print('<p class="warning">Students are not allowed to mark people as unhelped</p>')
