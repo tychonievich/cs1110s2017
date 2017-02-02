@@ -42,7 +42,7 @@ Don't worry if you are off in the last few decimal places
 
 It does not matter in what order you write `c2f` and `f2c`, nor which appears first inside your file.
 
-## IndentationError
+## IndentationError: expected an indented block
 
 You can't have a function without a body; the following code:
 
@@ -75,3 +75,23 @@ def a():
 def b():
     return -2
 ````
+
+
+## SyntaxError: invalid syntax
+
+Typically, this means you left something out or included something you shouldn't, and Python is decent, but not perfect, at pointing out where this happened; for example
+
+````python
+def a()
+    return 0
+````
+
+will point to the spot where a `:` is missing, but something like
+
+````python
+def a(b:
+    return 0
+````
+
+will not know which line is missing the `)`.
+If you don't see what's wrong where it points, look earlier in the file and see if something is wrong up there.
