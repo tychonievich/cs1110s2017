@@ -37,3 +37,41 @@ you should get the following output:
 ````
 
 Don't worry if you are off in the last few decimal places
+
+# Troubleshooting
+
+It does not matter in what order you write `c2f` and `f2c`, nor which appears first inside your file.
+
+## IndentationError
+
+You can't have a function without a body; the following code:
+
+````python
+def a():
+    # nothing here but comments
+    # (nothing at all would give the same error)
+
+
+def b():
+    return -2
+````
+
+will producing the error message `IndentationError: expected an indented block` on the line for `def b():`{.python}.
+This is because
+
+-   every `def`{.python} must be followed by a `:`.
+-   every `:` must be followed by a line of code that is indented more than the line of code before it.
+-   blank lines and lines that contain only comments are not lines of code.
+
+Thus Python reads `def a():`{.python}, then reads forward (skipping blank lines and comments) until it finds `def b():`{.python}, and gets upset because it wanted an indented line first.
+
+If you want to have an empty function, put a docstring in it instead of a comment:
+
+````python
+def a():
+    '''docstrings are python code, so this line counts as an indented line'''
+
+
+def b():
+    return -2
+````
