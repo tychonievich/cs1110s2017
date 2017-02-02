@@ -56,7 +56,7 @@ print('''<!DOCTYPE html>
     </style>
     <title>CS 1110 Office Hour Queue</title>
 </head><body>
-<p>TA Queue hours are 3&ndash;9pm Sunday through Thursday on days when class is in session.  Requests here will not be handled outside of those times.</p>
+<p>Queue hours are 3&ndash;9pm Sunday through Thursday on days when class is in session.  Requests here will not be handled outside of those times.</p>
 ''')
 
 
