@@ -10,18 +10,10 @@ It should return `False` if the two may date each other without being creepy, `T
 See [dating.py](w01-dating.html) for a definition of creepy.
 
 Note: it is possible to solve this problem using `if`, but that is not encouraged.
-Consider the following example of how to return `True` or `False` without `if`:
-
-````python
-def between(x, y):
-    '''returns True if x is bigger than y, False if it is not'''
-    return x > y
-````
-
 Your function should neither `print`{.python} nor ask for any `input`{.python}.
 You should not have any code outside of the function.
 
-You may assume that we only invoke the function with the older age is in the second position.
+You may assume that we only invoke the function with the younger age &ge; 14 and the older age in the second position.
 
 # Example Invocations
 
@@ -54,3 +46,21 @@ print(maydate.creepy(31, 18))
 ````
 
 How hard would it be to make it work for both age orders?
+
+We won't test fractional ages, but does your code work for them?  For example, does it think that a fifteen-year-old can date a fourteen-and-a-half year old?
+
+The rule as given says it is creepy for a 13-year-old to date *anyone*.
+How hard would it be to make a different function that is more permissive, always allowing people to date ±1 year even if they are under 16?
+
+
+# Troubleshooting
+
+Confused on how to not use `if`{.python}? 
+Consider the following example:
+
+````python
+def between(x, y):
+    '''returns True if x is bigger than y, False if it is not'''
+    return x > y
+````
+
