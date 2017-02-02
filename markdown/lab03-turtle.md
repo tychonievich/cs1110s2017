@@ -69,6 +69,9 @@ Save a picture of your image by doing *one* of the following:
     ````python
     turtle._GetScreen()._canvas.postscript(filename="930-OLS-mst3k-mst3k.ps", colormode="color")
     ````
+    
+    Note: Poststript was a precursor to PDF, and many machines can't display it properly.
+    If you can't look at your image; don't worry.
 
 Submit either a `.png` file or a `.ps` file to the Turtle Art Gallery on Dropbox:
 [https://www.dropbox.com/request/LmzdkiDLx8bbnwiDy0VT](https://www.dropbox.com/request/LmzdkiDLx8bbnwiDy0VT).
