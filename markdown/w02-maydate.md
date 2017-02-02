@@ -50,7 +50,8 @@ How hard would it be to make it work for both age orders?
 We won't test fractional ages, but does your code work for them?  For example, does it think that a fifteen-year-old can date a fourteen-and-a-half year old?
 
 The rule as given says it is creepy for a 13-year-old to date *anyone*.
-How hard would it be to make a different function that is more permissive, always allowing people to date &plusmn;1 year even if they are under 16?
+How hard would it be to make a *different* function that is more permissive, always allowing people to date &plusmn;1 year even if they are under 16?
+(Don't use a revised rule like this for the function you turn in!)
 
 
 # Troubleshooting
@@ -64,3 +65,7 @@ def between(x, y):
     return x > y
 ````
 
+Remember that Python cares about indentation, and that every more-indented block must be preceded by a colon `:`.
+
+Want to write something more than just `<`{.python}?  and `>`{.python}?
+There is a chart of other comparison operators (the Python equivalents of things like &ne; and &le; in Python) in &sect;6.1.2.
