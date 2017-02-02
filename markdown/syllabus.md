@@ -58,12 +58,12 @@ Craig Dill
     Office hours: Monday and Wednesday 11--12:45 in Rice 514
 
 Teaching Assistants
-:   Our teaching assistants are students too.
-    Please show them respect and only contact them via piazza or in person during their scheduled office hours.
-    
-    TA office hours are held in the Stacks in Thorton A wing, 3:00--9:00 Sunday through Thursday.
+:   TA office hours are held in the Stacks in Thorton A wing, 3:00--9:00 Sunday through Thursday.
     See [the office hours tab](oh.html) for more on how to get their help.
-    
+
+    Our teaching assistants are students too.
+    Please show them respect and only contact them via piazza, or in person during their scheduled office hours.
+        
     Pestering our TAs when they are off the clock can be penalized under the "professionalism" clause of our grading policy.
 
 Message boards
