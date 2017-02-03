@@ -34,7 +34,7 @@ key:
       topic: hello, world!
       reading: "[revised chapter 2](revised2.2.html); §[5.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.5.2.4)--5.2.5;
       §[4.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.4.1)"
-      notes: "[input and output](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-input-output.pptx)"
+      notes: "[input and output](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-input-output.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/input_output/)"
     - 
       topic: variables, values, and operators
       reading: §[3](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.3) and §[4](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.4)
