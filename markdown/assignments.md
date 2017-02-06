@@ -36,4 +36,4 @@ in the order listed here.
 -   [pseudocode counting squares](lab02-counting.html)
 -   [turtle art contest](lab03-turtle.html)
 -   [madlibs](lab04-madlib.html)
--   [test prep](lab05-paper.html)
+-   [exam prep](lab05-paper.html)
