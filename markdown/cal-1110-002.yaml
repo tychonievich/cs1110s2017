@@ -38,6 +38,7 @@ key:
     - 
       topic: variables, values, and operators
       reading: §[3](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.3) and §[4](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.4)
+      notes: "[PythonTutor](http://pythontutor.com/visualize.html#mode=edit)"
     - 
       topic: functions -- basics, `def`{.python}
       reading: §[5](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.5)--5.2 and §[8](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.8)--8.2.1,
