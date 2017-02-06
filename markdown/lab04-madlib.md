@@ -10,6 +10,10 @@ Each lab TAs are empowered to select their own method of taking roll.
 Please follow your lab TA's instructions.  
 They may dock points if you  are excessively late or leave unusually early.
 
+# Turtle art gallery
+
+We've posted <a href="turtleart/" target="_blank">the turtle art submissions</a>!
+
 # Pairing
 
 For this and all subsequent labs, you will work in pairs.
