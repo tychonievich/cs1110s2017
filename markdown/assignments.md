@@ -29,6 +29,9 @@ in the order listed here.
 2017-02-15 
 :    
     1.  [quadratic.py](w02-quadratic.html)
+2017-02-17 
+:    
+    1.  [bmr.py](w03-bmr.html)
 
 
 # 1110 Labs
