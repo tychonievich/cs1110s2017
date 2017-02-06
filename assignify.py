@@ -25,6 +25,8 @@ programming assignments are due in batches once a week.
 When several are due the same day, we strongly encourage working on and submitting one each day or two,
 in the order listed here.
 
+[Submit assignments here](https://archimedes.cs.virginia.edu/cs1110/)
+
 ''')
 
 for asgn in data['assignments']:
