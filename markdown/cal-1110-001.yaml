@@ -38,7 +38,7 @@ key:
     - 
       topic: functions -- basics, `def`{.python}
       reading: §[5](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.5)--5.2 and §[8](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.8)--8.2.1
-      notes: guest instructor; recordings will not be made or posted "[functions](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-functions.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/functions/)"
+      notes: guest instructor; recordings will not be made or posted [functions](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-functions.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/functions/)
     
     - 
       topic: functions -- flow of control
