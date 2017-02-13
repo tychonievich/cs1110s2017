@@ -61,6 +61,15 @@ class Table(object):
         )
         cls.db.commit()
     @classmethod
+    def update2(cls, kv, where, tail):
+        cls.db.execute('UPDATE ' + str(cls()) + ' SET '
+            + ', '.join("{} = {}".format(k, Table.escape(kv[k])) for k in kv)
+            + ' WHERE '
+            + ' AND '.join("{} = {}".format(k, Table.escape(where[k])) for k in where)
+            + ' ' + tail + ';'
+        )
+        cls.db.commit()
+    @classmethod
     def insert(cls, kv):
         stmt = ('INSERT OR IGNORE INTO ' + str(cls()) + ' ( '
             + ', '.join("{}".format(k) for k in kv if k)
@@ -184,18 +193,36 @@ def enqueue(compid, location, purpose):
 
 def help_specific(student, ta):
     '''Claims a student for a TA'''
-    Queue.update({
-        'compid':student,
+    Queue.update2({
         'helped_by':ta,
         'helped_at':now,
         'charged':charge(),
-    })
-    _queue = None
-    if student in _person: del _person[student] # invalidate cache
-    return Queue.selone(where({'compid':student}))
+    }, {
+        'compid':student,
+        'typeof(helped_by)':'null'
+    }, '')
+    ans = Queue.selone(where({'helped_by':ta}))
+    if ans:
+        _queue = None
+        if student in _person: del _person[student] # invalidate cache
+        return ans
+    
     
 def help_first(ta):
     '''Claims the student at the head of the queue and returns that request'''
+    Queue.update2({
+        'helped_by':ta,
+        'helped_at':now,
+        'charged':charge(),
+    }, {'typeof(helped_by)':'null'}, 'ORDER BY priority ASC LIMIT 1')
+    ans = Queue.selone(where({'helped_by':ta}))
+    if ans:
+        _queue = None
+        student = ans['compid']
+        if student in _person: del _person[student] # invalidate cache
+    return ans
+
+
     claimant = Queue.selone('ORDER BY priority ASC')
     if claimant is None: return None
     return help_specific(claimant['compid'], ta)
