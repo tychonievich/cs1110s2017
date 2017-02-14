@@ -1,5 +1,5 @@
 ---
-title: "Lab 4: Coding on Paper"
+title: "Lab 5: Coding on Paper"
 ...
 
 # Attendance
