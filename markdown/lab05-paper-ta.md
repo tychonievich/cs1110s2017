@@ -2,6 +2,18 @@
 title: "Lab 5: Coding on Paper"
 ...
 
+# Background
+
+The students have had six lectures since the add deadline:
+
+-   one that introduced `print`, `input`, comments, literals, and whitespace
+-   one that introduced `type`, values, `=`, variables, operators, and math
+-   two that introduced `def`, parameters, `return`, and docstrings
+-   one that introduced variable scope, globals, and locals
+-   one that `if`, `elif`, `else`, and comparison operators
+
+One additional lecture before the exam will cover `and`, `or`, and `not`.
+
 # Overview
 
 **for** exercise **in** exercises:
