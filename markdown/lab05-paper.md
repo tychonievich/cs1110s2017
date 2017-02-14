@@ -36,6 +36,7 @@ This lab will run as follows:
 1.  The TAs will review what you've learned this week
 1.  Paper coding questions will be distributed; you'll have some time to work on them
 1.  The TAs will show the reference solution and the grading rubric; you'll grade your own papers
+1.  Conversation about lessons learned and tips for successful testing maybe shared, time allowing
 
 ## Grading rubrics
 
