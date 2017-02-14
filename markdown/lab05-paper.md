@@ -15,6 +15,20 @@ They may dock points if you  are excessively late or leave unusually early.
 For various reasons, CS 1110 exams are given on paper and involve writing code by hand.
 The goal of this lab is to prepare you for that: both the on-paper coding and the idea of being tested.
 
+## TPEGS
+
+We use a system called TPEGS to scan, grade, and return your paper exams.
+For this to work, you need to fill in a bubble sheet on the first page of your exam.
+The bubble region looks like this:
+
+![Blank TPEGS footer](files/tpegs.png)
+
+You fill in your computing ID, skipping rows if you have less than 6 characters in your id, like this:
+
+![Example filled-in TPEGS footers](files/tpegs-examples.png)
+
+The footers are read optically, so please fill in the bubbles darkly (either with ink or dark pencil).
+
 ## Lab mechanics
 
 This lab will run as follows:
