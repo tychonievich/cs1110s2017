@@ -250,7 +250,7 @@ with open('../assignments.csv', 'w') as f:
                 fnames = set(filename.findall(t.read()))
             if not fnames: continue
             testnames = sorted('test_'+x for x in fnames if '*' not in x)
-            testnames = '' if task.startswith('lab')
+            if task.startswith('lab'): testnames = '' 
             w.writerow([
                 task if task.startswith('lab') else task.split('-',1)[1],
                 '|'.join(sorted(fnames)),
