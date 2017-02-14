@@ -103,7 +103,7 @@ else:
     - 1 point: correct comparisons
     - &minus;0--2 points for excessively sloppy or missing indentation
 - 2 points: correct two ages in `else` case
-- Free: missing/extra spaces; put `'` inside a `'`-delimited string
+- Free: missing/extra spaces; putting `'` inside a `'`-delimited string
 - &minus;1 point: `int + str` or other type errors
 - &minus;1 point: used `=` instead of `==`
 - &minus;1 point: poor `if` syntax (keyword, colon, indentation)
