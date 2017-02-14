@@ -14,15 +14,17 @@ The students have had six lectures since the add deadline:
 
 One additional lecture before the exam will cover `and`, `or`, and `not`.
 
-# Overview
+# Running the Lab
 
-**for** exercise **in** exercises:
+1.  Review TPEGS footers from [the lab's main site](lab-5-paper.html#tpegs)
+1.  Review the three kinds of grades listed [on the lab's main site](lab-5-paper.html#grading-rubrics)
+1.  **for** exercise **in** exercises:
 
-- Show the students a coding prompt.
-- Give them time to work on it.
-- Show the example solution; walk through it, answering any questions.
-- Show the rubric; have students grade their own assignments
-- Answer any remaining questions
+    - Show the students a coding prompt.
+    - Give them time to work on it.
+    - Show the example solution; walk through it, answering any questions.
+    - Show the rubric; have students grade their own assignments
+    - Answer any remaining questions
 
 
 # Exercises
