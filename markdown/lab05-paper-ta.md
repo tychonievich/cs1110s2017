@@ -10,7 +10,7 @@ The students have had six lectures since the add deadline:
 -   one that introduced `type`, values, `=`, variables, operators, and math
 -   two that introduced `def`, parameters, `return`, and docstrings
 -   one that introduced variable scope, globals, and locals
--   one that `if`, `elif`, `else`, and comparison operators
+-   one that introduced `if`, `elif`, `else`, and comparison operators
 
 One additional lecture before the exam will cover `and`, `or`, and `not`.
 
