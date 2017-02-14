@@ -108,7 +108,7 @@ else:
 - &minus;1 point: used `=` instead of `==`
 - &minus;1 point: poor `if` syntax (keyword, colon, indentation)
 - &minus;1 point: missing quotation marks
-
+- up to &minus;3 points for excessively sloppy indentation or writing
 
 ## Function
 
@@ -158,7 +158,7 @@ def ordinal(n):
 - 2 points: `return`, not `print`
 - &minus;1 point: used `=` instead of `==`
 - &minus;1 point: poor `if` syntax (keyword, colon)
-- &minus;0--2 points for excessively sloppy or missing indentation
+- up to &minus;4 points for excessively sloppy indentation or writing
 
 ## Function
 
@@ -206,4 +206,4 @@ def norm_num(n):
 - 2 points: `return`, not `print`
 - &minus;1 point: used `=` instead of `==`
 - &minus;1 point: poor `if` syntax (keyword, colon, indentation)
-- &minus;0--2 points for excessively sloppy or missing indentation
+- up to &minus;3 points for excessively sloppy indentation or writing
