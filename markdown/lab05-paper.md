@@ -62,3 +62,37 @@ Every piece of code looks a little different and we don't expect perfection on p
 
 We'll show you an actual point break-down after you code---we make custom rubrics for each question, often giving away part of the answer, so you won't get to see the rubric before you code.
 
+# What else is on the exam?
+
+In addition to coding-on-paper, we typically include
+
+-   We might ask you what example code does, such as
+
+    What does the following print?
+
+    ````python
+    def f(g):
+        print(g + g)
+    g = "3"
+    f(g)
+    print(g)
+    ````
+    
+-   We might ask you for the type, value, or both of an expression; for example, we might expect you to identify that `2 * 3 / 2`{.python} is value `3.0`, type `float`.
+
+-   We might ask open-ended questions, like "What is one advantage of writing functions in your code?"
+    
+    We don't ask very many of these kinds of questions because it is hard to find questions where all instructors agree on the right grading policy, but we like to ask at least a few.
+
+-   We might ask questions about Python syntax and semantics, such as
+
+    Which of the following is an error?
+    
+    1.  `2 * 3`{.python}
+    1.  `'2' * 3`{.python}
+    1.  `2 * '3'`{.python}
+    1.  `'2' * '3'`{.python}
+
+We try to design the exam so that the median student completes it before the 50 minutes are up.
+Hitting this goal is not easy, but we try...
+
