@@ -32,6 +32,9 @@ in the order listed here.
 2017-02-17 
 :    
     1.  [bmr.py](w03-bmr.html)
+2017-02-20 
+:    
+    1.  [averages.py](w03-averages.html)
 
 
 # 1110 Labs
