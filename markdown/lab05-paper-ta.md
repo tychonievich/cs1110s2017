@@ -47,6 +47,8 @@ a**b % 7
 - 2 points for writing just an expression (no `print`, `def`, `=`, etc)
 - 2 points for a fully correct answer
 - Extra parentheses are free
+- If it is not clear what was meant (e.g., the `*` look like `∙` or `x`) give at most half of the points for the portion in question
+- If comments describe the right process but code is not present, give at most half of the points
 
 ## Program
 
@@ -97,6 +99,7 @@ else:
     - 1 point: one and only one case used per run
     - 1 point: compare `2017-birth` to `age` or `2017` to `birth+age`
     - 1 point: correct comparisons
+    - &minus;0--2 points for excessively sloppy or missing indentation
 - 2 points: correct two ages in `else` case
 - Free: missing/extra spaces; put `'` inside a `'`-delimited string
 - &minus;1 point: `int + str` or other type errors
@@ -152,7 +155,8 @@ def ordinal(n):
     - 3 points: has approximation of other three cases
 - 2 points: `return`, not `print`
 - &minus;1 point: used `=` instead of `==`
-- &minus;1 point: poor `if` syntax (keyword, colon, indentation)
+- &minus;1 point: poor `if` syntax (keyword, colon)
+- &minus;0--2 points for excessively sloppy or missing indentation
 
 ## Function
 
@@ -200,3 +204,4 @@ def norm_num(n):
 - 2 points: `return`, not `print`
 - &minus;1 point: used `=` instead of `==`
 - &minus;1 point: poor `if` syntax (keyword, colon, indentation)
+- &minus;0--2 points for excessively sloppy or missing indentation
