@@ -45,5 +45,5 @@ Every piece of code looks a little different and we don't expect perfection on p
     -   If we say "Write a function" give us a function, not a program
     -   Don't confuse input for arguments, nor return for print
 
-We'll show you an actual point break-down after you code---we make custom rubrics for each question, often giving away part of the answer.
+We'll show you an actual point break-down after you code---we make custom rubrics for each question, often giving away part of the answer, so you won't get to see the rubric before you code.
 
