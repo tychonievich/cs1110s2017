@@ -19,7 +19,31 @@ Additionally, you should implement your solution such that
 
 # Example Invocations
 
-(will be added soon)
+When you run `averages.py`, nothing should happen.
+It defines functions, it does not run them.
+
+If in another file (which you do not submit) you write the following:
+
+````python
+import averages
+
+print(averages.mean(1, 5, 1))
+print(averages.median(1, 5, 1))
+print(averages.rms(1, 5, 1))
+print(averages.middle_average(1, 5, 1))
+````
+
+you should get the following output:
+
+````
+2.3333333333333335
+1
+3.0
+2.3333333333333335
+````
+
+Don't worry if you are off in the last few decimal places.
+
 
 # Thought Question
 
