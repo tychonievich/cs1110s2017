@@ -50,7 +50,7 @@ Every piece of code looks a little different and we don't expect perfection on p
 
 2.  Correctness.  The algorithm you write should solve the problem given.
 
-    -   Partial credit for solving some cases but not all (but no credit for [hard coding](faq.html#what-is-hard-coding)
+    -   Partial credit for solving some cases but not all (but no credit for [hard coding](faq.html#what-is-hard-coding))
     -   Partial credit for comments outlining a good approach without supporting code
     -   Partial credit for a few missing bits
 
