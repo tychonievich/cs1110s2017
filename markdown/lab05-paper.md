@@ -119,7 +119,7 @@ Python operators
     -   The update-assignment versions of each operator (e.g., `+=`)
 
 Variables and assignment
-:
+:   
     -   Correct syntax for assignment operator `=`
     -   Local vs global scope
     -   That a variable names a (_value_, _type_) pair
