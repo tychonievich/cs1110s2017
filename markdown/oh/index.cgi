@@ -45,7 +45,7 @@ print('''<!DOCTYPE html>
     <meta charset="UTF-8">''')
 if 'tud' not in me['role']:
     print('<meta http-equiv="refresh" content="5" >')
-print(''''
+print('''
     <style>
     body, table, th, td, input, select, option { font-size:100%; }
     textarea { width: 100%; }
