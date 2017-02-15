@@ -151,7 +151,6 @@ else:
     - 1 point: one and only one case used per run
     - 1 point: compare `2017-birth` to `age` or `2017` to `birth+age`
     - 1 point: correct comparisons
-    - &minus;0--2 points for excessively sloppy or missing indentation
 - 2 points: correct two ages in `else` case
 - Free: missing/extra spaces; putting `'` inside a `'`-delimited string
 - &minus;1 point: `int + str` or other type errors
