@@ -48,11 +48,11 @@ key:
       topic: functions -- scope, `global`{.python}
       reading: §[8.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.8.3)
     - 
-      topic: decisions -- `if`{.python} and `else`{.python}
+      topic: decisions -- `if`{.python}, `elif`{.python}, and `else`{.python}
       reading: §[6.1.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.6.1.2) and §[6.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.2)--6.2.3
     
     - 
-      topic: decisions -- `elif`{.python} and logical operators (not on exam 1)
+      topic: decisions -- logical operators (not on exam 1)
       reading: rest of §[6.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.1)--6.2
       notes: "**never** use §[6.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.3)'s `exit()`{.python} function"
     - 
