@@ -42,7 +42,10 @@ else:
 
 print('''<!DOCTYPE html>
 <html><head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">''')
+if 'tud' not in me['role']:
+    print('<meta http-equiv="refresh" content="5" >')
+print(''''
     <style>
     body, table, th, td, input, select, option { font-size:100%; }
     textarea { width: 100%; }
@@ -53,6 +56,7 @@ print('''<!DOCTYPE html>
     th, td { padding: 0ex 1ex; }
     thead { border-bottom: thin solid black; }
     tbody th { padding: 1ex; text-align: left; }
+    .queuefull { background-color: yellow; }
     </style>
     <title>CS 1110 Office Hour Queue</title>
 </head><body>
@@ -216,7 +220,10 @@ else:
             ))
         print('<tbody></table>')
     else:
-        print('<p>Current queue size: {}</p>{}'.format(queue_size(), refresh))
+        tmp = queue_size()
+        if tmp > 0:
+            print('<script>document.body.className = "queuefull";</stript>')
+        print('<p>Current queue size: {}</p>{}'.format(tmp, refresh))
     if me['helping'] is None:
         print('''
         <form action="" method="POST">
