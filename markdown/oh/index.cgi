@@ -30,8 +30,6 @@ me = person(user)
 if me is None:
     print('Sorry, user {} is not on our roles'.format(repr(user)))
     exit()
-else:
-    print('<p>Logged in as {} ({}), a {}</p>'.format(me['name'], user, me['role']))
 
 
 if me['role'] == 'Student':
@@ -62,6 +60,7 @@ print('''
 </head><body>
 <p>Queue hours are 3&ndash;9pm Sunday through Thursday on days when class is in session.  Requests here will not be handled outside of those times.</p>
 ''')
+print('<p>Logged in as {} ({}), a {}</p>'.format(me['name'], user, me['role']))
 
 
 # step two: handle requests
