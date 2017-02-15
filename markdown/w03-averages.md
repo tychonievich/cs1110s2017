@@ -51,7 +51,7 @@ How often is each of the three averages the middle average?  Are any of them alw
 
 Can you use default values to allow your functions to work if only two arguments are supplied?  To get you started, consider writing `def mean(a, b, c=None):`{.python}.  If you get those working, what about allowing four or five values?
 
-(Note: there [is a way](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists) to have arbitrarily-long argument lists, but we won't discuss the `tuple`{.python} construct is uses for a few weeks yet.)
+(Note: there [is a way](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists) to have arbitrarily-long argument lists, but we won't discuss the `tuple`{.python} construct it uses for a few weeks yet.)
 
 There are [many other averages](https://en.wikipedia.org/wiki/Average); if you want additional practice, see how many of them you can get working.
 
