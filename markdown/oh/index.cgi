@@ -229,12 +229,19 @@ else:
         <form action="" method="POST">
             <input type="hidden" name="help" value="first"/>
             <input type="submit" value="Help first student on queue"/>
-        </form>
-        
-        <form action="" method="GET">
-            <input type="submit" name="display" value="Show full queue"/>
-        </form>
-        ''')
+        </form>''')
+        if 'display' in form:
+            print('''
+            <form action="" method="POST">
+                <input type="submit" name="ignore" value="Hide queue"/>
+            </form>
+            ''')
+        else:
+            print('''
+            <form action="" method="GET">
+                <input type="submit" name="display" value="Show full queue"/>
+            </form>
+            ''')
     else:
         stud = Person.selone(where({'compid':me['helping']['compid']}))
         stud.update(me['helping'])
