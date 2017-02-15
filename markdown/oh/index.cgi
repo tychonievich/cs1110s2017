@@ -232,7 +232,7 @@ else:
         </form>''')
         if 'display' in form:
             print('''
-            <form action="" method="POST">
+            <form action="." method="POST">
                 <input type="submit" name="ignore" value="Hide queue"/>
             </form>
             ''')
