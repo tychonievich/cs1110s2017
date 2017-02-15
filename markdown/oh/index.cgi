@@ -221,7 +221,7 @@ else:
     else:
         tmp = queue_size()
         if tmp > 0:
-            print('<script>document.body.className = "queuefull";</stript>')
+            print('<script>document.body.className = "queuefull";</script>')
         print('<p>Current queue size: {}</p>{}'.format(tmp, refresh))
     if me['helping'] is None:
         print('''
