@@ -42,7 +42,13 @@ print('''<!DOCTYPE html>
 <html><head>
     <meta charset="UTF-8">''')
 if 'tud' not in me['role']:
-    print('<meta http-equiv="refresh" content="5" >')
+    qsize = queue_size()
+    print('<meta http-equiv="refresh" content="15" >')
+    print('<title>({}) CS 1110 Office Hour Queue</title>'.format(qsize))
+    if qsize > 0:
+        print('<style>body { background-color: yellow; }</style>')
+else:
+    print('<title>CS 1110 Office Hour Queue</title>')
 print('''
     <style>
     body, table, th, td, input, select, option { font-size:100%; }
@@ -54,9 +60,7 @@ print('''
     th, td { padding: 0ex 1ex; }
     thead { border-bottom: thin solid black; }
     tbody th { padding: 1ex; text-align: left; }
-    .queuefull { background-color: yellow; }
     </style>
-    <title>CS 1110 Office Hour Queue</title>
 </head><body>
 <p>Queue hours are 3&ndash;9pm Sunday through Thursday on days when class is in session.  Requests here will not be handled outside of those times.</p>
 ''')
@@ -219,10 +223,7 @@ else:
             ))
         print('<tbody></table>')
     else:
-        tmp = queue_size()
-        if tmp > 0:
-            print('<script>document.body.className = "queuefull";</script>')
-        print('<p>Current queue size: {}</p>{}'.format(tmp, refresh))
+        print('<p>Current queue size: {}</p>{}'.format(qsize, refresh))
     if me['helping'] is None:
         print('''
         <form action="" method="POST">
