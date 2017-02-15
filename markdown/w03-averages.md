@@ -58,7 +58,7 @@ There are [many other averages](https://en.wikipedia.org/wiki/Average); if you w
 
 # Troubleshooting
 
-Your `mean` function can be a single line, as all it is doing is math.
+Your `mean` function can be a single line, as it only does math.
 
 Your `median` function will probably need several `if`{.python} statements.
 
@@ -66,4 +66,4 @@ Did you test out your `median` when all three argument values are the same?
 
 For `rms`, recall that <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ceaad50b7a0ae8ad64014319f138887ec5147f6c" title="square root means one-half power"/> and that the exponentiation operator in Python is `**`{.python}.
 
-Find yourself tempted to copy the contents of one function into another one? Your should probably *invoke* the copied function instead of copying it.
+Find yourself tempted to copy the contents of one function into another one? Your should *invoke* the copied function instead of copying it.
