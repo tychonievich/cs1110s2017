@@ -140,7 +140,7 @@ Functions
     -   Why we like functions
 
 Conditionals
-:
+:   
     -   Definition with `if`{.python}, `elif`{.python}, and `else`{.python}
     -   Putting conditionals inside functions or other conditionals
     -   The relational operators `<`, `<=`, `==`, `!=`, `>=`, `>`
