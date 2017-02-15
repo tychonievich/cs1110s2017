@@ -29,6 +29,8 @@ One additional lecture before the exam will cover `and`, `or`, and `not`.
 
 # Exercises
 
+See [google slides](https://docs.google.com/presentation/d/1e0Uc4ffu3tmSY_6uEqOkfqpunXYwVd61XWIoUGIne_w/edit#slide=id.g1b137bde0c_0_51) for these exercises prepped for lab.
+
 ## One-liner
 
 Write a Python expression for "the remainder of _a_^_b_^ divided by seven"
