@@ -231,7 +231,7 @@ else:
             <input type="submit" value="Help first student on queue"/>
         </form>
         
-        <form action="" method="POST">
+        <form action="" method="GET">
             <input type="submit" name="display" value="Show full queue"/>
         </form>
         ''')
