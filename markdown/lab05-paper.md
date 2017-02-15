@@ -72,10 +72,14 @@ In addition to coding-on-paper, we typically include
 
     ````python
     def f(g):
-        print(g + g)
+        global h
+        h = g + g
+        print(h)
     g = "3"
+    h = 4
     f(g)
     print(g)
+    print(h)
     ````
     
 -   We might ask you for the type, value, or both of an expression; for example, we might expect you to identify that `2 * 3 / 2`{.python} is value `3.0`, type `float`.
@@ -96,3 +100,47 @@ In addition to coding-on-paper, we typically include
 We try to design the exam so that the median student completes it before the 50 minutes are up.
 Hitting this goal is not easy, but we try...
 
+# Things we expect you to know
+
+Built-in functions in Python
+:   
+    -   `print`{.python}
+    -   `input`{.python} -- and related terminology like "prompt"
+    -   `int`{.python} -- what it does given a string or a float and when it creates an error
+    -   `str`{.python} -- what it does given an integer or a float
+    -   `float`{.python} -- what it does given a string or an integer
+    -   `len`{.python} -- to find length of strings
+    -   `type`{.python} -- to find the type of a value
+
+Python operators
+:   
+    -   `-`, `+`, `*`, `/`, `%`, `//`, `**`
+    -   How operators and types interact (e.g., that `type(4/2)`{.python} is `<class 'float'>` not `<class 'int'>`; that `+` works on strings but `-` does not; etc).
+    -   The update-assignment versions of each operator (e.g., `+=`)
+
+Variables and assignment
+:
+    -   Correct syntax for assignment operator `=`
+    -   Local vs global scope
+    -   That a variable names a (_value_, _type_) pair
+    -   the `global` keyword
+    
+Literals
+:   
+    -   Integer literals like `1111`{.python}
+    -   Floating-point literals like `11.11`{.python}
+    -   String literals in all their forms: `'single'`{.python}, `"double"`{.python}, `'''triple-single'''`{.python}, `"""tripple-double"""`{.python}, and `'with \'escape sequences\' for internal quotes'`{.python}
+
+Functions
+:   
+    -   Definition with `def name(argument, list):`{.python}
+    -   `return`{.python}: what it does, including that it ends the function
+    -   invocation with `name(argument, values)`{.python}
+    -   Creation and conclusion of local scope
+    -   Why we like functions
+
+Conditionals
+:
+    -   Definition with `if`{.python}, `elif`{.python}, and `else`{.python}
+    -   Putting conditionals inside functions or other conditionals
+    -   The relational operators `<`, `<=`, `==`, `!=`, `>=`, `>`
