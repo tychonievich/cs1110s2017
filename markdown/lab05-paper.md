@@ -73,7 +73,9 @@ In addition to coding-on-paper, we typically include
     ````python
     def f(g):
         global h
-        h = g + g
+        g = g + g
+        h = g
+        print(g)
         print(h)
     g = "3"
     h = 4
@@ -129,7 +131,7 @@ Literals
 :   
     -   Integer literals like `1111`{.python}
     -   Floating-point literals like `11.11`{.python}
-    -   String literals in all their forms: `'single'`{.python}, `"double"`{.python}, `'''triple-single'''`{.python}, `"""tripple-double"""`{.python}, and `'with \'escape sequences\' for internal quotes'`{.python}
+    -   String literals in all their forms: `'single'`{.python}, `"double"`{.python}, `'''triple-single'''`{.python}, `"""triple-double"""`{.python}, and `'with \'escape sequences\' for internal quotes'`{.python}
 
 Functions
 :   
