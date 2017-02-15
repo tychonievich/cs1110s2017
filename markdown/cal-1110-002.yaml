@@ -53,7 +53,7 @@ key:
     - 
       topic: decisions -- `if`{.python}, `else`{.python}, and `elif`{.python}
       reading: §[6.1.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.6.1.2) and §[6.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.2)--6.2.3
-    
+      notes: "[decisions](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-decisions.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/decisions/)"
     - 
       topic: logical operators (not on exam 1)
       reading: rest of §[6.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.1)--6.2
