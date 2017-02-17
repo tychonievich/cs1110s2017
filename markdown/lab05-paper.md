@@ -2,6 +2,8 @@
 title: "Lab 5: Coding on Paper"
 ...
 
+The slides used in lab can be found [here](https://docs.google.com/a/virginia.edu/presentation/d/1e0Uc4ffu3tmSY_6uEqOkfqpunXYwVd61XWIoUGIne_w)
+
 # Attendance
 
 We will be taking roll in lab each week! Please come to your assigned lab to be counted present!
@@ -15,7 +17,6 @@ They may dock points if you  are excessively late or leave unusually early.
 For various reasons, CS 1110 exams are given on paper and involve writing code by hand.
 The goal of this lab is to prepare you for that: both the on-paper coding and the idea of being tested.
 
-> The slides used in lab can be found [here](https://docs.google.com/a/virginia.edu/presentation/d/1e0Uc4ffu3tmSY_6uEqOkfqpunXYwVd61XWIoUGIne_w)
 
 ## TPEGS
 
