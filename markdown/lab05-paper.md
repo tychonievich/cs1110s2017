@@ -2,7 +2,9 @@
 title: "Lab 5: Coding on Paper"
 ...
 
+<center style="font-size:200%">
 The slides used in lab can be found [here](https://docs.google.com/a/virginia.edu/presentation/d/1e0Uc4ffu3tmSY_6uEqOkfqpunXYwVd61XWIoUGIne_w)
+</center>
 
 # Attendance
 
