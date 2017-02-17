@@ -58,7 +58,9 @@ key:
     - 
       topic: review
       reading: §[2](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.2)--5.2, §[6.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.6.1)--6.2.3, §[8.2.2](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.2)--8.2.6, §[8.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.8.3)
-    - exam 1
+    - 
+      topic: exam 1
+      reading: see [lab 5](lab05-paper.html)
     
     - 
       topic: code readability, elegance
