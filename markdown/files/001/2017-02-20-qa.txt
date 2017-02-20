@@ -1,0 +1,111 @@
+wording of questions - 
+	expression => becomes a value
+		"int expression" means an expression that evaluates to an int
+	statement => line you can run (usually has =, return, print)
+		if-statements are several lines
+	definition of a function: def ... end of indentation 
+		"int function" means a function that returns an int
+	condition of an if part between if and the : (always a bool expression)
+	
+	print, display, show, reply
+	input, ask
+	
+	a program is run, a function is invoked
+	
+will we lose points for _________
+	using topics that are not on the test: no (unless it removes the question)
+	
+are there multiple-choice questions?
+	maybe?
+
+----
+
+local vs global scope
+return vs print
+
+str comparison
+concatentations
+
+update assignment operators
+
+hard coding (soft coding does not exist)
+
+if else and elif
+	if can appear by itself
+	else and elif cannot -- must follow an if or an elif
+	
+	if x < 3:
+		...
+	
+	
+	if x < 3:
+		...
+	elif x > 5:
+		...
+	
+	
+	if x < 3:
+		...
+	else:
+		...
+
+
+	if x < 3:
+		...
+	elif x < 2:
+		... # this code will never run
+	elif x > 5:
+		...
+	if x <= 4: # this begins a separate if statement
+		...
+	else:
+		...
+
+
+	if x < 3:
+		...
+	else:
+		if x < 2:
+			... # this code will never run
+		else:
+			if x > 5:
+				...
+	if x <= 4:
+		...
+	else:
+		...
+
+
+
+
+not on this exam:
+	for range command
+	turtle?
+	value vs reference
+	
+
+
+comments in exam code
+	not necessary
+
+grammar of function writing
+docstring
+
+required:
+	def name():
+		something indented (we call the indented part the "body" of the function)
+optionally:
+	def name(arg1, arg2, ...):
+		'''we call this a docstring'''
+		something indented
+		more things indented
+		return is special
+
+
+global
+escape sequences
+	inside a string literal '...'   or "..."
+	\ followed by a letter
+	\' \"
+	\n -- a newline, ... not on test 1
+	
