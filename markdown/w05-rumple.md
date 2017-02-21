@@ -23,6 +23,8 @@ and end the program.
 If they enter the wrong name, give some kind of triumphant reply (e.g., `Ha! You'll never guess!`)
 and then ask them to guess again.
 
+Use the same name every time your program is run.
+
 # Example Invocations
 
 Each implementation of `rumple.py` might have a different target name.
