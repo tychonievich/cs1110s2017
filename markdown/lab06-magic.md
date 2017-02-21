@@ -64,8 +64,8 @@ return the last answer option
 Write a function that takes as an argument a string representing a question.
 Perform some basic checks to see if the string is unlikely to be yes/no; if it is, return some kind of `You were supposed to ask a yes/no question` message; otherwise invoke the function you wrote in the previous step.
 
-Questions that begin with `Who`, `What`, `When`, `Where`, `Why`, or `How` are almost never yes/no questions.
-Questions that begin with `Does`, `Is`, `Can`, or `Will` are usually yes/no questions.
+Questions that begin with `Who`, `What`, `When`, `Where`, `Why`, or `How` are usually open-ended questions.
+Questions that begin with `Can`, `Does`, `Is`, `Should`, or `Will` are usually yes/no questions.
 You can add as many of these rules of thumb as you wish.
 
 FYI, an educated guess implemented in software is called a **heuristic**.
