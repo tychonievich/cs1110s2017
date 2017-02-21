@@ -68,7 +68,7 @@ Questions that begin with `Who`, `What`, `When`, `Where`, `Why`, or `How` are al
 Questions that begin with `Does`, `Is`, `Can`, or `Will` are usually yes/no questions.
 You can add as many of these rules of thumb as you wish.
 
-FYI, an educated guess like implemented in software is called a **heuristic**.
+FYI, an educated guess implemented in software is called a **heuristic**.
 
 ## Make it a program
 
@@ -87,7 +87,6 @@ def tk_input(prompt):
     '''Python comes with a windowing library called Tk, part of the TCL/Tk system.
     This function uses that to make a popup-window clone of the built-in function
     input.'''
-    
     import tkinter
     
     root = tkinter.Tk() # make a window on the screen
@@ -103,7 +102,7 @@ def tk_input(prompt):
     
     # 2.a. create some place they can type
     entry = tkinter.Entry(root)
-    entry.pack(fill=tkinter.X) # the fill part is optional...
+    entry.pack(fill=tkinter.X) # (the fill=tkinter.X part is optional...)
     
     # 2.b. waiting is tricky: mainloop waits, bind and whendone stop waiting
     def whendone(widget):
@@ -131,8 +130,7 @@ for example, we could make the fonts bigger by
     entry = tkinter.Entry(root, font=big_font)
 ````
 
-... and so on.
-The official documentation for Tk is not great, but there are many examples you can find online.
+The official documentation for Tk is not great, but there are many examples you can find by searching for `python tkinter` online.
 
 ### Using windows in submissions
 
