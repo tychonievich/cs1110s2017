@@ -74,7 +74,7 @@ FYI, an educated guess implemented in software is called a **heuristic**.
 
 Prompt the user to ask you a question.
 Use your functions to get an answer and display it to the user.
-If the answer is your `not yes/no question` answer, use an `if`{.python} statement to ask for a second question and get a second answer.
+If the answer is your `not yes/no question` answer, use an `if`{.python} statement to ask for a second question and get a second answer to display instead of the first.
 
 ## (Optional) Make it graphical
 
@@ -154,7 +154,7 @@ for example, we could make the fonts bigger by
     entry = tkinter.Entry(root, font=big_font)
 ````
 
-The official documentation for Tk is not great, but there are many examples you can find by searching for `python tkinter` online.
+The [official documentation for Tk](https://docs.python.org/3/library/tkinter.html#module-tkinter) is not as detailed as others, but it links to several other documentation efforts and there are also many examples you can find by searching for `python tkinter` online.
 
 ### Using windows in submissions
 
