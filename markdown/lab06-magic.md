@@ -115,7 +115,9 @@ def tk_input(prompt):
     
     # 3. we only get to this line after input is available
     #    the input is inside the Entry, so we get it out to return
-    return entry.get()
+    answer = entry.get()
+    root.destroy() # clean up tkinter, to be polite
+    return answer
 
 def tk_print(message):
     '''Python comes with a windowing library called Tk, part of the TCL/Tk system.
@@ -137,6 +139,7 @@ def tk_print(message):
         root.quit()
     root.bind('<Return>', whendone)
     root.mainloop()
+    root.destroy() # clean up tkinter, to be polite
 ````
 
 There are *many* ways we could customize this code;
