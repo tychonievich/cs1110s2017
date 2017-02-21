@@ -116,6 +116,27 @@ def tk_input(prompt):
     # 3. we only get to this line after input is available
     #    the input is inside the Entry, so we get it out to return
     return entry.get()
+
+def tk_print(message):
+    '''Python comes with a windowing library called Tk, part of the TCL/Tk system.
+    This function uses that to make a popup-window clone of the one-argument
+    version of the built-in function print.'''
+    import tkinter
+    
+    root = tkinter.Tk() # make a window on the screen
+    
+    # 1. display a message
+    prompt = tkinter.Label(root, text=str(message))
+    prompt.pack() # tells Tk "place this Label in the window"
+    
+    # 2. close if they press enter
+    def whendone(widget):
+        '''We want the window to disappear when the user pressed Return.
+        This function is a *callback*, a function called on an event,
+        which implements that behavior'''
+        root.quit()
+    root.bind('<Return>', whendone)
+    root.mainloop()
 ````
 
 There are *many* ways we could customize this code;
