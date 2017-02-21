@@ -9,21 +9,21 @@ Various folk tales (namely those of Aarne-Thompson type 500) hinge on the diffic
 This assignment has you implement such a system.
 
 Write a program named `rumple.py` that repeatedly asks the user to guess a name until it guesses the right one.
-So that we can test your program, open with a version of the rhyme the Brothers Grimm added to their variant of the story:
+So that we can test your program, the first thing your program does must be to print the following line:
 
 ````
 You will never win the game, for Rumpelstiltskin is my name.
 ````
 
-... replacing `Rumpelstiltskin` with whichever name you picked.  Please pick a name that neither begins nor ends with spaces.
+... replacing `Rumpelstiltskin` with whichever name you picked.
+Match the wording of this line exactly, as we will have a computer try to find the name within it.
+Use the same name every time your program is run.
 
-Then repeatedly ask the user to `Guess my name:`;
+After printing that line, repeatedly ask the user to `Guess my name:`;
 If they enter the correct name, give some kind of frustrated reply (e.g., `No! How did you guess?`)
 and end the program.
 If they enter the wrong name, give some kind of triumphant reply (e.g., `Ha! You'll never guess!`)
 and then ask them to guess again.
-
-Use the same name every time your program is run.
 
 # Example Invocations
 
