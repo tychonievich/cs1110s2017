@@ -17,6 +17,7 @@ Special Dates:
     - "[turtle art contest](lab03-turtle.html)"
     - "[madlibs](lab04-madlib.html)"
     - "[exam prep](lab05-paper.html)"
+    - "[oracle](lab06-magic.html)"
     
 assignments:
   -
@@ -40,3 +41,7 @@ assignments:
   -
     due: 2017-02-20
     links: [w03-averages]
+  -
+    due: 2017-03-01
+  -
+    due: 2017-03-03
