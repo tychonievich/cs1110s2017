@@ -73,20 +73,72 @@ FYI, an educated guess like implemented in software is called a **heuristic**.
 
 Prompt the user to ask you a question.
 Use your functions to get an answer and display it to the user.
-If the answer is `not yes/no question`, use an `if`{.python} statement to ask for a second question and get a second answer.
+If the answer is your `not yes/no question` answer, use an `if`{.python} statement to ask for a second question and get a second answer.
 
 ## (Optional) Make it graphical
 
 So far we've only used console programs, but Python also comes with a graphical user inteface (GUI) library pre-installed call `tkinter`.
-GUIs require a bit of overhead to use, but if you want to here is a way to get started:
+GUIs require a bit of overhead to use because there are many things we have to tell the computer,
+but if you want to here is a way to get started.
 
+````python
+def tk_input(prompt):
+    '''Python comes with a windowing library called Tk, part of the TCL/Tk system.
+    This function uses that to make a popup-window clone of the built-in function
+    input.'''
+    
+    import tkinter
+    
+    root = tkinter.Tk() # make a window on the screen
+    
+    # input(prompt) does three things: it displays a prompt, waits for user input, and returns that input
+    
+    # display a prompt
+    prompt = tkinter.Label(root, text=prompt)
+    prompt.pack() # tells Tk "place this Label in the window"
+    
+    # create some place they can type
+    entry = tkinter.Entry(root)
+    entry.pack(fill=tkinter.X) # the fill part is optional...
+    
+    def whendone(widget):
+        '''We want the window to disappear when the user pressed Return.
+        This function is a *callback*, a function called on an event,
+        which implements that behavior'''
+        root.quit()
+    root.bind('<Return>', whendone)
+    
+    # wait for input
+    root.mainloop()
+    
+    # we only get to this line after input is available
+    # the input is inside the Entry, so we get it out to return
+    return entry.get()
+````
 
+There are *many* ways we could customize this code;
+for example, we could make the fonts bigger by
 
+````python
+    import tkinter.font
+    big_font = tkinter.font.Font(size=40)
+    # ...
+    prompt = tkinter.Label(root, text=prompt, font=big_font)
+    # ...
+    entry = tkinter.Entry(root, font=big_font)
+````
 
+... and so on.
+The official documentation for Tk is not great, but there are many examples you can find online.
+
+### Using windows in submissions
+
+You are welcome to submit a graphical solution to this lab.
+For other submissions *don't submit Tk code unless we specifically state it is allowed*.
 
 ## Submission
 
-**Each partner** should submit one .py file named `madlib.py` to Archimedes (the submission system):
+**At least one partner** should submit one .py file named `magic.py` to Archimedes (the submission system):
 [https://archimedes.cs.virginia.edu/cs1110/](https://archimedes.cs.virginia.edu/cs1110/).
 Please put **both partners' ids** in comments at the top of the file.
 
