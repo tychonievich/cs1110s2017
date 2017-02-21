@@ -36,7 +36,11 @@ in the order listed here.
 :    
     1.  [averages.py](w03-averages.html)
 2017-03-01 
-:    TBA
+:    
+    1.  [tester.py](w04-tester.html)
+2017-03-03 
+:    
+    1.  [rumple.py](w05-rumple.html)
 
 
 # 1110 Labs
