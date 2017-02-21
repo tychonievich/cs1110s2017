@@ -36,7 +36,8 @@ As an enrichment activity, we'll also talk about how to make these graphical ins
 
 ## Return a random string
 
-Write a function that takes no argument and returns a random string that is a grammatically sound answer to a yes/no question.  `Yes` and `No` are obvious possibilities, but so are things like `Definitely`, `Wait and see`, `You won't like the answer`, etc.
+Write a function that takes no argument and returns a random string that is a grammatically sound answer to a yes/no question.  `Yes` and `No` are obvious possibilities, but so are things like `Definitely`, `You wish`, `Wait and see`, `You won't like the answer`, etc.
+Make your function able to return at least two yes-like answers, at least two no-like answers, and at least one not-an-answer.
 
 There are many ways of doing this, but one of the most uniformly random is as follows.
 
@@ -91,28 +92,30 @@ def tk_input(prompt):
     
     root = tkinter.Tk() # make a window on the screen
     
-    # input(prompt) does three things: it displays a prompt, waits for user input, and returns that input
+    # input(prompt) does three things: 
+    # 1. it displays a prompt, 
+    # 2. waits for user input, and 
+    # 3. returns that input
     
-    # display a prompt
+    # 1. display a prompt
     prompt = tkinter.Label(root, text=prompt)
     prompt.pack() # tells Tk "place this Label in the window"
     
-    # create some place they can type
+    # 2.a. create some place they can type
     entry = tkinter.Entry(root)
     entry.pack(fill=tkinter.X) # the fill part is optional...
     
+    # 2.b. waiting is tricky: mainloop waits, bind and whendone stop waiting
     def whendone(widget):
         '''We want the window to disappear when the user pressed Return.
         This function is a *callback*, a function called on an event,
         which implements that behavior'''
         root.quit()
     root.bind('<Return>', whendone)
-    
-    # wait for input
     root.mainloop()
     
-    # we only get to this line after input is available
-    # the input is inside the Entry, so we get it out to return
+    # 3. we only get to this line after input is available
+    #    the input is inside the Entry, so we get it out to return
     return entry.get()
 ````
 
