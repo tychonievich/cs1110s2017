@@ -68,7 +68,7 @@ key:
     - 
       topic: code readability, elegance
       reading: §[3.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.3.4), §[8.2.9](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.9)--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
-      notes: "[exercise](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-decisions.html), [sample solution](http://www.cs.virginia.edu/~up3f/cs1110/examples/decisions/simple_grid.txt)"
+      notes: "[exercise](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-decisions.html), [sample solution](http://www.cs.virginia.edu/~up3f/cs1110/examples/decisions/simple_grid.txt), [lecture-note by Virginia Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: testing
       
