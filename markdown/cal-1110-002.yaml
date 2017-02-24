@@ -70,6 +70,7 @@ key:
       reading: §[3.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.3.4), §[8.2.9](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.8.2.9)--8.2.10; skim [PEP 8](https://www.python.org/dev/peps/pep-0008/)
     - 
       topic: testing
+      reading: [testing writeup](testing.html)
     - 
       topic: repeating with `while`{.python}
       reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1)
