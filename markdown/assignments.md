@@ -52,3 +52,4 @@ in the order listed here.
 -   [madlibs](lab04-madlib.html)
 -   [exam prep](lab05-paper.html)
 -   [oracle](lab06-magic.html)
+-   [nim](lab07-nim.html)
