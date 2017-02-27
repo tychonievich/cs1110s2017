@@ -71,7 +71,7 @@ key:
       notes: "[exercise](http://www.cs.virginia.edu/~up3f/cs1110/inclass/inclass-decisions.html), [sample solution](http://www.cs.virginia.edu/~up3f/cs1110/examples/decisions/simple_grid.txt), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: testing
-      
+      reading: our own [testing writeup](testing.html)
     - 
       topic: repeating with `while`{.python}
       reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1)
