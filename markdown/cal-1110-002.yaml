@@ -72,6 +72,7 @@ key:
     - 
       topic: testing
       reading: our own [testing writeup](testing.html)
+      notes: "[writing test cases](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-ISP.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/testing/)"
     - 
       topic: repeating with `while`{.python}
       reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1)
