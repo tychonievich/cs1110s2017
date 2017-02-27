@@ -236,9 +236,12 @@ Both forms of regrade requests are subject to the following policies:
 -   When regrading, we reserve the right to regrade the entire exam or assignment, which may result in either an increase or a decrease in your grade. We are not trying to scare off students whose exams or assignments were graded incorrectly, but we are trying to avoid frivolous requests.
 
 What should be regraded?
+
 -   Your answer is the same as what is on the key, but the grader didn’t realize it.
 -   Your answer is different, but is also correct (code that compiles and runs correctly, but is different than the key).
+
 What should not be regraded?
+
 -   “Most of what I wrote is correct, so I think I deserve more partial credit.”
 -   “I wrote so much, and the grader didn’t notice that the correct answer is buried somewhere within this long paragraph.”
 -   “I’m just 1 point away from an A, so I thought it was worth scrounging around to find an extra point somewhere.”
