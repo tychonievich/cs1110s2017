@@ -70,8 +70,8 @@ key:
       reading: our own [testing writeup](testing.html)
     - 
       topic: repeating with `while`{.python}
-      reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1), §[11](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.11), §[12.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.1), 
-      §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)
+      reading: "§[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1), §[11](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.11), §[12.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.1), 
+      §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
 
     - 
       topic: composite datatypes -- strings, ranges, lists, tuples
