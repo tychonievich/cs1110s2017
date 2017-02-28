@@ -41,6 +41,12 @@ in the order listed here.
 2017-03-03 
 :    
     1.  [rumple.py](w05-rumple.html)
+2017-03-15 
+:    
+    1.  [higher_lower.py](w06-higher-lower.html)
+2017-03-17 
+:    
+    1.  [higher_lower_player.py](w06-higher-lower2.html)
 
 
 # 1110 Labs
