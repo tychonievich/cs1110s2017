@@ -91,11 +91,17 @@ key:
       topic: flexible indices -- `dict`{.python}
       reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13)
     
-    - reading data -- `open`{.python} and `urllib`{.python}
-    - understanding data
+    - 
+      topic: reading data -- `open`{.python} and `urllib`{.python}
+      reading: §[16.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.16.2), §[27.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.27.3)
+    - 
+      topic: understanding data
+      reading: Wikpedia on [delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
     - more on the data theme
     
-    - polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
+    - 
+      topic: polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
+      reading: §[17.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.17.2)
     - review
     - exam 2
     
