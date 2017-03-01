@@ -77,7 +77,7 @@ key:
       topic: repeating with `while`{.python}
       reading: "§[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1), §[11](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.11), §[12.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.1), 
       §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
-      notes: "[loops](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-loops.pptx)"
+      notes: "[loops](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-loops.pptx), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     
     - composite datatypes -- strings, ranges, lists, tuples
       
