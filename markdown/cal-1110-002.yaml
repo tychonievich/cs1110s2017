@@ -75,7 +75,8 @@ key:
       notes: "[writing test cases](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-ISP.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/testing/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: repeating with `while`{.python}
-      reading: §[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1)
+      reading: "§[7.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.1), §[11](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.11), §[12.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.1), 
+      §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
     
     - composite datatypes -- strings, ranges, lists, tuples
     - iteration -- the `for`{.python} loop
