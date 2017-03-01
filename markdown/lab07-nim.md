@@ -151,7 +151,7 @@ This will likely need the help of an additional function `power_of_two_below(n)`
 :   Start with 1, repeatedly double it until it is > *n*, then divide it by 2 and return
 
 `optimal_move(n)`
-:   Return *x* such that `x + (power_of_two(n) - 1)` = *n*
+:   Return *x* such that `x + (power_of_two_below(n) - 1) == n`
     ... unless that *x* is < 1 or > *n* ÷ 2; in that case return 1 instead.
 
 Then use `optimal_move` instead of `input_between` for Player 2.
