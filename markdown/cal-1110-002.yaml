@@ -81,14 +81,14 @@ key:
     
     - 
       topic: composite datatypes -- strings, ranges, lists, tuples
-      reading: §[10.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.4),    
+         
     
     - 
       topic: iteration -- the `for`{.python} loop
-      reading: §[7.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.7)
+      
       
     - methods and mutability -- why `list`{.python} is special
-      reading: §[10.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.4)
+     
     
     - applications of lists and strings
     - testing list and string code
