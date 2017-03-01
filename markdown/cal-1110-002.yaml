@@ -79,12 +79,12 @@ key:
       §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
       notes: "[loops](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-loops.pptx)"
     
-    - 
-      topic: composite datatypes -- strings, ranges, lists, tuples
+    - composite datatypes -- strings, ranges, lists, tuples
+      
          
     
-    - 
-      topic: iteration -- the `for`{.python} loop
+    - iteration -- the `for`{.python} loop
+      
       
       
     - methods and mutability -- why `list`{.python} is special
