@@ -58,6 +58,11 @@ There are three basic approaches to making this work.
         while the pile is not empty
             do the current plater's turn
             toggle the current player (e.g., new current player = 3 - old current player)
+    
+    Why `3 - player`? Because it swaps 1 and 2:
+    
+    -   3 − 1 → 2
+    -   3 − 2 → 1
 
 -   Your `while`{.python} loop can be organized like
 
@@ -69,7 +74,7 @@ There are three basic approaches to making this work.
             if the pile is empty
                 break out of the loop
 
-    In Python, "break out of the loop" is spelled `break`{.python}
+    In Python, "break out of the loop" is spelled `break`{.python} (just that word, by itself on a line)
 
 We encourage you to get the basic gameplay working first.
 You should be able to run a game like the following:
