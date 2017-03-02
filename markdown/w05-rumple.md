@@ -82,4 +82,7 @@ The code you submit should *not* include any of these extensions.
 
 # Troubleshooting
 
-You'll probably either need an `if`{.python} statement or two different `input` invocations.
+We designed this assignment to use a `while`{.python} loop.  There are solutions that don't use one, but they are a lot more complicated than ones that do.
+
+There are several ways of structuring the loop.  Depending on which you pick,
+you'll probably either need an `if`{.python} statement or two different `input` invocations.
