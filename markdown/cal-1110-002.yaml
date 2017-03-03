@@ -82,6 +82,7 @@ key:
     - 
       topic: composite datatypes -- strings, ranges, lists, tuples
       reading: §[10.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.4)
+      notes: "[lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
          
     
