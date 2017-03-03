@@ -79,7 +79,9 @@ key:
       §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
       notes: "[loops](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-loops.pptx), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     
-    - composite datatypes -- strings, ranges, lists, tuples
+    - 
+      topic: composite datatypes -- strings, ranges, lists, tuples
+      reading: §[10.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.4)
       
          
     
