@@ -103,7 +103,10 @@ key:
       topic: flexible indices -- `dict`{.python}
       reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13)
     
-    - reading data -- `open`{.python} and `urllib`{.python}
+    - 
+      topic: reading data -- `open`{.python} and `urllib`{.python}
+      reading: §[16.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.16.2), §[27.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.27.3)
+      
     - understanding data
     - more on the data theme
     
