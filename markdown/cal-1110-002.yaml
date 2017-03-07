@@ -113,7 +113,10 @@ key:
 
     - more on the data theme
     
-    - polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
+    - 
+      topic: polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
+      reading: §[17.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.17.2)
+    
     - review
     - exam 2
     
