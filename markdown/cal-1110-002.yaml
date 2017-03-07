@@ -93,9 +93,15 @@ key:
       reading: §[12.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.2), §[12.5](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.5),
 
     
-    - applications of lists and strings
+    - 
+      topic: applications of lists and strings
+      reading: §[10.6](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.6), §[12.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.4)
+      
     - testing list and string code
-    - flexible indices -- `dict`{.python}
+    
+    -     
+      topic: flexible indices -- `dict`{.python}
+      reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13)
     
     - reading data -- `open`{.python} and `urllib`{.python}
     - understanding data
