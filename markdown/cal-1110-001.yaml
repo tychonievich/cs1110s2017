@@ -77,11 +77,11 @@ key:
       reading: "§[10.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.4), §[11](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.11), §[12.1](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.1), 
       §[12.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.3)"
     - 
-      topic: iteration -- the `for`{.python} loop
-      reading: §[7.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.7)
-    - 
       topic: methods and mutability -- why `list`{.python} is special
       reading: §[12.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.2), §[12.5](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.5),
+    - 
+      topic: iteration -- the `for`{.python} loop
+      reading: §[7.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.7)
     
     - 
       topic: applications of lists and strings
