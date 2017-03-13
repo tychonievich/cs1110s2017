@@ -86,7 +86,7 @@ key:
          
     - 
       topic: iteration -- the `for`{.python} loop
-      reading: §[7.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.7)
+      reading: §[7.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.7.2)
       notes: "[loops, from slide 13](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-loops.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/loops/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
     - 
