@@ -59,3 +59,4 @@ in the order listed here.
 -   [exam prep](lab05-paper.html)
 -   [oracle](lab06-magic.html)
 -   [nim](lab07-nim.html)
+-   [wahoo spoon](lab08-spoon.html)
