@@ -47,7 +47,7 @@ Luther Tychonievich
 Upsorn Praphamontripong
 :   Office: Rice 206
 
-    Office hours: Wednesday 2:00--3:30; Thursday 9:30-11:30
+    Office hours: Wednesday 2:00--4:00; Thursday 9:30-11:30
 
     Email: up3f@virginia.edu 
 
