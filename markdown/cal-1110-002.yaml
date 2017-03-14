@@ -114,7 +114,7 @@ key:
       reading: Wikpedia on [delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
 
     - 
-      more on the data theme
+      topic: more on the data theme
       notes: "guest instructor"
     - 
       topic: polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
