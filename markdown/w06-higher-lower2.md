@@ -86,7 +86,7 @@ Even if you get it working, submit the integer-only version.
 
 # Troubleshooting
 
-Every prompt of every `input`{.python} should end with a space character, for this and every other assignment. 
+Every prompt of every `input`{.python} should end with a space character, for this and every other assignment that uses `input`{.python}. 
 
 You want integers, not floats.  Round down if rounding is required.
 
