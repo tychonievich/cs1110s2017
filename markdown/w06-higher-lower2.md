@@ -86,6 +86,8 @@ Even if you get it working, submit the integer-only version.
 
 # Troubleshooting
 
+Every prompt of every `input`{.python} should end with a space character, for this and every other assignment. 
+
 You want integers, not floats.  Round down if rounding is required.
 
 If the initial range is \[1, 100\] and the user says `higher` to 50, what is the new range?

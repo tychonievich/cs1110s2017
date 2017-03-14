@@ -57,6 +57,8 @@ Try adding a loop to ensure that the number of guesses is a positive number, ask
 
 # Troubleshooting
 
+Every prompt of every `input`{.python} should end with a space character, for this and every other assignment. 
+
 You'll want to use a loop.  Both `for`{.python} and `while`{.python} can work.
 
 ---
