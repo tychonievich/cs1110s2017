@@ -44,9 +44,12 @@ in the order listed here.
 2017-03-15 
 :    
     1.  [higher_lower.py](w06-higher-lower.html)
-2017-03-17 
+2017-03-20 
 :    
-    1.  [higher_lower_player.py](w06-higher-lower2.html)
+    1.  [roman.py](w07-roman.html)
+2017-03-24 
+:    
+    1.  [credit_card.py](w07-credit.html)
 
 
 # 1110 Labs
