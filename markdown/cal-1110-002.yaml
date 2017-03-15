@@ -103,8 +103,8 @@ key:
     
     -     
       topic: flexible indices -- `dict`{.python}
-      reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13)
-    
+      reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13) 
+      notes: "[dict](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-dictionaries.pptx)"    
     - 
       topic: reading data -- `open`{.python} and `urllib`{.python}
       reading: §[16.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.16.2), §[27.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.27.3)
