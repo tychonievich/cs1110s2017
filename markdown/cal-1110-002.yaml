@@ -92,7 +92,7 @@ key:
     - 
       topic: methods and mutability -- why `list`{.python} is special
       reading: §[12.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.2), §[12.5](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.5),
-      notes: "[lists](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-list.pptx)"
+      notes: "[lists](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-list.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/datatype/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     
     - 
       topic: applications of lists and strings
