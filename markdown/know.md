@@ -53,9 +53,4 @@ Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included o
 -   `import urllib.request`
     -   `urllib.request.urlopen(url)`{.python}
     -   `stream.read().decode('utf-8')`{.python}
-    -   
-        ````python
-        for line in stream:
-            line = line.decode('utf-8')
-        ````
 
