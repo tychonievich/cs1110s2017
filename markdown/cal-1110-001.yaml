@@ -102,7 +102,9 @@ key:
     - 
       topic: polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
       reading: §[17.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.17.2)
-    - review
+    - 
+      topic: review
+      notes: "[things to know](know.html)"
     - exam 2
     
     - game design with `gamebox`{.python}
