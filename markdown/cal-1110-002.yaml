@@ -97,7 +97,7 @@ key:
     - 
       topic: applications of lists and strings
       reading: §[10.6](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.6), §[12.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.4)
-      notes: "[strings](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-string-processing.pptx), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/practice_1.txt), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
+      notes: "[strings](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-string-processing.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/datatype/), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
     - testing list and string code
     
