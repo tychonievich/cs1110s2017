@@ -86,7 +86,9 @@ key:
     - 
       topic: applications of lists and strings
       reading: §[10.6](http://www.spronck.net/pythonbook/pythonbook.pdf#section.10.6), §[12.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.12.4)
-    - debugging techniques
+    - 
+      topic: debugging techniques
+      notes: "[buggy code](files/001/spoon.py)"
     - 
       topic: flexible indices -- `dict`{.python}
       reading: §[13](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.13)
