@@ -101,7 +101,7 @@ key:
       
     - 
       topic: debugging techniques
-     
+      notes: "[examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/testing/), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     
     -     
       topic: flexible indices -- `dict`{.python}
