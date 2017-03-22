@@ -36,7 +36,7 @@ incorrect                            fix
 
 ----
 
-These lines have been added to `populate_list(etext)`.
+Incorrect lines have been added to `populate_list(etext)`.
 This results in the contents of `snark.txt` not being in the dicts
 
 incorrect                    fix
@@ -44,6 +44,21 @@ incorrect                    fix
 `master_list = {}`{.python}  *delete this line*
 `frequencies = {}`{.python}  *delete this line*
 
+
+----
+
+An if statement has been removed from the beginning of `most_commonly_with(target)`.
+This results in an error message when typing a word that is not in the corpus.
+
+
+incorrect   fix
+----------- ----------------------------------------
+*missing*   `if target not in master_list:`{.python}
+*missing*   `    return None`{.python}
+
+    
+        
+    
 
 
 ----
