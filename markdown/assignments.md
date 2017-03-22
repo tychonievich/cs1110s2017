@@ -66,3 +66,4 @@ in the order listed here.
 -   [oracle](lab06-magic.html)
 -   [nim](lab07-nim.html)
 -   [wahoo spoon](lab08-spoon.html)
+-   [debugging practice](lab09-debug.html)
