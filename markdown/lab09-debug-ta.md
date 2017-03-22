@@ -60,16 +60,11 @@ incorrect   fix
 *missing*   `if target not in master_list:`{.python}
 *missing*   `    return None`{.python}
 
-    
-        
-    
 
+## Add parentheses
 
-----
-
-The parentheses of the following line of `most_commonly_with`'s `bycount` function have been removed.
+parentheses are missing from the following line of `most_commonly_with`'s `bycount` function.
 This results in the wrong frequencies being found.
-
 
 incorrect                                                         fix
 ----------------------------------------------------------------  -----------------------------------------------------

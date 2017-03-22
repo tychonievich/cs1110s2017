@@ -3,18 +3,15 @@ This program reads text files
 (such as might be downloaded from http://www.gutenberg.org/ebooks/13)
 and reports pairs of words that appear together with unusually high probability.
 
-Basic design:
-    Chop the text into pieces
-    Store a dict-of-dicts, like
-        {"word1":{"word2":number, "word3":number2}}
+This program relies on two global dicts:
+
+	master_list[word1][word2]
+		is the number of times word1 and word2 appear together
+
+	frequencies[word1]
+		is the number of times word1 appears
 '''
 
-
-# Set up the two dicts we'll need.
-# master_list[word1][word2] is the number of times word1 and word2 appear together
-master_list = {}  
-# frequencies[word1] is the number of times word1 appears
-frequencies = {}
 
 
 def phrases(etext):
@@ -43,8 +40,10 @@ def words(phrase):
 def populate_list(etext):
     '''Adds the frequencies from one text to the master_list'''
     global master_list, frequencies
-    master_list = {}
-    frequencies = {}
+
+	master_list = {}  
+	frequencies = {}
+
     for phrase in phrases(etext):
         for word1 in words(phrase):
             if word1 in frequencies:
@@ -74,7 +73,8 @@ def most_commonly_with(target):
     def bycount(e):
         '''A sort-by function for use in the key= argument of the sort function;
         should put the most-frequent word in the last place,
-        where we measure frequency_together / frequency_apart.
+        where we measure frequency_together / frequency_apart,
+        where frequency_apart is the sum of the frequency of each word.
                 
         The idea of a key function is "sort as if the values were the results of this function";
         for example, sort(key=abs) puts -3 after 2 and before 4'''
