@@ -14,6 +14,10 @@ Remind them that they should *either* fix all bugs *or* work until the end of la
 
 # The Bugs
 
+In order of code lines,
+
+## `replace` doesn't modify, it returns
+
 The `etext =` is missing in the following lines of `phrases(etext)`.
 This results in some words appearing with sentence-trailing punctuation.
 
@@ -23,7 +27,8 @@ incorrect                            fix
 `etext.replace('!', '.')`{.python}   `etext = etext.replace('!', '.')`{.python}
 `etext.replace('?', '.')`{.python}   `etext = etext.replace('?', '.')`{.python}
 
-----
+
+## Don't skip `"I"`
 
 The `len(word) == 1` is missing in the following line of `words(phrase)`.
 This results in `i` not being found.
@@ -33,19 +38,18 @@ incorrect                            fix
 `if word != word.upper():`{.python}  `if len(word) == 1 or word != word.upper():`{.python}
 
 
+## Don't re-set dicts
 
-----
-
-Incorrect lines have been added to `populate_list(etext)`.
-This results in the contents of `snark.txt` not being in the dicts
+Global dictionary initialization is inside `populate_list(etext)`.
+This results in the contents of `snark.txt` not being in the dicts because it was over-written by `alice.txt`
 
 incorrect                    fix
 ---------------------------- ---------------------------------------
-`master_list = {}`{.python}  *delete this line*
-`frequencies = {}`{.python}  *delete this line*
+`master_list = {}`{.python}  *move outside the function*
+`frequencies = {}`{.python}  *move outside the function*
 
 
-----
+## Check for missing words
 
 An if statement has been removed from the beginning of `most_commonly_with(target)`.
 This results in an error message when typing a word that is not in the corpus.
