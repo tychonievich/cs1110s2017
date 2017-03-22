@@ -19,7 +19,7 @@ listed in order of where they appear in the code.
 
 ## `replace` doesn't modify, it returns
 
-The `etext =` is missing in the following lines of `phrases(etext)`.
+The `etext =`{.python} is missing in the following lines of `phrases(etext)`{.python}.
 This results in some words appearing with sentence-trailing punctuation.
 
 incorrect                            fix
@@ -31,8 +31,8 @@ incorrect                            fix
 
 ## Don't skip `"I"`
 
-The `len(word) == 1` is missing in the following line of `words(phrase)`.
-This results in `i` not being found.
+The `len(word) == 1`{.python} is missing in the following line of `words(phrase)`{.python}.
+This results in `i`{.python} not being found.
 
 incorrect                            fix
 ------------------------------------ -----------------------------------------------------
@@ -41,7 +41,7 @@ incorrect                            fix
 
 ## Don't re-set dicts
 
-Global dictionary initialization is inside `populate_list(etext)`.
+Global dictionary initialization is inside `populate_list(etext)`{.python}.
 This results in the contents of `snark.txt` not being in the dicts because it was over-written by `alice.txt`
 
 incorrect                    fix
@@ -52,19 +52,19 @@ incorrect                    fix
 
 ## Check for missing words
 
-An if statement has been removed from the beginning of `most_commonly_with(target)`.
+An `if`{.python} statement has been removed from the beginning of `most_commonly_with(target)`{.python}.
 This results in an error message when typing a word that is not in the corpus.
 
 
 incorrect   fix
 ----------- ----------------------------------------
 *missing*   `if target not in master_list:`{.python}
-*missing*   `    return None`{.python}
+*missing*   `    return None`{.python}
 
 
 ## Add parentheses
 
-parentheses are missing from the following line of `most_commonly_with`'s `bycount` function.
+parentheses are missing from the following line of `most_commonly_with`{.python}'s `bycount`{.python} function.
 This results in the wrong frequencies being found.
 
 incorrect                                                         fix
