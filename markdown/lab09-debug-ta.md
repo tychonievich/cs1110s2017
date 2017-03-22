@@ -39,10 +39,11 @@ incorrect                            fix
 These lines have been added to `populate_list(etext)`.
 This results in the contents of `snark.txt` not being in the dicts
 
-````python
-master_list = {}
-frequencies = {}
-````
+incorrect                    fix
+---------------------------- ---------------------------------------
+`master_list = {}`{.python}  *delete this line*
+`frequencies = {}`{.python}  *delete this line*
+
 
 
 ----
@@ -50,7 +51,9 @@ frequencies = {}
 The parentheses of the following line of `most_commonly_with`'s `bycount` function have been removed.
 This results in the wrong frequencies being found.
 
-````python
-return counts[e]/(frequencies[e] + frequencies[target])
-````
+
+incorrect                                                         fix
+----------------------------------------------------------------  -----------------------------------------------------
+`return counts[e]/frequencies[e] + frequencies[target]`{.python}  `return counts[e]/(frequencies[e] + frequencies[target])`{.python}
+
 
