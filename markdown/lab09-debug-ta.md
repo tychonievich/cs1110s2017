@@ -14,7 +14,8 @@ Remind them that they should *either* fix all bugs *or* work until the end of la
 
 # The Bugs
 
-In order of code lines,
+The bugs I introduced are as follows,
+listed in order of where they appear in the code.
 
 ## `replace` doesn't modify, it returns
 
