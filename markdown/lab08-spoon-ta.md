@@ -1,5 +1,5 @@
 ---
-title: "Lab 6: WahooSpoon - TA guide"
+title: "Lab 8: WahooSpoon - TA guide"
 ...
 
 # Background
