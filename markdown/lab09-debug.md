@@ -80,7 +80,7 @@ Some of the bugs are intentionally somewhat obscure… reading the comments and 
 The code uses some parts of Python we have not taught you,
 such as the `sort(key=bycount)`{.python} call on line 76 and the `word.strip(',;:-"[](){}<>/“”‘’_*')`{.python} on line 35.
 We did not put bugs in these lines.
-We also did lie in comments or docstrings.
+We also do not lie in comments or docstrings.
 
 ## Test Cases
 
