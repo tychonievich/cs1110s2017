@@ -17,16 +17,21 @@ Remind them that they should *either* fix all bugs *or* work until the end of la
 The `etext =` is missing in the following lines of `phrases(etext)`.
 This results in some words appearing with sentence-trailing punctuation.
 
-````python
-etext = etext.replace('\n', '.')
-etext = etext.replace('!', '.')
-etext = etext.replace('?', '.')
-````
+
+incorrect                             fix
+------------------------------------  ------------------------------------
+````python                            ````python
+etext = etext.replace('\n', '.')      etext = etext.replace('\n', '.')
+etext = etext.replace('!', '.')       etext = etext.replace('!', '.')
+etext = etext.replace('?', '.')       etext = etext.replace('?', '.')
+````                                  ````
 
 ----
 
 The `len(word) == 1` is missing in the following line of `words(phrase)`.
 This results in `i` not being found.
+
+
 
 ````python
 if len(word) == 1 or word != word.upper():
