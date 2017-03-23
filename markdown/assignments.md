@@ -55,6 +55,12 @@ in the order listed here.
     1.  [credit_card.py](w07-credit.html)
 2017-03-27 
 :    
+    1.  [seive.py](w08-seive.html)
+2017-03-31 
+:    
+    1.  [lous_list.py](w08-louslist.html)
+2017-04-03 
+:    
     1.  [spellcheck.py](w08-spellcheck.html)
 
 
