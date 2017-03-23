@@ -53,6 +53,9 @@ in the order listed here.
 2017-03-24 
 :    
     1.  [credit_card.py](w07-credit.html)
+2017-03-27 
+:    
+    1.  [spellcheck.py](w08-spellcheck.html)
 
 
 # 1110 Labs
