@@ -64,4 +64,10 @@ assignments:
     links: [w07-credit]
   -
     due: 2017-03-27
+    links: [w08-seive]
+  -
+    due: 2017-03-31
+    links: [w08-louslist]
+  -
+    due: 2017-04-03
     links: [w08-spellcheck]
