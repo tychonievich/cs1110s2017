@@ -5,11 +5,11 @@ and reports pairs of words that appear together with unusually high probability.
 
 This program relies on two global dicts:
 
-	master_list[word1][word2]
-		is the number of times word1 and word2 appear together
+    master_list[word1][word2]
+        is the number of times word1 and word2 appear together
 
-	frequencies[word1]
-		is the number of times word1 appears
+    frequencies[word1]
+        is the number of times word1 appears
 '''
 
 
@@ -41,8 +41,8 @@ def populate_list(etext):
     '''Adds the frequencies from one text to the master_list'''
     global master_list, frequencies
 
-	master_list = {}  
-	frequencies = {}
+    master_list = {}  
+    frequencies = {}
 
     for phrase in phrases(etext):
         for word1 in words(phrase):
