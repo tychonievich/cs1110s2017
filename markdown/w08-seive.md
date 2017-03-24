@@ -4,7 +4,7 @@ title: seive.py
 
 # Task
 
-Write a function `prime` with a single argument `x`
+Write a function `primes` with a single argument `x`
 that returns a list of all prime numbers less than `x`.
 You may assume that `x` is an integer greater than 2.
 
