@@ -16,5 +16,5 @@ The office hour queue contains a description of its design, but the short versio
 -   When there are several people waiting, the more TA time you take now the longer it will be before a TA comes again: short targeted questions are best in busy times.
 -   Your position in line is based not on how long you've been waiting but instead based on when you last got TA help.  Thus, in busy times it is in your interest to wait until you've got your question clear before entering the queue and to retract your request if you solve it before a TA arrives.
 
-
+We periodically post a snapshot of office hour utilization patterns [on its own page](ohlog.html)
 
