@@ -110,7 +110,7 @@ key:
     - 
       topic: reading data -- `open`{.python} and `urllib`{.python}
       reading: §[16.2](http://www.spronck.net/pythonbook/pythonbook.pdf#section.16.2), §[27.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.27.3)
-      notes: "[dict](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-file-urllib.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/file/), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
+      notes: "[file and urllib](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-file-urllib.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/file/), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: understanding data
       reading: Wikpedia on [delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
