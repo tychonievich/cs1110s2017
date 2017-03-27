@@ -114,7 +114,7 @@ key:
     - 
       topic: understanding data
       reading: Wikpedia on [delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
-
+      notes: "[file and urllib](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-file-urllib.pptx), [examples](http://www.cs.virginia.edu/~up3f/cs1110/examples/file/), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: more on the data theme
       notes: "guest instructor"
