@@ -36,7 +36,7 @@ For each line on the page, the fields are (in order):
 -   Course Number (1)
 -   Section (2)
 -   Course Title (3)
--   Instructor (4) -- which may end with `+1` (or more; GBUS has a `+4` lecture) for multi-instructor classes
+-   Instructor (4) -- which may end with `+1` (or more; GBUS has a `+4` lecture) for multi-instructor classes.  This will always be a single-digit number if present.
 -   Type of class (5)
 -   Hours (6)
 -   Monday (7)
