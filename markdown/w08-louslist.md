@@ -152,3 +152,4 @@ The `def`{.python}-lines in the problem writeup will handle the default argument
 
 `level=3823` and `level=3000` should do the same thing as one another...
 
+Because the `+1` indicator is always a single-digit number if present, it can be detected by looking for the `+` (which always has the same index from the end of the string).
