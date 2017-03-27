@@ -121,12 +121,12 @@ print(lous_list.instructors('BME'))
 
 print('-'*40)
 
-for f in class_search('CS', level=3000, not_before=1100, not_after=1100):
+for f in lous_list.class_search('CS', level=3000, not_before=1100, not_after=1100):
     print(f)
 
 print('-'*40)
 
-print(len(class_search('CS', False, 3000, not_after=1300)))
+print(len(lous_list.class_search('CS', False, 3000, not_after=1300)))
 ````
 
 you should get the following output
