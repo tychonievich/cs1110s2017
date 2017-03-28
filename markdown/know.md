@@ -18,6 +18,20 @@ Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included o
 
 # Exam 2
 
+Since exam 1, we have covered
+
+-   Boolean values (`True`{.python} and `False`{.python}) and operators (`and`{.python}, `or`{.python},  and `not`{.python})
+-   Test case selection and debugging strategies
+-   Loops (`while`{.python}, `for`{.python})
+-   Collection types (`str`{.python}, `list`{.python}, `tuple`{.python}, `range`{.python})
+-   The basics of the `dict`{.python} datatype
+-   Reading files and web sites
+-   Reading tabular data (such as CSV)
+
+In general, we find questions directly about `tuple`{.python}, test case selection, and debugging strategies do not fit well into our exams.  However, the underlying concepts may appear in some way.  We typically intentionally test all other topics.
+
+We expect you to know the following built-in and library functions:
+
 -   `import random`{.python}
     -   `random.randrange(lo, hi)`{.python}
     -   `random.shuffle(list)`{.python}
