@@ -76,3 +76,4 @@ in the order listed here.
 -   [nim](lab07-nim.html)
 -   [wahoo spoon](lab08-spoon.html)
 -   [debugging practice](lab09-debug.html)
+-   [location finder](lab10-wendys.html)
