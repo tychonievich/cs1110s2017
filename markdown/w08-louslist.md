@@ -142,7 +142,7 @@ you should get the following output
 
 # Troubleshooting
 
-Each department has its own URL: <http://cs1110.cs.virginia.edu/files/louslist/CS>, <http://cs1110.cs.virginia.edu/files/louslist/ECE>, etc.  That ending string (`CS`, `ECE`, etc) is provided as the `department` argument to each function.
+Each department has its own URL: <http://cs1110.cs.virginia.edu/files/louslist/CS>, <http://cs1110.cs.virginia.edu/files/louslist/ECE>, etc.  That ending string (`CS`, `ECE`, etc) is provided as the `department` or `dept_name` argument to each function.
 
 Don't forget to `decode('utf-8')` what you read from the web.
 
