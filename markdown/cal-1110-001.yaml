@@ -100,7 +100,9 @@ key:
       topic: understanding data
       reading: Wikpedia on [delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
       notes: "[vastats.csv](files/vastats.csv)"
-    - more on the data theme
+    - 
+      topic: more on the data theme
+      notes: "[fake-queue.csv](files/fake-queue.csv)"
     
     - 
       topic: polite code -- using `try`{.python} and `except`{.python} (not on exam 2)
