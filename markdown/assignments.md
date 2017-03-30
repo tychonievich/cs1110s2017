@@ -56,10 +56,10 @@ in the order listed here.
 2017-03-27 
 :    
     1.  [seive.py](w08-seive.html)
-2017-03-31 
+2017-04-03 
 :    
     1.  [lous_list.py](w08-louslist.html)
-2017-04-03 
+2017-04-07 
 :    
     1.  [spellcheck.py](w08-spellcheck.html)
 
