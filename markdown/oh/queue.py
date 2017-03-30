@@ -292,7 +292,7 @@ def checkin_forgotten(minutes):
     '''checks in all students who have been helped for >= specified number of minutes'''
     old = Queue.sellist('WHERE helped_at < {}'.format(now - minutes*60))
     for row in old:
-        print(row)
+        print(row['student'])
 
 
 if __name__ == '__main__':
