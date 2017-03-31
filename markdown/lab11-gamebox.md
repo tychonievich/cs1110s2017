@@ -95,7 +95,7 @@ If any one works, you're good to go.
 
 -   `pip3 install pygame --user`{.bash}
 
--   If you have an old version, you might need to do the following:
+-   If you have an old version of python, you might need to do the following:
 
     ````bash
     sudo apt-get install libsdl-dev libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev portmidi
@@ -103,6 +103,8 @@ If any one works, you're good to go.
     sudo pip3 install --upgrade pip
     sudo pip3 install pygame
     ````
+
+If you have trouble, ask a TA.  If they have trouble too, come see a professor during office hours.
 
 ## Getting Gamebox
 
