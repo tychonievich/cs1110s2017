@@ -77,3 +77,4 @@ in the order listed here.
 -   [wahoo spoon](lab08-spoon.html)
 -   [debugging practice](lab09-debug.html)
 -   [location finder](lab10-wendys.html)
+-   [gamebox installation](lab11-gamebox.html)
