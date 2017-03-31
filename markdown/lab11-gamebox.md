@@ -117,7 +117,7 @@ If you run `gamebox.py` direcly you should see something like this:
 
 ![Gamebox's self-test display](files/gamebox-selftext.png)
 
-If you have trouble getting fonts / text to work, try opening a terminal window and running `fc-list`. Let that run to completion and try again.
+If you have trouble getting fonts / text to work, try opening a terminal window and running `fc-list`{.bash}. Let that run to completion and try again.
 
 If you don't see this window, *please* see a TA or professor to get it working before moving on!
 
