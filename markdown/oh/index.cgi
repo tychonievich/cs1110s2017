@@ -31,7 +31,7 @@ if me is None:
     print('Sorry, user {} is not on our roles'.format(repr(user)))
     exit()
 
-queue.checkin_forgotten(60)
+Queue.checkin_forgotten(60)
 
 if me['role'] == 'Student':
     me['pos'] = queue_position(user)
