@@ -64,9 +64,9 @@ How you get it depends on your operating system.
     -   [Open the Terminal](revised2.2.html) and enter three lines, one at a time in order,
         each beginning with a paste of what you copied:
         
-        1.  *paste* `get-pip.py`
-        2.  *paste* `-m pip install wheel`
-        3.  *paste* `-m pip pygame-windows-3.6.whl` (replace `3.6` with the number you downloaded in step 2).
+        1.  *paste* ` get-pip.py`
+        2.  *paste* ` -m pip install wheel`
+        3.  *paste* ` -m pip pygame-windows-3.6.whl` (replace `3.6` with the number you downloaded in step 2).
         
 If you have trouble, ask a TA.  If they have trouble too, come see a professor during office hours.
 
@@ -126,11 +126,12 @@ If you don't see this window, *please* see a TA or professor to get it working b
 
 
 
-# PyGame Example
+# PyGame Examples
 
-Every PyGame / gamebox game looks basically the same. Start with the
-template code below:
+Every PyGame / gamebox game looks basically the same.
+We'll discuss this in some detail over the coming class sessions, but if you want a head start you can try the following codes.
 
+## Blank game
 
 ````python
 # blank game template
@@ -162,7 +163,7 @@ You can add other functions and variables outside of `tick`, but the main part o
 
 Run this game. You should see a blank box.
 
-# Adding to the Game
+## Movable character
 
 Let's add a small, basic character to our game and give us control over it.
 Change your code so it looks like this now:
@@ -183,6 +184,7 @@ def tick(keys):
     camera.clear("cyan")
     camera.draw(character)
     camera.display()
+
 ticks_per_second = 30
 
 # keep this line the last one in your program
@@ -191,42 +193,57 @@ gamebox.timer_loop(ticks_per_second, tick)
 
 Give it a try! See what happens when you use the left and right keys!
 
-----
 
-#### Activity 7: Gravity
+## Gravity
 
 Let's add some code to make our character obey gravity.
 
 First, after you create the character, give it a `yspeed`:
 
-    character.yspeed = 0
+````python
+character.yspeed = 0
+````
+
+This behavior roughly treats the character like a `dict`, except you say `character.yspeed` instead of `character['yspeed']`.
 
 Then, inside `tick`, you can apply gravity to your character:
 
-    character.yspeed += 1
-    character.y = character.y + character.yspeed
+````python
+character.yspeed += 1
+character.y = character.y + character.yspeed
+````
 
 Try out your code!
 
-#### Activity 8: Making a floor
+## Making a floor
 
-Well... that was interesting. Let's add a floor so our character doesn't
-fly off the screen.
+Well... that was interesting.
+Let's add a floor so our character doesn't fly off the screen.
 
-    ground = gamebox.from_color(-100, 600, "black", 3000, 100)
+````python
+ground = gamebox.from_color(-100, 600, "black", 3000, 100)
+````
 
-Then, inside `tick` but above `camera.display()` add:
+The above line defines a ground box, but doesn't display it.
+To get it to show up, inside `tick` but above `camera.display()` add:
 
-    camera.draw(ground)
+````python
+camera.draw(ground)
+````
 
-And... that almost works. We need to handle the collision.
+Now it exists, and it is drawn, but it doesn't handle collsions.
+To do that, we need to add some collision detection and resolution code to `tick`:
 
-    if character.bottom_touches(ground):
-        character.yspeed = 0
+````python
+if character.bottom_touches(ground):
+    character.yspeed = 0
 
-    if character.touches(ground):
-        character.move_to_stop_overlapping(ground)
+if character.touches(ground):
+    character.move_to_stop_overlapping(ground)
+````
 
-The first `if` statement makes it so your character stops falling. The
-second statement ensures it doesn't get stuck inside the floor! This can
-happen if the character is moving too fast when the collision occurs.
+The first `if` statement makes it so your character stops falling.
+The second statement ensures it doesn't get stuck inside the floor!
+This can happen if the character is moving too fast when the collision occurs.
+
+
