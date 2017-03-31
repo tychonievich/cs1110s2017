@@ -95,7 +95,8 @@ If any one works, you're good to go.
 
 -   `pip3 install pygame --user`{.bash}
 
--   ````bash
+-   
+    ````bash
     sudo apt-get install libsdl-dev libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev portmidi
     sudo apt-get install python3-pip
     sudo pip3 install --upgrade pip
