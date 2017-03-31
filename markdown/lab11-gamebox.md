@@ -59,9 +59,9 @@ How you get it depends on your operating system.
     -   [Open the Terminal](revised2.2.html) and enter three lines, one at a time in order,
         each beginning with a paste of what you copied:
         
-        1.  *paste* `get-pip.py`
-        2.  *paste* `-m pip install wheel`
-        3.  *paste* `-m pip pygame-windows-3.6.whl` (replace `3.6` with the number you downloaded in step 2).
+        a.  *paste* `get-pip.py`
+        a.  *paste* `-m pip install wheel`
+        a.  *paste* `-m pip pygame-windows-3.6.whl` (replace `3.6` with the number you downloaded in step 2).
         
 If you have trouble, ask a TA.  If they have trouble too, come see a professor during office hours.
 
