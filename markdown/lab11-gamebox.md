@@ -63,6 +63,12 @@ How you get it depends on your operating system.
         a.  *paste* `-m pip install wheel`
         a.  *paste* `-m pip pygame-windows-3.6.whl` (replace `3.6` with the number you downloaded in step 2).
         
+    -   If the above failed, the following might work (again in the terminal):
+
+        a.  *paste* `-m pip install pygame`
+        
+        This simpler method is slated to become the default in the future, but not all systems support it yet.
+        
 If you have trouble, ask a TA.  If they have trouble too, come see a professor during office hours.
 
 ### OS X
