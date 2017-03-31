@@ -41,14 +41,9 @@ How you get it depends on your operating system.
 
 2.  Download one of the following based on the first two digits of your Python version:
     
-    3.4
-    :   [pygame-windows-3.4.whl](files/pygame-windows-3.4.whl)
-
-    3.5
-    :   [pygame-windows-3.5.whl](files/pygame-windows-3.5.whl)
-
-    3.6
-    :   [pygame-windows-3.6.whl](files/pygame-windows-3.6.whl)
+    -   3.4: [pygame-windows-3.4.whl](files/pygame-windows-3.4.whl)
+    -   3.5: [pygame-windows-3.5.whl](files/pygame-windows-3.5.whl)
+    -   3.6: [pygame-windows-3.6.whl](files/pygame-windows-3.6.whl)
     
     We suggest you put these in the same directory as your `.py` files.
 
