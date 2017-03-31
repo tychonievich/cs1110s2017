@@ -115,7 +115,7 @@ Download it into your PyCharm project directory:
 
 If you run `gamebox.py` direcly you should see something like this:
 
-![Gamebox's self-test display](files/gamebox-selftext.png)
+![Gamebox's self-test display](files/gamebox-selftest.png)
 
 If you have trouble getting fonts / text to work, try opening a terminal window and running `fc-list`{.bash}. Let that run to completion and try again.
 
