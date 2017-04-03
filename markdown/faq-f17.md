@@ -58,5 +58,5 @@ If you are not eligible to sign up for a full course, you cannot get on the wait
 
 # I have other questions…
 
-See the [general FAQ](faq.html).
+See [the FAQ for the current semester](faq.html).
 If it is not answered there, email the professor.
