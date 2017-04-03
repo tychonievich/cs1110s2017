@@ -50,7 +50,6 @@ We expect you to know the following built-in and library functions:
     -   `lst.insert(index, value)`{.python}
     -   `lst.remove(value)`{.python}
     -   `del lst[index]`{.python}
-    -   `sum(lst)`{.python}
     -   `lst.sort()`{.python}
     -   `lst.reverse()`{.python}
     -   `lst.index(element)`{.python}
@@ -62,7 +61,6 @@ We expect you to know the following built-in and library functions:
     -   `mapping.keys()`{.python}
     -   `mapping.values()`{.python}
     -   `mapping.items()`{.python}
-    -   `mapping.get(key, default_value)`{.python}
 -   `open(filename)`
 -   `import urllib.request`
     -   `urllib.request.urlopen(url)`{.python}
