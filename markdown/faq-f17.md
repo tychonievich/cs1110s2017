@@ -9,20 +9,21 @@ Students who took all versions perform comparably in CS 2110.
 
 CS 1110
 :   A general section, designed to teach as many students as possible.
-    Most who take this course have no prior programming experience.
+    Most (but not all) who take this course have no prior programming experience.
 
-CS 1110 and CS 1111 are both "general" introductions to programming, providing an overview of topics suitable for all majors.
-There are also other Introduction to Programming offerings at UVa:
+CS 1111
+:   A general section, tailored for those with some experience but not enough to test out of the course.
+    Has exactly the same assignments, grading, etc, as CS 1110 but meets less often and does not have labs.
 
 CS 1112
-:   Covers the same material as CS 1110/1111,
-    but is organized based on the assumption that *none* of the students have any prior programming experience.
-    By contrast, CS 1110 assumes *most* students have no prior programming experience;
-    CS 1111 assumes *all* students do have prior programming experience.
-
+:   Covers the same material as CS 1110/1111, but is organized based on the assumption that *none* of the students have any prior programming experience.
+    It makes use of several techniques that have been found to be particularly effective for such students, such as an integrated lecture and lab, a different assignment set, required attendance and participation, etc.
+    This comes at the cost of being unable to seat everyone who wants in and being less suited for those with some prior experience.
+    
 CS 1113
-:   Covers the same core material as CS 1110/1111, but is designed for engineers,
-    pulling examples and assignments from common engineering domains
+:   A generic number for more audience-specific introductions to programming,
+    generally by emphasizing the topics that specific disciplines find useful.
+    Section 001 is targetted at engineers, pulling examples and assignments from common engineering domains
     and teaching some tools and techniques engineers are likely to find useful.
 
 Placement Test
@@ -30,14 +31,12 @@ Placement Test
     Placement tests are offered in the CS department offices (Rice 527); no appointment is necessary.
     If you pass the placement test, we advise taking CS 2110 to expand your programming ability further.
 
-Two other courses (CS 1120 and a different flavor of CS 1113) present a more mathematical or scientific introduction to computing, but are not being offered this semester.
-
 
 # The course is listed as restricted!
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
-The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8!
+The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8
 
 |Course|Start of registration|17-Apr-2017|19-Apr-2017|08-Aug-2017[^june]|
 |------|---------------------|-----------|-----------|------------------|
