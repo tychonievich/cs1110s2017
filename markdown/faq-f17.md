@@ -37,8 +37,12 @@ Two other courses (CS 1120 and a different flavor of CS 1113) present a more mat
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
-|Course|Start of registration|17-Apr-2017[^when]|19-Apr-2017[^when]|08-Aug-2017[^when][^june]|
-|------|---------------------|---------------|---------------|----------------|
+If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
+
+The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8!
+
+|Course|Start of registration|17-Apr-2017|19-Apr-2017|08-Aug-2017[^june]|
+|------|---------------------|-----------|-----------|------------------|
 |1010|Open to non-SEAS students||||
 |1110 and 1111|Open to SEAS students, CLAS 1st year students, and Math or Cog Sci majors|Open to all|||
 |1112|Permission of instructor||||
@@ -49,10 +53,8 @@ CS courses are open to students in all majors, but for the initial periods of re
 |4970|Permission of instructor||||
 |not listed here|Open to CS BS, CS BA, and CPE majors|Also open to CS minors and CogSci majors||Open to all|
 
-[^when]: The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8!
-
 [^pdr]: For info on CS2150 registration, please see: <http://www.cs.virginia.edu/~asb/cs2150.php>
 
 [^june]: To allow students who may become majors in June and also transfer students a chance to enroll, these courses will open to all after summer orientation ends.  Please do not email individual instructors to ask for an exception, since it’s important we treat all non-majors in this situation the same way.
 
-If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
+
