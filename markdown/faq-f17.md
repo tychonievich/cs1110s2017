@@ -55,3 +55,8 @@ The CS Department has no control over the exact time that restrictions ease on A
 [^june]: To allow students who may become majors in June and also transfer students a chance to enroll, these courses will open to all after summer orientation ends.  Please do not email individual instructors to ask for an exception, since it’s important we treat all non-majors in this situation the same way.
 
 If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
+
+# I have other questions…
+
+See the [general FAQ](faq.html).
+If it is not answered there, email the professor.
