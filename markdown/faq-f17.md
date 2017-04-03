@@ -45,13 +45,13 @@ CS courses are open to students in all majors, but for the initial periods of re
 |1113|Open to SEAS 1st years only (during summer orientation)||||
 |2102|Open to CS BA, CS BS, CPE and CogSci majors|Also open to SEAS 1st or 2nd years, CLAS 1st or 2nd years|Open to all||
 |2110|Open to CS BA, CS BS, CPE, EE, System, and CogSci majors|Also open to SEAS 1st or 2nd years, CLAS 1st or 2nd years|Open to all|
-|2150[^2]|Open to CS BS, CS BA, and CPE majors|Also open to CS minors and CogSci majors||Open to all|
+|2150[^pdr]|Open to CS BS, CS BA, and CPE majors|Also open to CS minors and CogSci majors||Open to all|
 |4970|Permission of instructor||||
 |not listed here|Open to CS BS, CS BA, and CPE majors|Also open to CS minors and CogSci majors||Open to all|
 
 [^when]: The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8!
 
-[^2]: For info on CS2150 registration, please see: <http://www.cs.virginia.edu/~asb/cs2150.php>
+[^pdr]: For info on CS2150 registration, please see: <http://www.cs.virginia.edu/~asb/cs2150.php>
 
 [^june]: To allow students who may become majors in June and also transfer students a chance to enroll, these courses will open to all after summer orientation ends.  Please do not email individual instructors to ask for an exception, since it’s important we treat all non-majors in this situation the same way.
 
