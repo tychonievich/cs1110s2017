@@ -62,6 +62,9 @@ We expect you to know the following built-in and library functions:
     -   `mapping.values()`{.python}
     -   `mapping.items()`{.python}
 -   `open(filename)`
+    -   `connection.read()`{.python}
+    -   `connection.readline()`{.python}
+    -   some way of iterating lines (`connection.readlines()`{.python}, or `connection.read().split('\n')`{.python}, or `for line in connection`{.python})
 -   `import urllib.request`
     -   `urllib.request.urlopen(url)`{.python}
     -   `stream.read().decode('utf-8')`{.python}
