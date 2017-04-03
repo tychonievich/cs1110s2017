@@ -37,8 +37,6 @@ Two other courses (CS 1120 and a different flavor of CS 1113) present a more mat
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
-If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
-
 The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8!
 
 |Course|Start of registration|17-Apr-2017|19-Apr-2017|08-Aug-2017[^june]|
@@ -57,4 +55,4 @@ The CS Department has no control over the exact time that restrictions ease on A
 
 [^june]: To allow students who may become majors in June and also transfer students a chance to enroll, these courses will open to all after summer orientation ends.  Please do not email individual instructors to ask for an exception, since it’s important we treat all non-majors in this situation the same way.
 
-
+If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
