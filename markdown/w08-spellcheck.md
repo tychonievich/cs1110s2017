@@ -68,3 +68,4 @@ Ecmascript  | ECMAScript     | misspelled
 ECMAscript  | ECMAScript     | misspelled
 ECMAScript  | ECMAScript     | correctly spelled
 
+Confused how to read the page only once?  Try reading the page into a list of words before you do any spellchecking.
