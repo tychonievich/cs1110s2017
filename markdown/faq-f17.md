@@ -48,7 +48,7 @@ The CS Department has no control over the exact time of day that the restriction
 
 If you are not eligible to sign up for a full course, you cannot get on the waiting list. But, put yourself on the waiting list as soon as you can, because at the start of the term, waiting lists often shrink and many students do eventually get in.
 
-# I plan to declare an X major…
+# I plan to declare a major that gets early enrollment
 
 Until your major is coded in SIS by the registrar, limitations on enrollment will hold as listed.
 We will not make any exceptions based on intended major declarations.
