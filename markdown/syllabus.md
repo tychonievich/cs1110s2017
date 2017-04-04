@@ -4,7 +4,7 @@ title: Spring 2017 Syllabus
 
 # Basic Info
 
-2017 Spring Semester
+2017 Spring Semester -- for information about Fall, see [the Fall 2017 FAQ](faq-f17.html)
 
 Course website: [http://cs1110.cs.virginia.edu](http://cs1110.cs.virginia.edu)
 
