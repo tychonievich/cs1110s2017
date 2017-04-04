@@ -55,5 +55,5 @@ We will not make any exceptions based on intended major declarations.
 
 # I have other questions…
 
-See [the FAQ for the current semester](faq.html).
+See [the FAQ for the previous semester](faq.html).
 If it is not answered there, email the professor.
