@@ -36,7 +36,7 @@ Placement Test
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
-The CS Department has no control over the exact time that restrictions ease on April 17 and 19 and Aug. 8
+The CS Department has no control over the exact time that restrictions change on the days listed.
 
 |Course|Start of registration|17-Apr-2017|19-Apr-2017|08-Aug-2017[^june]|
 |------|---------------------|-----------|-----------|------------------|
