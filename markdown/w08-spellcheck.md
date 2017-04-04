@@ -16,6 +16,8 @@ and keep reading lines until they enter a blank line.
 Strip off any leading or trailing punctuation before checking the word (i.e., strip `.?!,()"'`).
 Only list a word as misspelled if it does not appear either in the case they typed it or in lower-case form.
 
+Your program should read the list of words from the web only once per run of the program, not matter how many lines of text the user types in a given run.
+
 # Example Invocations
 
 An example run of the program might look like:
