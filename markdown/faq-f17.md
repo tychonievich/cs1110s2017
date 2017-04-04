@@ -32,7 +32,7 @@ Placement Test
     If you pass the placement test, we advise taking CS 2110 to expand your programming ability further.
 
 
-# The course is listed as restricted!
+# The course is listed as restricted
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
