@@ -23,7 +23,7 @@ CS 1112
 CS 1113
 :   A generic number for more audience-specific introductions to programming,
     generally by emphasizing the topics that specific disciplines find useful.
-    Section 001 is targetted at engineers, pulling examples and assignments from common engineering domains
+    Section 001 is targeted at engineers, pulling examples and assignments from common engineering domains
     and teaching some tools and techniques engineers are likely to find useful.
 
 Placement Test
