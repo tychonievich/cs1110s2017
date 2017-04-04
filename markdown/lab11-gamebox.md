@@ -5,15 +5,11 @@ title: "Lab 11: Gamebox Intro"
 
 # Attendance
 
-We will be taking roll in lab each week! Please come to your assigned lab to be counted present!
+Attendance in this lab is *optional*.
+It's purpose is to get pygame and gamebox installed and working.
+If you did that on your own, no need to come to lab.
 
-Each lab TAs are empowered to select their own method of taking roll.
-Please follow your lab TA's instructions.  
-They may dock points if you  are excessively late or leave unusually early.
-
-# Pairing
-
-For this and all subsequent labs, you will work in pairs.
+Because it is optional, we are inviting 1111 students who are having trouble installing pygame to visit the 1110 labs too.
 
 # What is this lab all about?
 
