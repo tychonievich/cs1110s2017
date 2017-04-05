@@ -36,13 +36,15 @@ Placement Test
 
 CS courses are open to students in all majors, but for the initial periods of registration (indicated below) many are restricted to students in majors that require the course.
 
-As listed in [the list of CS course restriction dates](https://goo.gl/VzcW4), 1110/1111 have the following dates:
+As listed in [the list of CS course restriction dates](https://docs.google.com/document/d/1yO90x1yMk0goI5-3qz9BRUHqkVrzezF2bFc1tLMlsO8), 1110/1111 have the following dates:
 
 Start of Registration
 :   Open to SEAS students, CLAS 1st year students, and Math or Cog Sci majors
 
 17-Apr-2017
 :   Open to all
+
+Note that "1st year" means "will be coded as 1st year in SIS in the semester in which the course is taught."
 
 The CS Department has no control over the exact time of day that the restriction changes.
 
