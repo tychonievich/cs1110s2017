@@ -127,7 +127,7 @@ If you don't see this window, *please* see a TA or professor to get it working b
 
 
 
-# PyGame Examples
+# PyGame Examples (Optional)
 
 Every PyGame / gamebox game looks basically the same.
 We'll discuss this in some detail over the coming class sessions, but if you want a head start you can try the following codes.
