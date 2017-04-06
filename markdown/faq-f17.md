@@ -44,7 +44,7 @@ Start of Registration
 17-Apr-2017
 :   Open to all
 
-Note that "1st year" means "will be coded as 1st year in SIS in the semester in which the course is taught."
+Note that "1st year" means "will be coded as 1st year in SIS in the semester in which the course is taught:" i.e., for Fall 2017 it is the class of 2021.
 
 The CS Department has no control over the exact time of day that the restriction changes.
 
@@ -54,6 +54,12 @@ If you are not eligible to sign up for a full course, you cannot get on the wait
 
 Until your major is coded in SIS by the registrar, limitations on enrollment will hold as listed.
 We will not make any exceptions based on intended major declarations.
+
+# Will the course fill up before I have a chance to enroll?
+
+I cannot predict level of demand, but a good guess is "similar to last Fall", which can be viewed by visiting Lou's list for the appropriate semester and clicking on the enrollment number link (i.e., <http://rabi.phys.virginia.edu/mySIS/CS2/enrollment.php?Semester=1168&ClassNumber=17556>), then clicking "all".
+
+Note that while waiting lists do fill up, they also tend to empty before the add deadline.  Patience is sometimes rewarded with enrollment.
 
 # I have other questions…
 
