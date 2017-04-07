@@ -131,6 +131,7 @@ key:
     - 
       topic: game design with `gamebox`{.python}
       reading: "[gamebox documentation](code/gamebox/gamebox.pdf)"
+      notes: "[lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - game design with `gamebox`{.python}
     - game design with `gamebox`{.python}
 
