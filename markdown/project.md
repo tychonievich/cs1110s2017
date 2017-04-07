@@ -95,32 +95,16 @@ It is *not* sufficient to base your game on our examples.
 The example code is designed to teach concepts and give code snippets you can use,
 but since we did an infinite jumper, you should not do one.
 
+# Game Ideas
+
+Don't have a good game idea in mind?
+See [Wikipedia's list of golden-age arcade games](https://en.wikipedia.org/wiki/Golden_age_of_arcade_video_games#List_of_popular_arcade_games) for many ideas.
+
 
 # Submission
 
 You'll need to submit your code and any support files to Archimedes.
 In addition to the final submission date of midnight, 2 May 2017
-we will also check your submissions each Thursday between now and then.
+we will also check your submissions **each Thursday** between now and then (i.e., 20 April and 27 April).
 **Making steady progress every week** is a requirement for full credit on this assignment.
 
-
-Game Ideas
-
-Having trouble coming up with a game idea? Try one of these! Or make a variation of one of these!
-
-    Frogger - Can you get the frog across the road without getting hit by a car? Frogger on SmashingArcade
-    Pac-Man - This classic game is completely reasonable to pull off! Pac-Man on SmashingArcade
-    Keep-Away - Build a game where you character has to keep from getting "tagged" by other characters running around the level!
-
-And many, many more! We will add more here in coming days and feel free to ask for suggestions too!
-
-NOTE: Your game CANNOT just be an extension of example code that we provide you. You MUST show some creativity and do something on your own! The game can be based on other existing games (like the ones listed above) and you can use snipits of example code in your game, but you cannot just start from an example file and add on trivial features.
-Submission
-
-Unlike all the other submissions, this one needs to go to Collab since you may be turning in images, audio, etc. Make sure you game is called game.py and is in its own folder with all the game assets (images, audio) along with gamebox.py. Zip/archive this entire directory and submit that along with a .txt document describing what your game is, what your features are that you want us to grade, and how to play it. TAs that can't figure out how to play your game will definitely give you a low score!
-
-ONLY ONE PARTNER SHOULD SUBMIT! PLEASE DO NOT DOUBLE SUBMIT YOUR PROJECT!!!
-
-Partner Evals: Please fill out this evaluation form for your partner! - https://goo.gl/forms/qiUGmnJnveI8dsOK2
-
--->
