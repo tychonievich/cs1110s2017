@@ -78,3 +78,4 @@ in the order listed here.
 -   [debugging practice](lab09-debug.html)
 -   [location finder](lab10-wendys.html)
 -   [gamebox installation](lab11-gamebox.html)
+-   [pong](lab12-pong.html)

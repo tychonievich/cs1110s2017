@@ -114,7 +114,7 @@ key:
     
     - 
       topic: game design with `gamebox`{.python}
-      reading: [gamebox documentation](code.gamebox/gamebox.pdf)
+      reading: "[gamebox documentation](code.gamebox/gamebox.pdf)"
     - game design with `gamebox`{.python}
     - game design with `gamebox`{.python}
 
