@@ -24,6 +24,8 @@ Special Dates:
     - "[location finder](lab10-wendys.html)"
     - "[gamebox installation](lab11-gamebox.html)"
     - "[pong](lab12-pong.html)"
+    - "email hunt"
+    - "review"
         
 assignments:
   -
@@ -74,3 +76,18 @@ assignments:
   -
     due: 2017-04-07
     links: [w08-spellcheck]
+  -
+    due: 2017-04-17
+    links: [w10-game]
+  -
+    due: 2017-04-21
+    links: [w10-re1]
+  -
+    due: 2017-04-26
+    links: [w11-re2]
+  -
+    due: 2017-05-01
+    links: [w12-write]
+  -
+    due: 2017-04-26
+    links: [project]
