@@ -246,15 +246,18 @@ with open('../assignments.csv', 'w') as f:
     for asgn in sorted(data['assignments'] + labdates, key=lambda x:x['due']):
         date = asgn['due']
         for task in asgn['links']:
-            with open(task+'.md') as t:
-                fnames = set(_ for _ in filename.findall(t.read()) if _ not in ['gamebox.py', 'get-pip.py','.py'])
-            if not fnames: continue
-            testnames = sorted('test_'+x for x in fnames if '*' not in x)
-            if task.startswith('lab'): testnames = '' 
-            w.writerow([
-                task if task.startswith('lab') else task.split('-',1)[1],
-                '|'.join(sorted(fnames)),
-                str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
-                '1 2','','2','timeout.py|timeout2.py|gradetools.py|cacheurls.py',
-                '|'.join(testnames)
-            ])
+            try:
+                with open(task+'.md') as t:
+                    fnames = set(_ for _ in filename.findall(t.read()) if _ not in ['gamebox.py', 'get-pip.py','.py'])
+                if not fnames: continue
+                testnames = sorted('test_'+x for x in fnames if '*' not in x)
+                if task.startswith('lab'): testnames = '' 
+                w.writerow([
+                    task if task.startswith('lab') else task.split('-',1)[1],
+                    '|'.join(sorted(fnames)),
+                    str(date) + (' 23:00' if task.startswith('lab') else ' 11:00'),
+                    '1 2','','2','timeout.py|timeout2.py|gradetools.py|cacheurls.py',
+                    '|'.join(testnames)
+                ])
+            except:
+                pass
