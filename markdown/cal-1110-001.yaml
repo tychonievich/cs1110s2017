@@ -112,7 +112,9 @@ key:
       notes: "[things to know](know.html)"
     - exam 2
     
-    - game design with `gamebox`{.python}
+    - 
+      topic: game design with `gamebox`{.python}
+      reading: [gamebox documentation](code.gamebox/gamebox.pdf)
     - game design with `gamebox`{.python}
     - game design with `gamebox`{.python}
 
