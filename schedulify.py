@@ -246,6 +246,9 @@ with open('../assignments.csv', 'w') as f:
     for asgn in sorted(data['assignments'] + labdates, key=lambda x:x['due']):
         date = asgn['due']
         for task in asgn['links']:
+            if task == 'project':
+                pass
+                continue
             try:
                 with open(task+'.md') as t:
                     fnames = set(_ for _ in filename.findall(t.read()) if _ not in ['gamebox.py', 'get-pip.py','.py'])
