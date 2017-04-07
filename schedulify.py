@@ -247,6 +247,12 @@ with open('../assignments.csv', 'w') as f:
         date = asgn['due']
         for task in asgn['links']:
             if task == 'project':
+                w.writerow([
+                    'game project',
+                    'partner.txt|game.py|*.*',
+                    '2017-05-02 23:59',
+                    '0','','0','',''
+                ])
                 pass
                 continue
             try:

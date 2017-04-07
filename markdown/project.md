@@ -108,3 +108,9 @@ In addition to the final submission date of midnight, 2 May 2017
 we will also check your submissions **each Thursday** between now and then (i.e., 20 April and 27 April).
 **Making steady progress every week** is a requirement for full credit on this assignment.
 
+We accept all kinds of files in the submission, but note:
+
+-   You **must** submit `partner.txt`
+-   The game must be run by using `game.py`; it may use other `.py` files too if you want
+-   If you make your own graphics, level files, etc., upload those; but media you download should be accessed by URL not file so we can save space on the submission server
+-   Don't upload copyrighted material to which you do not own the copyright!
