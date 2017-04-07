@@ -9,7 +9,8 @@ Unlike other assignments,
 
 -   You should work with one (1) partner for the entirety of this assignment
 -   This assignment is worth more points (see [the syllabus](syllabus.html) for details)
--   You are free to define the details of this assignment yourselves.
+-   You are free to define the details of this assignment yourselves
+-   We'll check your progress (based on current archimedes submissions) *every Thursday*; lack of progress will result reduced final grades.
 
 # Partnering
 
@@ -88,6 +89,19 @@ Music/Sound effects
 Two players simultaneously
 :   Two players who are able to interact with one another within the game.
 
+## Other Constraints
+
+It is *not* sufficient to base your game on our examples.
+The example code is designed to teach concepts and give code snippets you can use,
+but since we did an infinite jumper, you should not do one.
+
+
+# Submission
+
+You'll need to submit your code and any support files to Archimedes.
+In addition to the final submission date of midnight, 2 May 2017
+we will also check your submissions each Thursday between now and then.
+**Making steady progress every week** is a requirement for full credit on this assignment.
 
 
 Game Ideas
