@@ -76,7 +76,7 @@ in the order listed here.
     1.  assignment not yet released
 2017-05-02 
 :    
-    1.  assignment not yet released
+    1.  [game.py](project.html)
 
 
 # 1110 Labs
