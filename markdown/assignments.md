@@ -62,20 +62,5 @@ in the order listed here.
 2017-04-07 
 :    
     1.  [spellcheck.py](w08-spellcheck.html)
-
-
-# 1110 Labs
-
-
--   [installing Python and PyCharm](lab01-installing.html)
--   [pseudocode counting squares](lab02-counting.html)
--   [turtle art contest](lab03-turtle.html)
--   [madlibs](lab04-madlib.html)
--   [exam prep](lab05-paper.html)
--   [oracle](lab06-magic.html)
--   [nim](lab07-nim.html)
--   [wahoo spoon](lab08-spoon.html)
--   [debugging practice](lab09-debug.html)
--   [location finder](lab10-wendys.html)
--   [gamebox installation](lab11-gamebox.html)
--   [pong](lab12-pong.html)
+2017-04-17 
+:    
