@@ -54,11 +54,14 @@ for asgn in data['assignments']:
         #print(due,'\n:    ')
         for link in links:
             try:
-                fn = link.split(' (', 1)[0]
-                with open(fn+'.md') as f:
+                if ' (' in link:
+                    link, extra = link.split(' (',1)
+                    extra = ' ('+extra
+                else: extra = ''
+                with open(link+'.md') as f:
                     for line in f:
                         if line.startswith('title: '): break
-                print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.html)')
+                print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.html)', extra)
                 #print('    1.  ['+line[7:].strip()+']('+link.strip()+'.html)')
             except:
                 print(due,'\n:    assignment not yet released')
