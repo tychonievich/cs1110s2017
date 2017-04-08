@@ -64,10 +64,10 @@ in the order listed here.
     1.  [spellcheck.py](w08-spellcheck.html)
 2017-04-17 
 :    
-    1.  assignment not yet released
+    1.  [flappybird.py](w10-game.html)
 2017-04-21 
 :    
-    1.  assignment not yet released
+    1.  [regexs.py](w10-re1.html)
 2017-04-26 
 :    
     1.  assignment not yet released

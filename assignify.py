@@ -36,15 +36,17 @@ for asgn in data['assignments']:
         print(due,'\n:    TBA')
         break
     else:
-        print(due,'\n:    ')
+        #print(due,'\n:    ')
         for link in links:
             try:
                 with open(link+'.md') as f:
                     for line in f:
                         if line.startswith('title: '): break
-                print('    1.  ['+line[7:].strip()+']('+link.strip()+'.html)')
+                print(due,'\n:    ['+line[7:].strip()+']('+link.strip()+'.html)')
+                #print('    1.  ['+line[7:].strip()+']('+link.strip()+'.html)')
             except:
-                print('    1.  assignment not yet released')
+                print(due,'\n:    assignment not yet released')
+                #print('    1.  assignment not yet released')
 print('''
 
 # 1110 Labs
