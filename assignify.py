@@ -61,6 +61,7 @@ for asgn in data['assignments']:
                 #print('    1.  ['+line[7:].strip()+']('+link.strip()+'.html)')
             except:
                 print(due,'\n:    assignment not yet released')
+                raise
                 #print('    1.  assignment not yet released')
 print('''
 
