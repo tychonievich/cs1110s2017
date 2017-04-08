@@ -28,24 +28,17 @@ in the order listed here.
 [Submit assignments here](https://archimedes.cs.virginia.edu/cs1110/)
 
 <style type="text/css">
-dl {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  width: 300px;      /* set the container width*/
-  overflow: visible;
-}
-dl dt {
-  flex: 0 0 50%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
 dl dd {
-  flex:0 0 50%;
-  margin-left: auto;
-  text-align: left;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  display: inline;
+  margin: 0;
+}
+dl dd:after{
+  display: block;
+  content: '';
+}
+dl dt{
+  display: inline-block;
+  min-width: 100px;
 }
 </style>
 
