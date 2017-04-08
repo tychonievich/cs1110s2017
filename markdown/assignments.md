@@ -28,51 +28,51 @@ dl dt{
 
 
 2017-02-06 
-:    [greeting.py](w01-greeting.html)
+:    [greeting.py](w01-greeting.html) 
 2017-02-06 
-:    [nonsense.py](w01-nonsense.html)
+:    [nonsense.py](w01-nonsense.html) 
 2017-02-08 
-:    [c2f.py](w01-c2f.html)
+:    [c2f.py](w01-c2f.html) 
 2017-02-08 
-:    [dating.py](w01-dating.html)
+:    [dating.py](w01-dating.html) 
 2017-02-10 
-:    [maydate.py](w02-maydate.html)
+:    [maydate.py](w02-maydate.html) 
 2017-02-13 
-:    [conversion.py](w02-conversion.html)
+:    [conversion.py](w02-conversion.html) 
 2017-02-15 
-:    [quadratic.py](w02-quadratic.html)
+:    [quadratic.py](w02-quadratic.html) 
 2017-02-17 
-:    [bmr.py](w03-bmr.html)
+:    [bmr.py](w03-bmr.html) 
 2017-02-20 
-:    [averages.py](w03-averages.html)
+:    [averages.py](w03-averages.html) 
 2017-03-01 
-:    [tester.py](w04-tester.html)
+:    [tester.py](w04-tester.html) 
 2017-03-03 
-:    [rumple.py](w05-rumple.html)
+:    [rumple.py](w05-rumple.html) 
 2017-03-15 
-:    [higher_lower.py](w06-higher-lower.html)
+:    [higher_lower.py](w06-higher-lower.html) 
 2017-03-17 
-:    [higher_lower_player.py](w06-higher-lower2.html)
+:    [higher_lower_player.py](w06-higher-lower2.html) 
 2017-03-20 
-:    [roman.py](w07-roman.html)
+:    [roman.py](w07-roman.html) 
 2017-03-24 
-:    [credit_card.py](w07-credit.html)
+:    [credit_card.py](w07-credit.html) 
 2017-03-27 
-:    [seive.py](w08-seive.html)
+:    [seive.py](w08-seive.html) 
 2017-04-03 
-:    [lous_list.py](w08-louslist.html)
+:    [lous_list.py](w08-louslist.html) 
 2017-04-07 
-:    [spellcheck.py](w08-spellcheck.html)
+:    [spellcheck.py](w08-spellcheck.html) 
 2017-04-17 
-:    [flappybird.py](w10-game.html)
+:    [flappybird.py](w10-game.html) 
 2017-04-21 
-:    [regexs.py](w10-re1 (beta draft; assignment may change before due date).html)
+:    [regexs.py](w10-re1.html)  (beta draft; assignment may change before due date)
 2017-04-26 
 :    assignment not yet released
 2017-05-01 
 :    assignment not yet released
 2017-05-02 
-:    [game.py](project.html)
+:    [game.py](project.html) 
 
 
 # 1110 Labs
