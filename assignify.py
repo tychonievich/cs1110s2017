@@ -33,7 +33,7 @@ dl dd:after{
 }
 dl dt{
   display: inline-block;
-  min-width: 100px;
+  min-width: 6em;
 }
 </style>
 
