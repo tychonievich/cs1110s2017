@@ -18,9 +18,9 @@ print('''---
 title: Assignments
 ...
 
-# Programming Assignments
-
 <div style="display:table; font-size:200%; margin: 1em auto; padding:1ex; box-shadow: 0 1px 10px rgba(0,0,0,.1); border: thin solid #eee; border-radius:1ex; background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);">[Submit assignments here](https://archimedes.cs.virginia.edu/cs1110/)</div>
+
+# Programming Assignments
 
 <style type="text/css">
 dl dd {

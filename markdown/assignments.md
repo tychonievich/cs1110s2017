@@ -4,12 +4,7 @@ title: Assignments
 
 # Programming Assignments
 
-To streamline the twice-a-week 1111 and thrice-a-week 1110 schedules,
-programming assignments are due in batches once a week.
-When several are due the same day, we strongly encourage working on and submitting one each day or two,
-in the order listed here.
-
-[Submit assignments here](https://archimedes.cs.virginia.edu/cs1110/)
+<div style="display:table; font-size:200%; margin: 1em auto; padding:1ex; box-shadow: 0 1px 10px rgba(0,0,0,.1); border: thin solid #eee; border-radius:1ex; background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);">[Submit assignments here](https://archimedes.cs.virginia.edu/cs1110/)</div>
 
 <style type="text/css">
 dl dd {
