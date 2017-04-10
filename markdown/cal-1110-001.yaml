@@ -119,18 +119,18 @@ key:
     - game design with `gamebox`{.python}
 
     -
-      topic: regular expressions - basics
+      topic: regular expressions
       reading: §[25.1.1](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.1), §[25.1.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.3), §[25.1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.4), §[25.2.1](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.1)
     - 
-      topic: regular expressions - repetition and groups
+      topic: re repetition and groups
       reading: §[25.2.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.3), §[25.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.4) 
     - 
-      topic: regular expressions - building
+      topic: re building
       reading: ""
 
     - 
-      topic: regular expressions - replacing
-      reading: §[25.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.25.4), 
+      topic: re replacing
+      reading: §[25.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.25.4)
     - file writing
     - file writing
 
