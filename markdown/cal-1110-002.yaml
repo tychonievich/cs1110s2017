@@ -132,7 +132,10 @@ key:
       topic: game design with `gamebox`{.python}
       reading: "[gamebox documentation](code/gamebox/gamebox.pdf)"
       notes: "[Gamebox overview](http://www.cs.virginia.edu/~up3f/cs1110/supplement/gamebox-overview.html), [examples](http://cs1110.cs.virginia.edu/code/gamebox/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
-    - game design with `gamebox`{.python}
+    - 
+      topic: game design with `gamebox`{.python}
+      notes: "[lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
+      
     - game design with `gamebox`{.python}
 
     - regular expressions
