@@ -75,7 +75,7 @@ We always start with a digit.
 
     [0-9]
 
-That makes some progress on the examples, which I'll note with a ¤ below:
+That makes some progress on the examples, which I'll note with a `¤` below:
 
     0 ¤ 
     1 ¤ 0,349
@@ -134,3 +134,99 @@ That makes some more progress on the examples:
     921,334,234,250,100 ¤ 
 
 We appear to be done!
+
+
+## Python Strings
+
+Suppose we want to find all the double-quoted strings in a `.py` file.
+Some good examples include:
+
+    ""
+    "hi"
+    "say \"hi\" to the visitors, please"
+
+Some bad examples include:
+
+    "
+    hi
+    "say \\"hi\" to the visitors, please"
+
+----
+
+It looks like we always start with a quote
+
+    "
+
+which updates our example inputs to
+
+    good:
+        " ¤ "
+        " ¤ hi"
+        " ¤ say \"hi\" to the visitors, please"
+    bad:
+        " ¤ 
+        hi
+        " ¤ say \\"hi\" to the visitors, please"
+
+----
+
+Next, we might have zero or more characters within the string
+
+    "()*
+
+In-string characters can be almost anything, but `\\` and `"` are special and new-lines cannot appear at all.
+As usual when some are special we'll use a | to handle the main cases:
+
+    "([^\\"\n]|)*
+
+
+which updates our example inputs to
+
+    good:
+        " ¤ "
+        "hi ¤ "
+        "say  ¤ \"hi\" to the visitors, please"
+    bad:
+        " ¤ 
+        hi
+        "say  ¤ \\"hi\" to the visitors, please"
+
+----
+
+Our examples are now waiting for a `\\` or ` `"`.
+Since `"` should end the string, we'll start with the `\\`.
+
+It's fine to see `\\` in a string, but when we encounter a `\\` the next character could be anything (even a `"` or new-line) without ending the string.
+That means we want `\\.`: back-slash anything.
+
+    "([^\\"\n]|\\.)*
+
+which updates our example inputs to
+
+    good:
+        " ¤ "
+        "hi ¤ "
+        "say \"hi\" to the visitors, please ¤ "
+    bad:
+        " ¤ 
+        hi
+        "say \\ ¤ "hi\" to the visitors, please"
+
+----
+
+The good examples now all end in a `"`:
+
+    "([^\\"\n]|\\.)*"
+
+which updates our example inputs to
+
+    good:
+        "" ¤ 
+        "hi" ¤ 
+        "say \"hi\" to the visitors, please" ¤ 
+    bad:
+        "
+        hi
+        "say \\" ¤ hi\" to the visitors, please"
+
+And we're done: we matched all the good examples and failed to match any of the bad ones.
