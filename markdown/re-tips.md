@@ -77,10 +77,10 @@ We always start with a digit.
 
 That makes some progress on the examples, which I'll note with a `¤` below:
 
-    0 ¤ 
-    1 ¤ 0,349
-    8 ¤ 96
-    9 ¤ 21,334,234,250,100
+    0█
+    1█0,349
+    8█96
+    9█21,334,234,250,100
 ---
 
 Next we appear to have another digit, but not always.
@@ -90,10 +90,10 @@ We can express that as a maybe:
 
 That makes some more progress on the examples:
 
-    0 ¤ 
-    10 ¤ ,349
-    89 ¤ 6
-    92 ¤ 1,334,234,250,100
+    0█
+    10█,349
+    89█6
+    92█1,334,234,250,100
 
 The parentheses are not needed in this case since all that was inside was a character class; we could just have correctly written 
 
@@ -109,10 +109,10 @@ We could also say we have an optional comma, but since we can see commas waiting
 
 That makes some more progress on the examples:
 
-    0 ¤ 
-    10 ¤ ,349
-    896 ¤ 
-    921 ¤ ,334,234,250,100
+    0█
+    10█,349
+    896█
+    921█,334,234,250,100
 
 ---
 
@@ -128,10 +128,10 @@ and we might have zero or more of those, so we put it inside a `()*`, like so:
 
 That makes some more progress on the examples:
 
-    0 ¤ 
-    10,349 ¤ 
-    896 ¤ 
-    921,334,234,250,100 ¤ 
+    0█
+    10,349█
+    896█
+    921,334,234,250,100█
 
 We appear to be done!
 
@@ -160,13 +160,13 @@ It looks like we always start with a quote
 which updates our example inputs to
 
     good:
-        " ¤ "
-        " ¤ hi"
-        " ¤ say \"hi\" to the visitors, please"
+        "█"
+        "█hi"
+        "█say \"hi\" to the visitors, please"
     bad:
-        " ¤ 
+        "█
         hi
-        " ¤ say \\"hi\" to the visitors, please"
+        "█say \\"hi\" to the visitors, please"
 
 ----
 
@@ -183,13 +183,13 @@ As usual when some are special we'll use a | to handle the main cases:
 which updates our example inputs to
 
     good:
-        " ¤ "
-        "hi ¤ "
-        "say  ¤ \"hi\" to the visitors, please"
+        "█"
+        "hi█"
+        "say █\"hi\" to the visitors, please"
     bad:
-        " ¤ 
+        "█
         hi
-        "say  ¤ \\"hi\" to the visitors, please"
+        "say █\\"hi\" to the visitors, please"
 
 ----
 
@@ -204,13 +204,13 @@ That means we want `\\.`: back-slash anything.
 which updates our example inputs to
 
     good:
-        " ¤ "
-        "hi ¤ "
-        "say \"hi\" to the visitors, please ¤ "
+        "█"
+        "hi█"
+        "say \"hi\" to the visitors, please█"
     bad:
-        " ¤ 
+        "█
         hi
-        "say \\ ¤ "hi\" to the visitors, please"
+        "say \\█"hi\" to the visitors, please"
 
 ----
 
@@ -221,13 +221,13 @@ The good examples now all end in a `"`:
 which updates our example inputs to
 
     good:
-        "" ¤ 
-        "hi" ¤ 
-        "say \"hi\" to the visitors, please" ¤ 
+        ""█
+        "hi"█
+        "say \"hi\" to the visitors, please"█
     bad:
         "
         hi
-        "say \\" ¤ hi\" to the visitors, please"
+        "say \\"█hi\" to the visitors, please"
 
 And we're done: we matched all the good examples and failed to match any of the bad ones.
 
