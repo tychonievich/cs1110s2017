@@ -75,7 +75,7 @@ We always start with a digit.
 
     [0-9]
 
-That makes some progress on the examples, which I'll note with a `¤` below:
+That makes some progress on the examples, which I'll note with a `█` below:
 
     0█
     1█0,349
