@@ -248,12 +248,29 @@ with open('../assignments.csv', 'w') as f:
         for task in asgn['links']:
             if task == 'project':
                 w.writerow([
+                    'game partner selection',
+                    'partner.txt',
+                    '2017-04-13 23:59',
+                    '0','','0','',''
+                ])
+                w.writerow([
+                    'game checkpoint 1',
+                    'game.py|*.*',
+                    '2017-04-20 23:59',
+                    '0','','0','',''
+                ])
+                w.writerow([
+                    'game checkpoint 2',
+                    'game.py|*.*',
+                    '2017-04-27 23:59',
+                    '0','','0','',''
+                ])
+                w.writerow([
                     'game project',
-                    'partner.txt|game.py|*.*',
+                    'game.py|*.*',
                     '2017-05-02 23:59',
                     '0','','0','',''
                 ])
-                pass
                 continue
             try:
                 with open(task+'.md') as t:
