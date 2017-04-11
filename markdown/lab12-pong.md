@@ -19,6 +19,9 @@ You should have a partner for the game project already selected.  If not, pair w
 The game project will be due the last day of class.
 You'll need to work with your partner to get it designed and implemented by then.
 
+You can confirm your project partnering status at [the partner status page](https://archimedes.cs.virginia.edu/cs1110/partners.php).
+
+
 # Activity
 
 Today we are doing an example game in gamebox; specifically the classic game *Pong*.
