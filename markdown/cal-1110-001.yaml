@@ -126,7 +126,7 @@ key:
       reading: §[25.2.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.3), §[25.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.4) 
     - 
       topic: re building
-      reading: ""
+      reading: "our [building guide and example](re-tips.html)"
 
     - 
       topic: re replacing
