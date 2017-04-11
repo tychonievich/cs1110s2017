@@ -29,7 +29,9 @@ This assignment lets you submit several files; this is one of them.
 The due date for `partner.txt` is Thursday 13 April 2017 (lab that day will help you if you don't have one before then).
 You and your partner *must* both have each other's IDs in your submitted `partner.txt`s by Friday morning.
 
-If you want to work alone or need a group of three, your lab TA (or Professor Dill for 1111) can help you understand how to submit that.
+You can see if your partner submission worked by visiting [the partner summary page](https://archimedes.cs.virginia.edu/cs1110/partners.php).
+
+If you want to work alone or need a group of three, your lab TA (or Professor Dill for 1111) can help you understand how to submit that.  Groups of three will only be approved in the event of an odd number of unmatched people.
 
 Preferably, you'll pick a partner within your same lab section, but that is not strictly required.
 
