@@ -2,17 +2,6 @@
 title: Tips on building regular expressions
 ...
 
-# Video
-
-This material is also available [in video form](screencasts/regex_number.webm):
-
-<video width="618" height="480" controls>
-    <source src="screencasts/regex_number.webm" type="video/webm">
-    <source src="screencasts/regex_number.mp4" type="video/mp4">
-</video>
-
-The video uses the regular expression building help site, [regexr.com](http://regexr.com).
-
 # Left to Right
 
 Regular expressions match strings left-to-right.
@@ -55,7 +44,21 @@ for example, an at-least-three-digit number would be `[0-9][0-9][0-9]+`
 
 # Examples
 
+
 ## Numbers with comma separators
+
+### Video
+
+This material is also available [in video form](screencasts/regex_number.webm):
+
+<video width="618" height="480" controls>
+    <source src="screencasts/regex_number.webm" type="video/webm">
+    <source src="screencasts/regex_number.mp4" type="video/mp4">
+</video>
+
+The video uses the regular expression building help site, [regexr.com](http://regexr.com).
+
+### Step-by-step
 
 We'll start with a few examples:
 
