@@ -136,7 +136,7 @@ That makes some more progress on the examples:
 We appear to be done!
 
 
-## Python Strings
+## Double-quoted strings
 
 Suppose we want to find all the double-quoted strings in a `.py` file.
 Some good examples include:
@@ -230,3 +230,5 @@ which updates our example inputs to
         "say \\" ¤ hi\" to the visitors, please"
 
 And we're done: we matched all the good examples and failed to match any of the bad ones.
+
+Challenge: how would you extend this to match *all* Python strings, including `'these'` and `'''these'''`?
