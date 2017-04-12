@@ -44,7 +44,10 @@ then
     python3 ../assignify.py > assignments.md
 fi done
 
-scp "../assignments.csv" "archimedes.cs.virginia.edu:/var/www/html/cs1110/uploads/assignments.csv"
+head -1 ../assignments.csv > /tmp/assignments.csv
+tail -n +2 ../assignments.csv | sort -k3 -t, >> /tmp/assignments.csv
+
+scp "/tmp/assignments.csv" "archimedes.cs.virginia.edu:/var/www/html/cs1110/uploads/assignments.csv"
 
 
 
