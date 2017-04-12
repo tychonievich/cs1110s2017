@@ -246,6 +246,9 @@ with open('../assignments.csv', 'w') as f:
     for asgn in sorted(data['assignments'] + labdates, key=lambda x:x['due']):
         date = asgn['due']
         for task in asgn['links']:
+            if ' (' in task:
+                task, extra = task.split(' (',1)
+                extra = ' ('+extra
             if task == 'project':
                 w.writerow([
                     'game partner selection',
