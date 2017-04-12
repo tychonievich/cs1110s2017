@@ -63,7 +63,7 @@ dl dt{
 2017-04-21 
 :    [regexs.py](w10-re1.html)  (beta draft; assignment may change before due date)
 2017-04-26 
-:    [salary.py](w11-re2.html)  (alpha draft; writeup missing details)
+:    [salary.py](w11-re2.html) 
 2017-05-01 
 :    assignment not yet released
 2017-05-02 
