@@ -12,7 +12,7 @@ In particular,
 -   There should be randomly generated scrolling obstacles (pillars) with openings at random heights
 -   Touching the ground or a pillar should end the game
 -   Score should be based on how long the player lasts before the game ends
--   When the game ends, the score should be displayed
+-   When the game ends, the score should be displayed visually in the game screen
 
 We won't be able to perform automated testing for this submission (we'll have course staff run it to grade it), but you should be able to tell if it is working on your own by playing the game you've created.
 
@@ -32,3 +32,11 @@ if the left-most pillar is off the left side of the screen,
 
 That way you can have a small fixed number of pillar objects in Python
 look like an endless stream of pillars when playing the game
+
+# Troubleshooting
+
+The infinite jumper example games (all three sections had one) might be a good starting point.
+
+You don't need to implement anything we don't ask for (e.g., animation, images, sound, background images, etc), though you may as long as you still implement what we ask for.
+
+Many questions of the form "how do I do *X*" are answered in [The PyGame Docs](http://cs1110.cs.virginia.edu/code/gamebox/gamebox.pdf)
