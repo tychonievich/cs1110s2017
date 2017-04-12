@@ -4,7 +4,7 @@ title: flappybird.py
 
 # Task
 
-Implement a [FlappyBird](https://flappybird.me/)-like game using pygame.
+In a file named `flappybird.py`, implement a [FlappyBird](https://flappybird.me/)-like game using pygame.
 
 In particular,
 
