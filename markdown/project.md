@@ -102,6 +102,19 @@ but since we did an infinite jumper, you should not do one.
 Don't have a good game idea in mind?
 See [Wikipedia's list of golden-age arcade games](https://en.wikipedia.org/wiki/Golden_age_of_arcade_video_games#List_of_popular_arcade_games) for many ideas.
 
+# FAQ
+
+Why do my fast-moving objects pass through walls?
+:   Because in a single frame they make it past the center of the wall, so `move_to_stop_overlapping` moves them out the wrong side.
+
+    The simplest solution is making fatter obstacles (or fatter objects; if an object cannot move more than half `min(obj.width, obj.height)` width per frame, it cannot have this problem)
+    
+    A fancier three-part solution is to (a) increase the ticks per frame by a factor of $n$, (b) reduce the speeds by a factor of $n$, and (c) only draw and display once every $n$ frames.
+    
+    The most robust solution is to track which side of each obstacle you were last frame and which side this frame and if that changes, do something about it; doing this correctly is not simple, buth the `overlap` method of boxes can help if you want to try.
+
+As other questions come ot our attention, we'll add them here.
+
 
 # Submission
 
