@@ -140,11 +140,22 @@ key:
       topic: game design with `gamebox`{.python}
       notes: "[animation.py](files/002/animation.py), [scrap.py](files/002/scrap.py), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
 
-    - regular expressions
-    - regular expressions
-    - regular expressions
+    - 
+      topic: regular expressions
+      reading: §[25.1.1](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.1), §[25.1.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.3), §[25.1.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.1.4), §[25.2.1](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.1)
+      
+    - 
+      topic: re repetition and groups
+      reading: §[25.2.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.3), §[25.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.4) 
 
-    - regular expressions
+    - 
+      topic: re building
+      reading: "our [building guide and example](re-tips.html)"
+
+    - 
+      topic: re replacing
+      reading: §[25.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.25.4)
+
     - file writing
     - file writing
 
