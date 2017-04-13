@@ -22,7 +22,7 @@ function pd() {
             --smart --html-q-tags \
             --number-sections \
             --title-prefix="CS 1110/1111" \
-            --table-of-contents --toc-depth=4 "$here$1" \
+            --table-of-contents --toc-depth=2 "$here$1" \
             --css=style.css \
             --template=template.html \
             --variable=year:$(date +%Y) \
