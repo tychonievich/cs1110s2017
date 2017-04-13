@@ -136,7 +136,9 @@ key:
       topic: game design with `gamebox`{.python}
       notes: "[lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
-    - game design with `gamebox`{.python}
+    - 
+      topic: game design with `gamebox`{.python}
+      notes: "[animation.py](files/002/animation.py), [scrap.py](files/002/scrap.py), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
 
     - regular expressions
     - regular expressions
