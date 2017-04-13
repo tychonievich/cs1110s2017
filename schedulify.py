@@ -233,6 +233,8 @@ print('''
 Per <a href="http://www.virginia.edu/registrar/exams.html#1172">the registrar</a>, all sections of 1110 and 1111 will have their final exam at 7--10 pm on Thursday, 11 May 2017.
 Conflicts with that time will be resolved the following day (Friday 12 May) at 10 am.
 No permission to take the exam earlier than 11 May or from off of UVa grounds will be granted.
+
+You may report conflicts and request accomodations at <https://goo.gl/forms/hC5oRY2zJoVfQz023>.
 ''')
 
 
