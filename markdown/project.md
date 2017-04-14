@@ -104,6 +104,9 @@ See [Wikipedia's list of golden-age arcade games](https://en.wikipedia.org/wiki/
 
 # FAQ
 
+Many questions of the form "how do I do *X*" are answered in [The PyGame Docs](http://cs1110.cs.virginia.edu/code/gamebox/gamebox.pdf).
+Others are added here as they come to our attention.
+
 Why do my fast-moving objects pass through walls?
 :   Because in a single frame they make it past the center of the wall, so `move_to_stop_overlapping` moves them out the wrong side.
 
@@ -113,7 +116,8 @@ Why do my fast-moving objects pass through walls?
     
     The most robust solution is to track which side of each obstacle you were last frame and which side this frame and if that changes, do something about it; doing this correctly is not simple, but the `overlap` method of boxes can help if you want to try.
 
-As other questions come to our attention, we'll add them here.
+How do I make a grid-movement-based game?
+:   Pick a grid size $g$ and then only change $x$ and $y$ in increments of $g$.
 
 
 # Submission

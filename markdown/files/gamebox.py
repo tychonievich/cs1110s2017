@@ -578,7 +578,9 @@ def keys_loop(callback):
         if event.type == pygame.QUIT: break
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE: break
         if event.type == pygame.KEYDOWN:
-            callback(event.key)
+            callback([event.key])
+        if event.type == pygame.MOUSEBUTTONDOWN or event.type == pygame.MOUSEBUTTONDOWN:
+            callback([])
 
 
 __all__.append('keys_loop')
