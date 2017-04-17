@@ -69,7 +69,7 @@ For completeness, [`print` also has several other optional arguments](https://do
 A bit more on this is worth understanding.
 
 It is more efficient for computers to read and write files in large chunks than to read or write them in small chunks.
-Because of that, Python will work with your operating system to try to turn all your small reads and writes into large reads and writes.
+Because of that, Python will work with your operating system (OS) to try to turn all your small reads and writes into large reads and writes.
 
 Conceptually, file writing might proceed something like this:
 
