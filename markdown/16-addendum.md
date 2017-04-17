@@ -55,7 +55,13 @@ Note that
 2.  the `file=` argument must be an opened file, preferably using a `with` construct
 
 `print` behaves the way you expect it would:
-accepts multiple arguments of any time, puts spaces between them, and goes to a new line after each invocation.
+accepts multiple arguments of any type, puts spaces between them, and goes to a new line after each invocation.
+
+For completeness, [`print` also has several other optional arguments](https://docs.python.org/3/library/functions.html#print):
+
+-   `print(1, 2, 3, sep='☺')` will print `1☺2☺3\n` instead of the default `1 2 3\n`
+-   `print(1, 2, 3, end='☺')` will print `1 2 3☺` instead of the default `1 2 3\n`
+-   `flush` [is described below](#more-on-buffering).
 
 # More on buffering
 
