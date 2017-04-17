@@ -75,11 +75,11 @@ Conceptually, file writing might proceed something like this:
 
 Code         | Python+OS buffer | Disk
 -------------|------------------|------
-`print(3, file=f)`{.python} | `"3\n"`{.python} | `""`{.python}
-`print(4, file=f)`{.python} | `"3\n4\n"`{.python} | `""`{.python}
-`print('some text', file=f)`{.python} | `"3\n4\nsome text\n"`{.python} | `""`{.python}
-`print(6, file=f)`{.python} | `""`{.python} | `"3\n4\nsome text\n6\n"`{.python}
-`print(7, file=f)`{.python} | `"7\n"`{.python} | `"3\n4\nsome text\n6\n"`{.python}
+`print(3, file=f)`{.python} | `3\n` | `‌`
+`print(4, file=f)`{.python} | `3\n4\n` | `‌`
+`print('some text', file=f)`{.python} | `3\n4\nsome text\n` | `‌`
+`print(6, file=f)`{.python} | `‌` | `3\n4\nsome text\n6\n`
+`print(7, file=f)`{.python} | `7\n` | `3\n4\nsome text\n6\n`
 … | | 
 
 The operating system can chose to flush its buffer to disk at any time, or not to do so.
