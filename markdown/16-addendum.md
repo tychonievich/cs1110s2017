@@ -9,7 +9,8 @@ and there are a few useful practices it omits to mention.
 # Always use `with` when writing
 
 §[16.2.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.16.2.3) mentions the use of the `with` keyword, but most of the example code in the chapter does not use it.
-Using `with` is safer and more robust than using `open`/`close` and should be your default any time you plan to write to a file.
+Using `with` is [safer and more robust](#more-on-buffering) than using `open`/`close`
+and should be your default any time you plan to write to a file.
 
 Thus, listing1606.py's file-writing part should be written as
 
@@ -52,6 +53,9 @@ Note that
 
 1.  the `file=` argument must come after any arguments to be printed
 2.  the `file=` argument must be an opened file, preferably using a `with` construct
+
+`print` behaves the way you expect it would:
+accepts multiple arguments of any time, puts spaces between them, and goes to a new line after each invocation.
 
 # More on buffering
 
