@@ -147,7 +147,7 @@ key:
     - 
       topic: re repetition and groups
       reading: §[25.2.3](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.3), §[25.2.4](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.25.2.4) 
-
+      notes: "[practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [regex_example2.py](files/002/regex_example2.py), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
     - 
       topic: re building
       reading: "our [building guide and example](re-tips.html)"
