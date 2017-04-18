@@ -85,5 +85,5 @@ dl dt{
 -   [location finder](lab10-wendys.html)
 -   [gamebox installation](lab11-gamebox.html)
 -   [pong](lab12-pong.html)
--   email hunt
+-   [email hunt](lab13-email.html)
 -   review
