@@ -61,11 +61,11 @@ dl dt{
 2017-04-17 
 :    [flappybird.py](w10-game.html) 
 2017-04-21 
-:    [regexs.py](w10-re1.html)  (beta draft; assignment may change before due date)
+:    [regexs.py](w10-re1.html) 
 2017-04-26 
 :    [salary.py](w11-re2.html) 
 2017-05-01 
-:    assignment not yet released
+:    [inventory.py](w12-write.html) 
 2017-05-02 
 :    [game.py](project.html) 
 
