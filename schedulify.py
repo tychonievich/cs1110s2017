@@ -259,6 +259,12 @@ with open('../assignments.csv', 'w') as f:
                     '0 0 0 0 0 0 0','','0','',''
                 ])
                 w.writerow([
+                    'flappybrid images (optional)',
+                    '*.*',
+                    '2017-04-19 11:00',
+                    '','','0','',''
+                ])
+                w.writerow([
                     'game checkpoint 1',
                     'game.py|*.*',
                     '2017-04-20 23:59',
