@@ -52,6 +52,7 @@ However, we do provide some guidelines to keep the scope appropriate:
 
 ## Required Features
 
+Your game should look like a game someone might want to play (i.e., probably not just a lot of colored boxes).
 You must include all of the following:
 
 User Input
