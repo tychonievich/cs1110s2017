@@ -256,7 +256,7 @@ with open('../assignments.csv', 'w') as f:
                     'game partner selection',
                     'partner.txt',
                     '2017-04-13 23:59',
-                    '0 0 0 0 0 0 0','','0','',''
+                    '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0','','0','',''
                 ])
                 w.writerow([
                     'flappybrid images (optional)',
