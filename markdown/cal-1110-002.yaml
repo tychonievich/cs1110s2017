@@ -156,7 +156,7 @@ key:
     - 
       topic: re replacing
       reading: §[25.4](http://www.spronck.net/pythonbook/pythonbook.pdf#section.25.4)
-      notes: "[practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
+      notes: "[replace.py](files/002/replace_example.py), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
     - 
       topic: file writing
