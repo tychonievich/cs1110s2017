@@ -14,6 +14,8 @@ def with_open():
     for i in range(3):
         user_input = input("What is your favorite cartoon character? ")
         # for each iteration, after entering the user_input, observe what is in the file
+
+        # with open will open a file, do the indented statement block, then close the file
         with open('cartoon2.txt', 'w') as myoutfile:
             myoutfile.write(user_input + '\n')  # must write string with write()
 
