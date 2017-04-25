@@ -69,3 +69,27 @@ We expect you to know the following built-in and library functions:
     -   `urllib.request.urlopen(url)`{.python}
     -   `stream.read().decode('utf-8')`{.python}
 
+# Exam 3
+
+-   `try:`{.python}/`except:`{.python}
+-   `import pygame, gamebox`{.python}
+    -   `box1.touches(box2)`{.python}
+    -   `box1.move_to_stop_overlapping(box2)`{.python}
+    -   `box1.move_both_to_stop_overlapping(box2)`{.python}
+    -   `camera.draw(box)`{.python}
+    -   `camera.display()`{.python}
+    -   `timer_loop(ticks_per_second, ticks)`{.python} and the basics of how to write a `ticks` function, including
+        -   `ticks`'s argument is a collection of the keys beign pressed
+        -   `ticks` is invoked by gamebox many times ever second
+-   `import re`{.python}
+    -   `re.compile(r'...')`{.python}, including the use of `[]`, `()`, `+`, `*`, and `?`
+    -   `compiled_re.sub(replacement, text)`{.python}, including the use of `\\1` and the like
+    -   `compiled_re.search(text)`{.python}
+    -   `compiled_re.finditer(text)`{.python}
+-   `import os.path`{.python}
+    -   `os.path.exists(filename)`{.python}
+-   `open(filename, 'w'){.python}
+-   `with open(...):`{.python}
+-   `print(..., file=f)`{.python}
+-   debugging strategies
+-   everything from listed for exams [1](lab05-paper.html) and 2
