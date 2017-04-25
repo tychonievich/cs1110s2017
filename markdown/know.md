@@ -8,6 +8,7 @@ Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included o
 
 # Exam 1
 
+-   [how to fill in TPEGS footers](http://cs1110.cs.virginia.edu/lab05-paper.html#TPEGS)
 -   `len(collection)`{.python}
 -   `str(value)`{.python}
 -   `int(value)`{.python}
@@ -15,6 +16,7 @@ Various operators (like `**`{.python} and `[i1:i2]`{.python}) are not included o
 -   `print(things, to, be, displayed)`{.python}
 -   `input(prompt)`{.python}
 -   `type(value)`{.python}
+-   [other exam 1 topics](http://cs1110.cs.virginia.edu/lab05-paper.html#things-we-expect-you-to-know)
 
 # Exam 2
 
