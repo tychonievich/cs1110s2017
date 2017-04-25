@@ -78,8 +78,9 @@ If you have trouble, ask a TA.  If they have trouble too, come see a professor d
     3.  `alias brew=/usr/local/bin/brew`{.bash}
     4.  `brew install mercurial`{.bash}
     5.  `brew install git`{.bash}
-    6.  `brew install sdl sdl_image sdl_mixer sdl_ttf smpeg portmidi`{.bash}
-    7.  `pip3 install hg+http://bitbucket.org/pygame/pygame`{.bash}
+    6.  `brew install sdl sdl_image sdl_ttf smpeg portmidi libogg libvorbis`{.bash}
+    7.  `brew install sdl_mixer --with-libvorbis`{.bash}
+    8.  `pip3 install hg+http://bitbucket.org/pygame/pygame`{.bash}
 
 If you have trouble, ask a TA.  If they have trouble too, come see a professor during office hours.
 
