@@ -30,4 +30,4 @@ Let her say her piece, then move on with whatever was going on before she arrive
 # Exam review
 
 With remaining time, lead a review of [other course material](know.html#exam-3).
-There will also be a final exam review later on, probably on Wednesday 10 May in the afternoon.
+There will also be another TA-led final exam review later on, probably on Wednesday 10 May in the afternoon.
