@@ -168,4 +168,7 @@ key:
       notes: "[practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
 
     - file writing
-    - review
+    - 
+      topic: review
+      reading: "[review topics](know.html)"
+      notes: the final exam is cumulative
