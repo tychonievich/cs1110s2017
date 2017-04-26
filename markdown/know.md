@@ -98,3 +98,14 @@ We expect you to know the following built-in and library functions:
 -   `print(..., file=f)`{.python}
 -   debugging strategies
 -   everything listed for exams 1 and 2
+
+Some exams from previous semesters:
+
+Fall 2016
+:   [blank exam](CS111X-F16-Final.pdf) and [key](CS111X-F16-Final-KEY.pdf)
+
+Spring 2016
+:   [coding questions](CS111X-S16-Final-Coding.pdf) and [rest of exam](CS111X-S16-Final-KEY.pdf)
+
+We have covered a different set of topics (particularly since exam 2) than were covered in past semesters, so old exams are not necessarily the best indicator of future exams.
+We suggest that a more effective preparatory activity would be to re-do your old programming assignments on paper without consulting your notes, and then look at the practice excercises in the textbook.
