@@ -97,4 +97,4 @@ We expect you to know the following built-in and library functions:
 -   `with open(...):`{.python}
 -   `print(..., file=f)`{.python}
 -   debugging strategies
--   everything from listed for exams [1](lab05-paper.html) and 2
+-   everything listed for exams 1 and 2
