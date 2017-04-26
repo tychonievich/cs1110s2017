@@ -163,7 +163,9 @@ key:
       reading: §[16](http://www.spronck.net/pythonbook/pythonbook.pdf#chapter.16)–[16.5.1](http://www.spronck.net/pythonbook/pythonbook.pdf#subsection.16.5.1), especially §[16.3](http://www.spronck.net/pythonbook/pythonbook.pdf#section.16.3); also [our writeup](16-addendum.html)
       notes: "[file writing](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-files-2.pptx), [with_open_example.py](files/002/with_open_example.py), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
       
-    - file writing
+    - 
+      topic: file writing
+      notes: "[file writing](http://www.cs.virginia.edu/~up3f/cs1110/slides/1110-files-2.pptx), [with_open_example.py](files/002/with_open_example.py), [practice-of-the-day](http://www.cs.virginia.edu/~up3f/cs1110/practice-of-the-day/), [lecture-note by Virginia Layne Berry](http://www.cs.virginia.edu/~up3f/cs1110/lecture-note/)"
 
     - file writing
     - review
