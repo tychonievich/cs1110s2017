@@ -93,7 +93,7 @@ We expect you to know the following built-in and library functions:
     -   `match.groups()`{.python}
 -   `import os.path`{.python}
     -   `os.path.exists(filename)`{.python}
--   `open(filename, 'w'){.python}
+-   `open(filename, 'w')`{.python}
 -   `with open(...):`{.python}
 -   `print(..., file=f)`{.python}
 -   debugging strategies
