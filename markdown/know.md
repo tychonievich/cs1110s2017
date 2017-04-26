@@ -94,7 +94,7 @@ We expect you to know the following built-in and library functions:
 -   `import os.path`{.python}
     -   `os.path.exists(filename)`{.python}
 -   `open(filename, 'w')`{.python}
--   `with open(...):`{.python}
+-   `with open(...) as f:`{.python}
 -   `print(..., file=f)`{.python}
 -   debugging strategies
 -   everything listed for exams 1 and 2
