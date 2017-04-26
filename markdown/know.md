@@ -88,6 +88,9 @@ We expect you to know the following built-in and library functions:
     -   `compiled_re.sub(replacement, text)`{.python}, including the use of `\\1` and the like
     -   `compiled_re.search(text)`{.python}
     -   `compiled_re.finditer(text)`{.python}
+    -   `match.group()`{.python}
+    -   `match.group(n)`{.python}
+    -   `match.groups()`{.python}
 -   `import os.path`{.python}
     -   `os.path.exists(filename)`{.python}
 -   `open(filename, 'w'){.python}
