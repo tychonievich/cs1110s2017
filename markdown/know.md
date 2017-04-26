@@ -85,7 +85,7 @@ We expect you to know the following built-in and library functions:
         -   `ticks` is invoked by gamebox many times ever second
 -   `import re`{.python}
     -   `re.compile(r'...')`{.python}, including the use of `[]`, `()`, `+`, `*`, and `?`
-    -   `compiled_re.sub(replacement, text)`{.python}, including the use of `\\1` and the like
+    -   `compiled_re.sub(replacement, text)`{.python}, including the use of `\1` and the like
     -   `compiled_re.search(text)`{.python}
     -   `compiled_re.finditer(text)`{.python}
     -   `match.group()`{.python}
