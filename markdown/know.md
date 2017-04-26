@@ -92,6 +92,7 @@ We expect you to know the following built-in and library functions:
     -   `match.group(n)`{.python}
     -   `match.groups()`{.python}
 -   `import os`{.python}
+    -   `os.remove(filename)`{.python}
     -   `os.rename(old_name, new_name)`{.python}
 -   `import os.path`{.python}
     -   `os.path.exists(filename)`{.python}
