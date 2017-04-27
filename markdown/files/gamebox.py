@@ -175,7 +175,7 @@ class Camera(object):
             try:
                 font = pygame.font.match_font(args[0].replace(" ","").lower())
                 if font is None: 
-                    sys.stderr.write("ERROR: no font named "+fontname+"; using default font instead")
+                    sys.stderr.write("ERROR: no font named "+args[0]+"; using default font instead")
                 size = args[1]
                 color = args[2]
                 if type(color) is str: color = pygame.Color(color)
