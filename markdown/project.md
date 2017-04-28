@@ -134,3 +134,7 @@ We accept all kinds of files in the submission, but note:
 -   The game must be run by using `game.py`; it may use other `.py` files too if you want
 -   If you make your own graphics, level files, etc., upload those; but media you download should be accessed by URL not file so we can save space on the submission server
 -   Don't upload copyrighted material to which you do not own the copyright!
+
+At least one partner will need to submit your files each time you submit.
+If more than one submit the same file name, the last submission of the group will be used.
+
