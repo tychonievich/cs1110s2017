@@ -44,6 +44,12 @@ Start of Registration
 17-Apr-2017
 :   Open to all
 
+May-2017
+:   Restricted to rising SEAS 1st year students
+
+??-Aug-2017
+:   Open to all (date of opening TBA)
+
 Note that "1st year" means "will be coded as 1st or 2nd year in SIS in the semester in which the course is taught:" i.e., for Fall 2017 the classes of 2020 or 2021.
 
 The CS Department has no control over the exact time of day that the restriction changes.
