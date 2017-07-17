@@ -39,7 +39,7 @@ CS courses are open to students in all majors, but for the initial periods of re
 As listed in [the list of CS course restriction dates](https://docs.google.com/document/d/1yO90x1yMk0goI5-3qz9BRUHqkVrzezF2bFc1tLMlsO8), 1110/1111 have the following dates:
 
 Start of Registration
-:   Open to SEAS students, CLAS 1st year students, and Math or Cog Sci majors
+:   Open to SEAS students, CLAS rising 2nd year students, and Math or Cog Sci majors
 
 17-Apr-2017
 :   Open to all
@@ -47,10 +47,11 @@ Start of Registration
 May-2017
 :   Restricted to rising SEAS 1st year students
 
-??-Aug-2017
-:   Open to all (date of opening TBA)
+4-Aug-2017
+:   Restricted to rising A&S 1st year students
 
-Note that "1st year" means "will be coded as 1st or 2nd year in SIS in the semester in which the course is taught:" i.e., for Fall 2017 the classes of 2020 or 2021.
+11-Aug-2017
+:   Open to all
 
 The CS Department has no control over the exact time of day that the restriction changes.
 
